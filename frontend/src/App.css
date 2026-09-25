@@ -162,3 +162,53 @@ footer {
   font-size: 0.92rem;
   line-height: 1.6;
 }
+
+.alerts-section {
+  margin-top: 32px;
+}
+
+.alert-card {
+  margin-bottom: 14px;
+  border-left: 6px solid #94a3b8;
+  border-radius: 14px;
+  padding: 18px;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgb(42 55 85 / 6%);
+}
+
+.alert-card.attention {
+  border-left-color: #2563eb;
+}
+
+.alert-card.risk {
+  border-left-color: #dc2626;
+  background: #fffafa;
+}
+
+.alert-header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 1.05rem;
+}
+
+.alert-header strong {
+  color: #2563eb;
+  font-size: 1.2rem;
+}
+
+.alert-card p {
+  line-height: 1.7;
+}
+
+.alert-card small {
+  color: #667085;
+}
+
+.disclaimer {
+  margin-top: 18px;
+  color: #667085;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}

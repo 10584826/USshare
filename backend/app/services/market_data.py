@@ -32,13 +32,9 @@ YAHOO_CHART_URL = (
     "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
 )
 
-ALLOWED_SYMBOLS = {
-    "SPY",
-    "QQQ",
-    "DIA",
-    "IWM",
-    "^VIX",
-}
+# 只允許安全的美股代號格式。
+# 例：AAPL、MSFT、BRK-B、^VIX
+MAX_SYMBOL_LENGTH = 10
 
 REQUEST_TIMEOUT_SECONDS = 10
 CACHE_TTL_SECONDS = 15 * 60
@@ -67,9 +63,16 @@ def validate_symbol(symbol: str) -> str:
 
     normalized = symbol.strip().upper()
 
-    if normalized not in ALLOWED_SYMBOLS:
+    import re
+
+    if len(normalized) > MAX_SYMBOL_LENGTH:
         raise MarketDataError(
-            f"不支援的股票代號：{normalized}"
+            f"股票代號過長：{normalized}"
+        )
+
+    if not re.fullmatch(r"\^?[A-Z][A-Z0-9.-]*", normalized):
+        raise MarketDataError(
+            f"股票代號格式不正確：{normalized}"
         )
 
     return normalized

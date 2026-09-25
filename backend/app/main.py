@@ -12,6 +12,7 @@ from .services.market_data import (
     get_market_summary,
     get_symbol_analysis,
 )
+from .services.watchlist import scan_watchlist
 
 
 app = FastAPI(
@@ -77,3 +78,15 @@ def stock_analysis(symbol: str) -> dict:
             status_code=500,
             detail="分析股票時發生未預期錯誤。",
         ) from error
+
+
+@app.get("/api/alerts")
+def alerts() -> dict:
+    """
+    掃描目前 watchlist 並回傳 Alert。
+
+    由於市場資料服務有 15 分鐘快取，
+    頻繁重新整理不會每次都請求 Yahoo Finance。
+    """
+
+    return scan_watchlist()
