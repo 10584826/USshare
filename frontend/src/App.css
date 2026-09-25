@@ -155,3 +155,10 @@ footer {
   font-size: 0.9rem;
   text-align: center;
 }
+
+.explanation {
+  min-height: 48px;
+  color: #5c667a;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}

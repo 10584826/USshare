@@ -1,29 +1,26 @@
 """
-USshare 後端入口。
-
-目前只提供健康檢查 API。
-後續會在這裡加入：
-- 股票資料 API
-- 技術指標分析
-- Alert 引擎
-- Telegram 通知
+USshare FastAPI 後端入口。
 """
 
 from datetime import datetime, timezone
 
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+
+from .services.market_data import (
+    MarketDataError,
+    get_market_summary,
+    get_symbol_analysis,
+)
 
 
 app = FastAPI(
     title="USshare API",
     description="面向新手的美股分析與提醒 API",
-    version="0.1.0",
+    version="0.2.0",
 )
 
 
-# 開發階段允許前端從 localhost:5173 呼叫後端。
-# 部署到正式環境時，應改成指定的正式網域。
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -50,44 +47,33 @@ def health_check() -> dict:
 @app.get("/api/market-summary")
 def market_summary() -> dict:
     """
-    暫時提供示範用市場狀態。
-
-    這些不是即時資料，只是讓前端先有固定格式可以顯示。
-    後續會改為由市場資料服務計算。
+    回傳 SPY、QQQ、DIA、IWM 和 VIX 的技術指標摘要。
     """
 
-    return {
-        "is_demo": True,
-        "message": "目前為示範資料，尚未連接即時市場數據。",
-        "indices": [
-            {
-                "symbol": "SPY",
-                "name": "S&P 500 ETF",
-                "status": "neutral",
-                "status_text": "中性",
-            },
-            {
-                "symbol": "QQQ",
-                "name": "Nasdaq 100 ETF",
-                "status": "neutral",
-                "status_text": "中性",
-            },
-            {
-                "symbol": "DIA",
-                "name": "Dow Jones ETF",
-                "status": "neutral",
-                "status_text": "中性",
-            },
-            {
-                "symbol": "IWM",
-                "name": "Russell 2000 ETF",
-                "status": "neutral",
-                "status_text": "中性",
-            },
-        ],
-        "vix": {
-            "value": None,
-            "status": "unknown",
-            "message": "VIX 尚未連接，即將加入。",
-        },
-    }
+    return get_market_summary()
+
+
+@app.get("/api/stock/{symbol}")
+def stock_analysis(symbol: str) -> dict:
+    """
+    回傳指定股票的技術分析。
+
+    目前只允許少量預先設定的代號，
+    避免初期任意掃描大量股票。
+    """
+
+    try:
+        return get_symbol_analysis(symbol)
+
+    except MarketDataError as error:
+        raise HTTPException(
+            status_code=502,
+            detail=str(error),
+        ) from error
+
+    except Exception as error:
+        # 不把完整 traceback 或敏感內部資訊回傳給前端。
+        raise HTTPException(
+            status_code=500,
+            detail="分析股票時發生未預期錯誤。",
+        ) from error
