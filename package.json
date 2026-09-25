@@ -1,0 +1,9 @@
+{
+  "name": "stock-alert-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Beginner-friendly US stock analysis and alert web app",
+  "scripts": {
+    "test": "echo \"Frontend tests will be added later\""
+  }
+}
