@@ -286,3 +286,9 @@ footer {
 .news-card.negative {
   border-left: 5px solid #ef4444;
 }
+
+.updated-time {
+  margin: -12px 0 24px;
+  color: #667085;
+  font-size: 0.9rem;
+}
