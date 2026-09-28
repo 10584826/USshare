@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-09-28T01:41:17.697871+00:00",
+  "alerts": [
+    {
+      "symbol": "SPY",
+      "type": "attention",
+      "severity": "info",
+      "title": "SPY 技術面相對穩定",
+      "message": "SPY 價格在 50 日均線之上，RSI 約為 50.95。目前可視為偏正面觀察，但仍需配合新聞、估值和個人風險承受能力判斷。",
+      "reason": "價格高於 50 日均線，RSI 未達超買區",
+      "is_actionable": true,
+      "telegram_sent": false,
+      "telegram_reason": "dry run mode"
+    },
+    {
+      "symbol": "QQQ",
+      "type": "attention",
+      "severity": "info",
+      "title": "QQQ 技術面相對穩定",
+      "message": "QQQ 價格在 50 日均線之上，RSI 約為 66.07。目前可視為偏正面觀察，但仍需配合新聞、估值和個人風險承受能力判斷。",
+      "reason": "價格高於 50 日均線，RSI 未達超買區",
+      "is_actionable": true,
+      "telegram_sent": false,
+      "telegram_reason": "dry run mode"
+    },
+    {
+      "symbol": "DIA",
+      "type": "risk",
+      "severity": "warning",
+      "title": "DIA 需要留意下行風險",
+      "message": "DIA 現價低於 50 日均線。這表示近期價格動能較弱，應留意風險，不代表必然會繼續下跌。",
+      "reason": "價格低於 50 日均線",
+      "is_actionable": true,
+      "telegram_sent": false,
+      "telegram_reason": "dry run mode"
+    },
+    {
+      "symbol": "IWM",
+      "type": "risk",
+      "severity": "warning",
+      "title": "IWM 需要留意下行風險",
+      "message": "IWM 現價低於 50 日均線。這表示近期價格動能較弱，應留意風險，不代表必然會繼續下跌。",
+      "reason": "價格低於 50 日均線",
+      "is_actionable": true,
+      "telegram_sent": false,
+      "telegram_reason": "dry run mode"
+    }
+  ]
+}
