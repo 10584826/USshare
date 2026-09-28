@@ -3,7 +3,7 @@ name: Stock Scan
 on:
   schedule:
     # cron 使用 UTC，每 30 分鐘執行一次。
-    - cron: "7,37 * * * *"
+    - cron: "17,47 * * * *"
   workflow_dispatch:
 
 permissions:
