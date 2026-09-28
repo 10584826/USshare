@@ -8,3 +8,6 @@ python-dotenv
 pydantic-settings
 httpx
 pytest
+
+# optional: if you prefer a more structured browser-like fetch
+# beautifulsoup4

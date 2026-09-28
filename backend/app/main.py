@@ -13,6 +13,7 @@ from .services.market_data import (
     get_symbol_analysis,
 )
 from .services.watchlist import scan_watchlist
+from .services.news import get_market_news
 
 
 app = FastAPI(
@@ -90,3 +91,32 @@ def alerts() -> dict:
     """
 
     return scan_watchlist()
+
+
+@app.get("/api/news")
+def news() -> dict:
+    """
+    取得新聞摘要與情緒資訊。
+    """
+
+    return get_market_news()
+
+
+@app.get("/api/alert-feed")
+def alert_feed() -> dict:
+    """
+    整合市場狀態、Alerts 和新聞資訊。
+    """
+
+    market_data = get_market_summary()
+    watchlist_data = scan_watchlist()
+    news_data = get_market_news()
+
+    return {
+        "market": market_data,
+        "alerts": watchlist_data,
+        "news": news_data,
+        "disclaimer": (
+            "所有資料僅供參考，不構成投資建議。"
+        ),
+    }

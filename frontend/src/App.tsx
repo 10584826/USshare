@@ -24,6 +24,14 @@ type AlertItem = {
   is_actionable: boolean;
 };
 
+type NewsItem = {
+  title: string;
+  summary: string;
+  link: string;
+  published: string;
+  sentiment: "positive" | "neutral" | "negative";
+};
+
 type MarketSummary = {
   is_demo: boolean;
   indices: StockAnalysis[];
@@ -43,30 +51,47 @@ type AlertsResponse = {
   disclaimer: string;
 };
 
+type NewsResponse = {
+  top_stories: NewsItem[];
+  sentiment_summary: {
+    positive: number;
+    neutral: number;
+    negative: number;
+  };
+  errors: string[];
+  disclaimer: string;
+};
+
 function App() {
   const [marketSummary, setMarketSummary] =
     useState<MarketSummary | null>(null);
   const [alertsResponse, setAlertsResponse] =
     useState<AlertsResponse | null>(null);
+  const [newsResponse, setNewsResponse] =
+    useState<NewsResponse | null>(null);
   const [error, setError] = useState<string>("");
 
   useEffect(() => {
     async function loadData() {
       try {
-        const [marketResponse, alertsResponse] = await Promise.all([
-          fetch("/api/market-summary"),
-          fetch("/api/alerts"),
-        ]);
+        const [marketResponse, alertsResponse, newsResponse] =
+          await Promise.all([
+            fetch("/api/market-summary"),
+            fetch("/api/alerts"),
+            fetch("/api/news"),
+          ]);
 
-        if (!marketResponse.ok || !alertsResponse.ok) {
+        if (!marketResponse.ok || !alertsResponse.ok || !newsResponse.ok) {
           throw new Error("API response error");
         }
 
         const marketData: MarketSummary = await marketResponse.json();
         const alertData: AlertsResponse = await alertsResponse.json();
+        const newsData: NewsResponse = await newsResponse.json();
 
         setMarketSummary(marketData);
         setAlertsResponse(alertData);
+        setNewsResponse(newsData);
       } catch {
         setError(
           "暫時無法連接後端，請確認 Port 8000 的 API 正在運行。",
@@ -206,6 +231,45 @@ function App() {
         </p>
       </section>
 
+      <section className="news-section">
+        <div className="section-title">
+          <h2>新聞簡要</h2>
+          {newsResponse && (
+            <span className="demo-badge">
+              正面 {newsResponse.sentiment_summary.positive} ·
+              中性 {newsResponse.sentiment_summary.neutral} ·
+              負面 {newsResponse.sentiment_summary.negative}
+            </span>
+          )}
+        </div>
+
+        {!newsResponse && !error && (
+          <p className="info">正在抓取新聞摘要...</p>
+        )}
+
+        {newsResponse?.top_stories.map((news) => (
+          <article className={`news-card ${news.sentiment}`} key={news.title}>
+            <div className="news-header">
+              <span className={`pill ${news.sentiment}`}>
+                {news.sentiment}
+              </span>
+              <small>{news.published || "unknown time"}</small>
+            </div>
+
+            <h3>{news.title}</h3>
+            <p>{news.summary}</p>
+
+            <a href={news.link} target="_blank" rel="noreferrer">
+              閱讀原文
+            </a>
+          </article>
+        ))}
+
+        <p className="disclaimer">
+          {newsResponse?.disclaimer}
+        </p>
+      </section>
+
       <section className="vix-card">
         <h2>VIX 波動風險參考</h2>
 
@@ -222,7 +286,7 @@ function App() {
       </section>
 
       <footer>
-        <p>USshare v0.3.0 · 僅供參考，不構成投資建議</p>
+        <p>USshare v0.4.0 · 僅供參考，不構成投資建議</p>
       </footer>
     </main>
   );
