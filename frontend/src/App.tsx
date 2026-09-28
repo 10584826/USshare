@@ -72,7 +72,9 @@ type DashboardSnapshot = {
 };
 
 async function loadDashboardSnapshot(): Promise<DashboardSnapshot> {
-  const response = await fetch("/dashboard.json", {
+  const dashboardUrl = `${import.meta.env.BASE_URL}dashboard.json`;
+
+  const response = await fetch(dashboardUrl, {
     cache: "no-store",
   });
 
