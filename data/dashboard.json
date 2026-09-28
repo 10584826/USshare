@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T02:05:32.017271+00:00",
+  "generated_at": "2026-09-28T03:42:41.757011+00:00",
   "market": {
     "is_demo": false,
     "indices": [
@@ -83,27 +83,15 @@
   },
   "watchlist": {
     "watchlist": [
-      "SPY",
+      "WATCHLIST_SYMBOLS=SPY",
       "QQQ",
       "DIA",
-      "IWM"
+      "IWM",
+      "MSFT",
+      "AAPL",
+      "NVDA"
     ],
     "analyses": [
-      {
-        "symbol": "SPY",
-        "latest_price": 771.35,
-        "previous_close": 767.18,
-        "daily_change_percent": 0.54,
-        "sma50": 761.57,
-        "rsi14": 50.95,
-        "volume_ratio_20d": 0.84,
-        "status": "bullish",
-        "status_text": "偏多",
-        "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
-        "data_points": 127,
-        "data_source": "Yahoo Finance Chart endpoint",
-        "from_cache": true
-      },
       {
         "symbol": "QQQ",
         "latest_price": 744.5,
@@ -148,20 +136,54 @@
         "data_points": 127,
         "data_source": "Yahoo Finance Chart endpoint",
         "from_cache": true
+      },
+      {
+        "symbol": "MSFT",
+        "latest_price": 516.17,
+        "previous_close": 497.93,
+        "daily_change_percent": 3.66,
+        "sma50": 475.81,
+        "rsi14": 59.89,
+        "volume_ratio_20d": 1.79,
+        "status": "bullish",
+        "status_text": "偏多",
+        "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
+        "data_points": 127,
+        "data_source": "Yahoo Finance Chart endpoint",
+        "from_cache": false
+      },
+      {
+        "symbol": "AAPL",
+        "latest_price": 341.07,
+        "previous_close": 335.92,
+        "daily_change_percent": 1.53,
+        "sma50": 321.83,
+        "rsi14": 74.4,
+        "volume_ratio_20d": 0.7,
+        "status": "neutral",
+        "status_text": "中性",
+        "explanation": "價格在 50 日均線之上；RSI 顯示可能偏超買",
+        "data_points": 127,
+        "data_source": "Yahoo Finance Chart endpoint",
+        "from_cache": false
+      },
+      {
+        "symbol": "NVDA",
+        "latest_price": 225.07,
+        "previous_close": 224.58,
+        "daily_change_percent": 0.22,
+        "sma50": 215.98,
+        "rsi14": 43.72,
+        "volume_ratio_20d": 0.71,
+        "status": "bullish",
+        "status_text": "偏多",
+        "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
+        "data_points": 127,
+        "data_source": "Yahoo Finance Chart endpoint",
+        "from_cache": false
       }
     ],
     "alerts": [
-      {
-        "symbol": "SPY",
-        "type": "attention",
-        "severity": "info",
-        "title": "SPY 技術面相對穩定",
-        "message": "SPY 價格在 50 日均線之上，RSI 約為 50.95。目前可視為偏正面觀察，但仍需配合新聞、估值和個人風險承受能力判斷。",
-        "reason": "價格高於 50 日均線，RSI 未達超買區",
-        "is_actionable": true,
-        "telegram_sent": false,
-        "telegram_reason": "dry run mode"
-      },
       {
         "symbol": "QQQ",
         "type": "attention",
@@ -171,7 +193,7 @@
         "reason": "價格高於 50 日均線，RSI 未達超買區",
         "is_actionable": true,
         "telegram_sent": false,
-        "telegram_reason": "dry run mode"
+        "telegram_reason": "risk or attention alert"
       },
       {
         "symbol": "DIA",
@@ -182,7 +204,7 @@
         "reason": "價格低於 50 日均線",
         "is_actionable": true,
         "telegram_sent": false,
-        "telegram_reason": "dry run mode"
+        "telegram_reason": "risk or attention alert"
       },
       {
         "symbol": "IWM",
@@ -193,12 +215,50 @@
         "reason": "價格低於 50 日均線",
         "is_actionable": true,
         "telegram_sent": false,
-        "telegram_reason": "dry run mode"
+        "telegram_reason": "risk or attention alert"
+      },
+      {
+        "symbol": "MSFT",
+        "type": "attention",
+        "severity": "info",
+        "title": "MSFT 技術面相對穩定",
+        "message": "MSFT 價格在 50 日均線之上，RSI 約為 59.89。目前可視為偏正面觀察，但仍需配合新聞、估值和個人風險承受能力判斷。",
+        "reason": "價格高於 50 日均線，RSI 未達超買區",
+        "is_actionable": true,
+        "telegram_sent": false,
+        "telegram_reason": "risk or attention alert"
+      },
+      {
+        "symbol": "AAPL",
+        "type": "risk",
+        "severity": "warning",
+        "title": "AAPL 短線可能偏熱",
+        "message": "AAPL 的 RSI 約為 74.4，進入常見超買參考區。這不是沽出指令，只表示短線波動和回調風險值得留意。",
+        "reason": "RSI 高於或等於 70",
+        "is_actionable": true,
+        "telegram_sent": false,
+        "telegram_reason": "risk or attention alert"
+      },
+      {
+        "symbol": "NVDA",
+        "type": "attention",
+        "severity": "info",
+        "title": "NVDA 技術面相對穩定",
+        "message": "NVDA 價格在 50 日均線之上，RSI 約為 43.72。目前可視為偏正面觀察，但仍需配合新聞、估值和個人風險承受能力判斷。",
+        "reason": "價格高於 50 日均線，RSI 未達超買區",
+        "is_actionable": true,
+        "telegram_sent": false,
+        "telegram_reason": "risk or attention alert"
       }
     ],
-    "errors": [],
-    "scanned_count": 4,
-    "failed_count": 0,
+    "errors": [
+      {
+        "symbol": "WATCHLIST_SYMBOLS=SPY",
+        "error": "股票代號過長：WATCHLIST_SYMBOLS=SPY"
+      }
+    ],
+    "scanned_count": 6,
+    "failed_count": 1,
     "disclaimer": "Alert 僅根據簡化技術條件產生，不構成投資建議或買賣指令。"
   },
   "news": {
