@@ -1,1 +1,44 @@
-{}
+{
+  "QQQ|attention|價格高於 50 日均線，RSI 未達超買區": {
+    "symbol": "QQQ",
+    "type": "attention",
+    "reason": "價格高於 50 日均線，RSI 未達超買區",
+    "last_sent_at": 1790573535.363271,
+    "last_sent_at_iso": "2026-09-28T05:32:16.001087+00:00"
+  },
+  "DIA|risk|價格低於 50 日均線": {
+    "symbol": "DIA",
+    "type": "risk",
+    "reason": "價格低於 50 日均線",
+    "last_sent_at": 1790573535.363271,
+    "last_sent_at_iso": "2026-09-28T05:32:16.686413+00:00"
+  },
+  "IWM|risk|價格低於 50 日均線": {
+    "symbol": "IWM",
+    "type": "risk",
+    "reason": "價格低於 50 日均線",
+    "last_sent_at": 1790573535.363271,
+    "last_sent_at_iso": "2026-09-28T05:32:17.323284+00:00"
+  },
+  "MSFT|attention|價格高於 50 日均線，RSI 未達超買區": {
+    "symbol": "MSFT",
+    "type": "attention",
+    "reason": "價格高於 50 日均線，RSI 未達超買區",
+    "last_sent_at": 1790573535.363271,
+    "last_sent_at_iso": "2026-09-28T05:32:18.078788+00:00"
+  },
+  "AAPL|risk|RSI 高於或等於 70": {
+    "symbol": "AAPL",
+    "type": "risk",
+    "reason": "RSI 高於或等於 70",
+    "last_sent_at": 1790573535.363271,
+    "last_sent_at_iso": "2026-09-28T05:32:18.894512+00:00"
+  },
+  "NVDA|attention|價格高於 50 日均線，RSI 未達超買區": {
+    "symbol": "NVDA",
+    "type": "attention",
+    "reason": "價格高於 50 日均線，RSI 未達超買區",
+    "last_sent_at": 1790573535.363271,
+    "last_sent_at_iso": "2026-09-28T05:32:20.005500+00:00"
+  }
+}
