@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T05:41:43.122151+00:00",
+  "generated_at": "2026-09-28T09:53:57.883932+00:00",
   "market": {
     "is_demo": false,
     "indices": [
@@ -66,16 +66,16 @@
     ],
     "vix": {
       "symbol": "^VIX",
-      "latest_price": 14.87,
-      "previous_close": 15.67,
-      "daily_change_percent": -5.11,
-      "sma50": 15.97,
-      "rsi14": 48.25,
+      "latest_price": 16.34,
+      "previous_close": 14.87,
+      "daily_change_percent": 9.89,
+      "sma50": 15.93,
+      "rsi14": 52.32,
       "volume_ratio_20d": null,
-      "status": "neutral",
-      "status_text": "中性",
-      "explanation": "價格在 50 日均線之下；RSI 位於相對中間區域",
-      "data_points": 130,
+      "status": "bullish",
+      "status_text": "偏多",
+      "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
+      "data_points": 128,
       "data_source": "Yahoo Finance Chart endpoint",
       "from_cache": false
     },
