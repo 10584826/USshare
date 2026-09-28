@@ -1,0 +1,260 @@
+{
+  "generated_at": "2026-09-28T02:05:32.017271+00:00",
+  "market": {
+    "is_demo": false,
+    "indices": [
+      {
+        "symbol": "SPY",
+        "latest_price": 771.35,
+        "previous_close": 767.18,
+        "daily_change_percent": 0.54,
+        "sma50": 761.57,
+        "rsi14": 50.95,
+        "volume_ratio_20d": 0.84,
+        "status": "bullish",
+        "status_text": "偏多",
+        "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
+        "data_points": 127,
+        "data_source": "Yahoo Finance Chart endpoint",
+        "from_cache": false
+      },
+      {
+        "symbol": "QQQ",
+        "latest_price": 744.5,
+        "previous_close": 741.1,
+        "daily_change_percent": 0.46,
+        "sma50": 712.65,
+        "rsi14": 66.07,
+        "volume_ratio_20d": 0.91,
+        "status": "bullish",
+        "status_text": "偏多",
+        "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
+        "data_points": 127,
+        "data_source": "Yahoo Finance Chart endpoint",
+        "from_cache": false
+      },
+      {
+        "symbol": "DIA",
+        "latest_price": 517.49,
+        "previous_close": 512.68,
+        "daily_change_percent": 0.94,
+        "sma50": 527.56,
+        "rsi14": 33.53,
+        "volume_ratio_20d": 0.82,
+        "status": "bearish",
+        "status_text": "偏空",
+        "explanation": "價格在 50 日均線之下；RSI 顯示可能偏超賣",
+        "data_points": 127,
+        "data_source": "Yahoo Finance Chart endpoint",
+        "from_cache": false
+      },
+      {
+        "symbol": "IWM",
+        "latest_price": 281.97,
+        "previous_close": 281.66,
+        "daily_change_percent": 0.11,
+        "sma50": 294.0,
+        "rsi14": 23.29,
+        "volume_ratio_20d": 1.01,
+        "status": "bearish",
+        "status_text": "偏空",
+        "explanation": "價格在 50 日均線之下；RSI 顯示可能偏超賣",
+        "data_points": 127,
+        "data_source": "Yahoo Finance Chart endpoint",
+        "from_cache": false
+      }
+    ],
+    "vix": {
+      "symbol": "^VIX",
+      "latest_price": 14.87,
+      "previous_close": 15.67,
+      "daily_change_percent": -5.11,
+      "sma50": 15.97,
+      "rsi14": 48.25,
+      "volume_ratio_20d": null,
+      "status": "neutral",
+      "status_text": "中性",
+      "explanation": "價格在 50 日均線之下；RSI 位於相對中間區域",
+      "data_points": 130,
+      "data_source": "Yahoo Finance Chart endpoint",
+      "from_cache": false
+    },
+    "cache_ttl_seconds": 900
+  },
+  "watchlist": {
+    "watchlist": [
+      "SPY",
+      "QQQ",
+      "DIA",
+      "IWM"
+    ],
+    "analyses": [
+      {
+        "symbol": "SPY",
+        "latest_price": 771.35,
+        "previous_close": 767.18,
+        "daily_change_percent": 0.54,
+        "sma50": 761.57,
+        "rsi14": 50.95,
+        "volume_ratio_20d": 0.84,
+        "status": "bullish",
+        "status_text": "偏多",
+        "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
+        "data_points": 127,
+        "data_source": "Yahoo Finance Chart endpoint",
+        "from_cache": true
+      },
+      {
+        "symbol": "QQQ",
+        "latest_price": 744.5,
+        "previous_close": 741.1,
+        "daily_change_percent": 0.46,
+        "sma50": 712.65,
+        "rsi14": 66.07,
+        "volume_ratio_20d": 0.91,
+        "status": "bullish",
+        "status_text": "偏多",
+        "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
+        "data_points": 127,
+        "data_source": "Yahoo Finance Chart endpoint",
+        "from_cache": true
+      },
+      {
+        "symbol": "DIA",
+        "latest_price": 517.49,
+        "previous_close": 512.68,
+        "daily_change_percent": 0.94,
+        "sma50": 527.56,
+        "rsi14": 33.53,
+        "volume_ratio_20d": 0.82,
+        "status": "bearish",
+        "status_text": "偏空",
+        "explanation": "價格在 50 日均線之下；RSI 顯示可能偏超賣",
+        "data_points": 127,
+        "data_source": "Yahoo Finance Chart endpoint",
+        "from_cache": true
+      },
+      {
+        "symbol": "IWM",
+        "latest_price": 281.97,
+        "previous_close": 281.66,
+        "daily_change_percent": 0.11,
+        "sma50": 294.0,
+        "rsi14": 23.29,
+        "volume_ratio_20d": 1.01,
+        "status": "bearish",
+        "status_text": "偏空",
+        "explanation": "價格在 50 日均線之下；RSI 顯示可能偏超賣",
+        "data_points": 127,
+        "data_source": "Yahoo Finance Chart endpoint",
+        "from_cache": true
+      }
+    ],
+    "alerts": [
+      {
+        "symbol": "SPY",
+        "type": "attention",
+        "severity": "info",
+        "title": "SPY 技術面相對穩定",
+        "message": "SPY 價格在 50 日均線之上，RSI 約為 50.95。目前可視為偏正面觀察，但仍需配合新聞、估值和個人風險承受能力判斷。",
+        "reason": "價格高於 50 日均線，RSI 未達超買區",
+        "is_actionable": true,
+        "telegram_sent": false,
+        "telegram_reason": "dry run mode"
+      },
+      {
+        "symbol": "QQQ",
+        "type": "attention",
+        "severity": "info",
+        "title": "QQQ 技術面相對穩定",
+        "message": "QQQ 價格在 50 日均線之上，RSI 約為 66.07。目前可視為偏正面觀察，但仍需配合新聞、估值和個人風險承受能力判斷。",
+        "reason": "價格高於 50 日均線，RSI 未達超買區",
+        "is_actionable": true,
+        "telegram_sent": false,
+        "telegram_reason": "dry run mode"
+      },
+      {
+        "symbol": "DIA",
+        "type": "risk",
+        "severity": "warning",
+        "title": "DIA 需要留意下行風險",
+        "message": "DIA 現價低於 50 日均線。這表示近期價格動能較弱，應留意風險，不代表必然會繼續下跌。",
+        "reason": "價格低於 50 日均線",
+        "is_actionable": true,
+        "telegram_sent": false,
+        "telegram_reason": "dry run mode"
+      },
+      {
+        "symbol": "IWM",
+        "type": "risk",
+        "severity": "warning",
+        "title": "IWM 需要留意下行風險",
+        "message": "IWM 現價低於 50 日均線。這表示近期價格動能較弱，應留意風險，不代表必然會繼續下跌。",
+        "reason": "價格低於 50 日均線",
+        "is_actionable": true,
+        "telegram_sent": false,
+        "telegram_reason": "dry run mode"
+      }
+    ],
+    "errors": [],
+    "scanned_count": 4,
+    "failed_count": 0,
+    "disclaimer": "Alert 僅根據簡化技術條件產生，不構成投資建議或買賣指令。"
+  },
+  "news": {
+    "top_stories": [
+      {
+        "title": "‘I want to make her proud’: My mother, a divorcée, died and I’m her executor. Do I need to file for probate?",
+        "summary": "“The only debts were utility and credit-card bills, which we will pay off.”",
+        "link": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
+        "published": "Sun, 27 Sep 2026 22:00:00 GMT",
+        "sentiment": "neutral"
+      },
+      {
+        "title": "‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?",
+        "summary": "“As a country, we have grown dangerously comfortable.”",
+        "link": "https://www.marketwatch.com/story/we-lived-within-our-means-i-earned-30-000-as-a-pastor-and-still-retired-comfortably-why-dont-you-tell-people-that-6b9f231e?mod=mw_rss_topstories",
+        "published": "Sun, 27 Sep 2026 21:45:00 GMT",
+        "sentiment": "neutral"
+      },
+      {
+        "title": "A ‘death cross’ is coming for the dollar. Why Trump will be happy.",
+        "summary": "Don’t look now, but there are some technical reasons to believe that U.S. Treasury Secretary Scott Bessent was right when he declared to the financial markets that “I am the house now.”",
+        "link": "https://www.marketwatch.com/story/a-death-cross-is-coming-for-the-dollar-why-trump-will-be-happy-0766303d?mod=mw_rss_topstories",
+        "published": "Sun, 27 Sep 2026 19:21:00 GMT",
+        "sentiment": "neutral"
+      },
+      {
+        "title": "Social Security overpaid my 82-year-old mother by $20,000. What else is hiding in her finances?",
+        "summary": "“My mother has a pension, Social Security, investments and a house probably worth over $1 million.”",
+        "link": "https://www.marketwatch.com/story/she-gave-a-neighbor-2-000-social-security-overpaid-my-mother-82-by-20-000-what-else-is-hiding-in-her-finances-1b54977f?mod=mw_rss_topstories",
+        "published": "Sun, 27 Sep 2026 16:45:00 GMT",
+        "sentiment": "neutral"
+      },
+      {
+        "title": "My husband and I are in our 50s and have no kids. We have $2 million in IRAs and 401(k)s. Do we really need a will?",
+        "summary": "“We have no debt and own our primary home, a vacation home, as well as my mother’s home in another state.”",
+        "link": "https://www.marketwatch.com/story/my-husband-and-i-are-in-our-50s-and-have-no-kids-we-have-2-million-do-we-need-a-will-62fb422f?mod=mw_rss_topstories",
+        "published": "Sun, 27 Sep 2026 16:00:00 GMT",
+        "sentiment": "neutral"
+      },
+      {
+        "title": "‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?",
+        "summary": "“I draw from my IRA as needed for household repairs, trips and other larger expenses.”",
+        "link": "https://www.marketwatch.com/story/it-doesnt-seem-fair-im-retired-and-have-plenty-of-money-why-cant-i-qualify-for-a-retail-credit-card-8a58eda3?mod=mw_rss_topstories",
+        "published": "Sun, 27 Sep 2026 16:00:00 GMT",
+        "sentiment": "neutral"
+      }
+    ],
+    "sentiment_summary": {
+      "positive": 0,
+      "neutral": 6,
+      "negative": 0
+    },
+    "errors": [
+      "https://feeds.reuters.com/reuters/businessNews: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
+    ],
+    "disclaimer": "新聞情緒僅為簡單摘要，不能代表市場趨勢，請與技術分析、個人風險承受能力一起看。"
+  },
+  "disclaimer": "所有資料僅供參考，不構成投資建議。投資涉及風險，請自行判斷。"
+}

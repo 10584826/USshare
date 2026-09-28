@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-09-28T01:57:10.309295+00:00",
+  "alerts": [
+    {
+      "symbol": "WATCHLIST_SYMBOLS=SPY",
+      "type": "information",
+      "severity": "info",
+      "title": "WATCHLIST_SYMBOLS=SPY 資料異常",
+      "message": "股票代號過長：WATCHLIST_SYMBOLS=SPY",
+      "reason": "掃描時發生錯誤",
+      "is_actionable": false,
+      "telegram_sent": false
+    },
+    {
+      "symbol": "QQQ",
+      "type": "attention",
+      "severity": "info",
+      "title": "QQQ 技術面相對穩定",
+      "message": "QQQ 價格在 50 日均線之上，RSI 約為 66.07。目前可視為偏正面觀察，但仍需配合新聞、估值和個人風險承受能力判斷。",
+      "reason": "價格高於 50 日均線，RSI 未達超買區",
+      "is_actionable": true,
+      "telegram_sent": false,
+      "telegram_reason": "risk or attention alert"
+    },
+    {
+      "symbol": "DIA",
+      "type": "risk",
+      "severity": "warning",
+      "title": "DIA 需要留意下行風險",
+      "message": "DIA 現價低於 50 日均線。這表示近期價格動能較弱，應留意風險，不代表必然會繼續下跌。",
+      "reason": "價格低於 50 日均線",
+      "is_actionable": true,
+      "telegram_sent": false,
+      "telegram_reason": "risk or attention alert"
+    },
+    {
+      "symbol": "IWM",
+      "type": "risk",
+      "severity": "warning",
+      "title": "IWM 需要留意下行風險",
+      "message": "IWM 現價低於 50 日均線。這表示近期價格動能較弱，應留意風險，不代表必然會繼續下跌。",
+      "reason": "價格低於 50 日均線",
+      "is_actionable": true,
+      "telegram_sent": false,
+      "telegram_reason": "risk or attention alert"
+    },
+    {
+      "symbol": "MSFT",
+      "type": "attention",
+      "severity": "info",
+      "title": "MSFT 技術面相對穩定",
+      "message": "MSFT 價格在 50 日均線之上，RSI 約為 59.89。目前可視為偏正面觀察，但仍需配合新聞、估值和個人風險承受能力判斷。",
+      "reason": "價格高於 50 日均線，RSI 未達超買區",
+      "is_actionable": true,
+      "telegram_sent": false,
+      "telegram_reason": "risk or attention alert"
+    },
+    {
+      "symbol": "AAPL",
+      "type": "risk",
+      "severity": "warning",
+      "title": "AAPL 短線可能偏熱",
+      "message": "AAPL 的 RSI 約為 74.4，進入常見超買參考區。這不是沽出指令，只表示短線波動和回調風險值得留意。",
+      "reason": "RSI 高於或等於 70",
+      "is_actionable": true,
+      "telegram_sent": false,
+      "telegram_reason": "risk or attention alert"
+    },
+    {
+      "symbol": "NVDA",
+      "type": "attention",
+      "severity": "info",
+      "title": "NVDA 技術面相對穩定",
+      "message": "NVDA 價格在 50 日均線之上，RSI 約為 43.72。目前可視為偏正面觀察，但仍需配合新聞、估值和個人風險承受能力判斷。",
+      "reason": "價格高於 50 日均線，RSI 未達超買區",
+      "is_actionable": true,
+      "telegram_sent": false,
+      "telegram_reason": "risk or attention alert"
+    }
+  ]
+}
