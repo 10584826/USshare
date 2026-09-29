@@ -120,6 +120,25 @@ def test_overbought_stock_creates_risk_alert():
     assert alert["signal_strength"] == "low"
 
 
+def test_overbought_with_positive_score_stays_attention():
+    alert = build_alert(
+        {
+            "symbol": "TEST",
+            "latest_price": 105,
+            "sma50": 100,
+            "rsi14": 75,
+            "volume_ratio_20d": 1.2,
+            "daily_change_percent": 2.5,
+            "trend_direction": "above",
+            "trend_days": 5,
+        }
+    )
+
+    assert alert is not None
+    assert alert["type"] == "attention"
+    assert alert["score"] == 2
+
+
 def test_missing_required_data_creates_information_alert():
     alert = build_alert(
         {

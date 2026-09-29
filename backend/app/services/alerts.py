@@ -125,11 +125,14 @@ def build_alert(
         score -= 2
         factors.append("價格低於或等於 50 日均線")
 
+    is_overbought = False
+
     if rsi14 <= 35:
         score += 1
         factors.append("RSI 處於偏低參考區")
     elif rsi14 >= 70:
         score -= 2
+        is_overbought = True
         factors.append("RSI 處於偏高參考區")
     else:
         factors.append("RSI 處於中間區域")
@@ -166,7 +169,7 @@ def build_alert(
                 f"價格連續 {trend_days} 天低於或等於 50 日均線"
             )
 
-    if score <= -2:
+    if score <= -2 or (is_overbought and score < 0):
         alert_type = "risk"
         severity = "warning"
         title = f"{symbol} 風險評分偏高"
