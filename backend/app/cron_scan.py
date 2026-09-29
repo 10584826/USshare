@@ -36,6 +36,9 @@ load_dotenv()
 ROOT_DIR = Path(__file__).resolve().parents[2]
 OUTPUT_PATH = ROOT_DIR / "data" / "dashboard.json"
 STATE_PATH = ROOT_DIR / "data" / "alert-state.json"
+LAST_GOOD_OUTPUT_PATH = (
+    ROOT_DIR / "data" / "dashboard-last-good.json"
+)
 
 # 相同 Alert 24 小時內只發送一次。
 ALERT_COOLDOWN_SECONDS = 24 * 60 * 60
@@ -140,6 +143,37 @@ def remove_private_alert_fields(
     public_watchlist["alerts"] = public_alerts
     return public_watchlist
 
+def load_json_file(path: Path) -> dict[str, Any] | None:
+    """讀取 JSON 檔案；檔案不存在或損壞時回傳 None。"""
+
+    if not path.exists():
+        return None
+
+    try:
+        with path.open("r", encoding="utf-8") as file:
+            payload = json.load(file)
+
+        return payload if isinstance(payload, dict) else None
+
+    except (OSError, json.JSONDecodeError):
+        return None
+
+def save_last_good_dashboard(
+    payload: dict[str, Any],
+) -> None:
+    """保存最近一次市場資料正常的 Dashboard。"""
+
+    LAST_GOOD_OUTPUT_PATH.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    temporary_path = LAST_GOOD_OUTPUT_PATH.with_suffix(".tmp")
+
+    with temporary_path.open("w", encoding="utf-8") as file:
+        json.dump(payload, file, ensure_ascii=False, indent=2)
+
+    temporary_path.replace(LAST_GOOD_OUTPUT_PATH)
 
 def save_dashboard(payload: dict[str, Any]) -> None:
     """安全寫入完整 Dashboard JSON。"""
@@ -314,6 +348,7 @@ def scan_watchlist(
     }
 
 
+
 def main() -> int:
     generated_at = datetime.now(timezone.utc).isoformat()
     alert_state = load_alert_state()
@@ -357,8 +392,9 @@ def main() -> int:
         generated_at=generated_at,
     )
 
-    payload = {
+    current_payload = {
         "generated_at": generated_at,
+        "data_updated_at": generated_at,
         "health": health,
         "market": market,
         "watchlist": public_watchlist,
@@ -368,6 +404,35 @@ def main() -> int:
             "投資涉及風險，請自行判斷。"
         ),
     }
+
+    last_good_payload = load_json_file(
+        LAST_GOOD_OUTPUT_PATH
+    )
+
+    if health["status"] == "error" and last_good_payload:
+        previous_generated_at = last_good_payload.get(
+            "data_updated_at",
+            last_good_payload.get("generated_at"),
+        )
+
+        payload = {
+            **last_good_payload,
+            "generated_at": generated_at,
+            "data_updated_at": previous_generated_at,
+            "health": {
+                **health,
+                "fallback_used": True,
+                "message": (
+                    "目前市場資料暫時無法取得，"
+                    "以下顯示上一份正常資料。"
+                ),
+            },
+        }
+    else:
+        payload = current_payload
+
+        if health["status"] in {"ok", "partial"}:
+            save_last_good_dashboard(payload)
 
     save_dashboard(payload)
     save_alert_state(alert_state)

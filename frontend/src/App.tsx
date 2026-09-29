@@ -66,6 +66,7 @@ type NewsResponse = {
 type DataHealth = {
   status: "ok" | "partial" | "error";
   is_stale: boolean;
+  fallback_used?: boolean;
   generated_at: string;
   total_error_count: number;
   message: string;
@@ -88,13 +89,13 @@ type DataHealth = {
 
 type DashboardSnapshot = {
   generated_at: string;
+  data_updated_at?: string;
   health?: DataHealth;
   market: MarketSummary;
   watchlist: AlertsResponse;
   news: NewsResponse;
   disclaimer: string;
 };
-
 async function loadDashboardSnapshot(): Promise<DashboardSnapshot> {
   const dashboardUrl = `${import.meta.env.BASE_URL}dashboard.json`;
 
@@ -125,6 +126,9 @@ function App() {
   const [dataHealth, setDataHealth] =
     useState<DataHealth | null>(null);
 
+  const [dataUpdatedAt, setDataUpdatedAt] =
+    useState<string | null>(null);
+
   const [error, setError] = useState<string>("");
 
   useEffect(() => {
@@ -137,6 +141,7 @@ function App() {
         setNewsResponse(snapshot.news);
         setGeneratedAt(snapshot.generated_at);
         setDataHealth(snapshot.health ?? null);
+        setDataUpdatedAt(snapshot.data_updated_at ?? null);
       } catch {
         setError("暫時無法載入分析結果，請稍後再試。");
       }
@@ -173,12 +178,14 @@ function App() {
         >
           <div className="health-banner-header">
             <strong>
-              {dataHealth.status === "ok"
-                ? "資料狀態正常"
-                : dataHealth.status === "partial"
-                  ? "部分資料暫時不可用"
-                  : "主要資料暫時無法取得"}
-            </strong>
+  {dataHealth.fallback_used
+    ? "目前使用上一份正常資料"
+    : dataHealth.status === "ok"
+      ? "資料狀態正常"
+      : dataHealth.status === "partial"
+        ? "部分資料暫時不可用"
+        : "主要資料暫時無法取得"}
+</strong>
 
             <span>
               {dataHealth.is_stale
@@ -188,6 +195,17 @@ function App() {
           </div>
 
           <p>{dataHealth.message}</p>
+
+          {dataHealth.fallback_used && (
+            <p className="health-fallback">
+              ⚠️ 目前顯示上一份正常資料。
+              資料最後更新時間：
+              {" "}
+              {dataUpdatedAt
+                ? new Date(dataUpdatedAt).toLocaleString("zh-HK")
+                : "未知"}
+            </p>
+          )}
 
           <div className="health-details">
             <span>
