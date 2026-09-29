@@ -131,6 +131,10 @@ function App() {
   const [dataHealth, setDataHealth] =
     useState<DataHealth | null>(null);
 
+  const [isRefreshing, setIsRefreshing] = useState(false);
+  const [lastLoadedAt, setLastLoadedAt] =
+    useState<string | null>(null);
+
   const [dataUpdatedAt, setDataUpdatedAt] =
     useState<string | null>(null);
 
@@ -138,6 +142,9 @@ function App() {
 
   useEffect(() => {
     async function loadData() {
+      setIsRefreshing(true);
+      setError("");
+
       try {
         const snapshot = await loadDashboardSnapshot();
 
@@ -147,12 +154,37 @@ function App() {
         setGeneratedAt(snapshot.generated_at);
         setDataHealth(snapshot.health ?? null);
         setDataUpdatedAt(snapshot.data_updated_at ?? null);
+        setLastLoadedAt(new Date().toISOString());
       } catch {
         setError("暫時無法載入分析結果，請稍後再試。");
+      } finally {
+        setIsRefreshing(false);
       }
     }
 
-    loadData();
+    const refreshHandler = () => {
+      void loadData();
+    };
+
+    void loadData();
+
+    const refreshTimer = window.setInterval(
+      loadData,
+      5 * 60 * 1000,
+    );
+
+    window.addEventListener(
+      "usshare:refresh",
+      refreshHandler,
+    );
+
+    return () => {
+      window.clearInterval(refreshTimer);
+      window.removeEventListener(
+        "usshare:refresh",
+        refreshHandler,
+      );
+    };
   }, []);
 
   return (
@@ -230,12 +262,36 @@ function App() {
         </section>
       )}
 
-      {generatedAt && (
-        <p className="updated-time">
-          最近更新：{" "}
-          {new Date(generatedAt).toLocaleString("zh-HK")}
-        </p>
-      )}
+      <div className="refresh-bar">
+        <div>
+          {generatedAt && (
+            <p className="updated-time">
+              資料生成時間：{" "}
+              {new Date(generatedAt).toLocaleString("zh-HK")}
+            </p>
+          )}
+
+          {lastLoadedAt && (
+            <p className="loaded-time">
+              頁面載入時間：{" "}
+              {new Date(lastLoadedAt).toLocaleString("zh-HK")}
+            </p>
+          )}
+        </div>
+
+        <button
+          className="refresh-button"
+          type="button"
+          onClick={() => {
+            window.dispatchEvent(
+              new Event("usshare:refresh"),
+            );
+          }}
+          disabled={isRefreshing}
+        >
+          {isRefreshing ? "更新中..." : "重新整理資料"}
+        </button>
+      </div>
 
       {error && <p className="error">{error}</p>}
 
