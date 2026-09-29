@@ -116,8 +116,8 @@ def test_overbought_stock_creates_risk_alert():
 
     assert alert is not None
     assert alert["type"] == "risk"
-    assert alert["score"] == -1
-    assert alert["signal_strength"] == "low"
+    assert alert["score"] == -2
+    assert alert["signal_strength"] == "medium"
 
 
 def test_missing_required_data_creates_information_alert():
