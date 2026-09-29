@@ -292,3 +292,54 @@ footer {
   color: #667085;
   font-size: 0.9rem;
 }
+
+.health-banner {
+  margin: 0 0 24px;
+  border: 1px solid #bfdbfe;
+  border-radius: 14px;
+  padding: 16px 18px;
+  background: #eff6ff;
+  color: #1e3a8a;
+}
+
+.health-banner.partial {
+  border-color: #f3c46b;
+  background: #fff8e7;
+  color: #714f00;
+}
+
+.health-banner.error {
+  border-color: #fecaca;
+  background: #fff1f2;
+  color: #991b1b;
+}
+
+.health-banner-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.health-banner p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.health-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-top: 12px;
+  color: inherit;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 640px) {
+  .health-banner-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+  }
+}

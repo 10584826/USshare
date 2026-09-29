@@ -63,8 +63,32 @@ type NewsResponse = {
   disclaimer: string;
 };
 
+type DataHealth = {
+  status: "ok" | "partial" | "error";
+  is_stale: boolean;
+  generated_at: string;
+  total_error_count: number;
+  message: string;
+  market: {
+    status: string;
+    successful_count: number;
+    failed_count: number;
+  };
+  watchlist: {
+    status: string;
+    scanned_count: number;
+    failed_count: number;
+  };
+  news: {
+    status: string;
+    article_count: number;
+    failed_count: number;
+  };
+};
+
 type DashboardSnapshot = {
   generated_at: string;
+  health?: DataHealth;
   market: MarketSummary;
   watchlist: AlertsResponse;
   news: NewsResponse;
@@ -98,6 +122,9 @@ function App() {
   const [generatedAt, setGeneratedAt] =
     useState<string | null>(null);
 
+  const [dataHealth, setDataHealth] =
+    useState<DataHealth | null>(null);
+
   const [error, setError] = useState<string>("");
 
   useEffect(() => {
@@ -109,6 +136,7 @@ function App() {
         setAlertsResponse(snapshot.watchlist);
         setNewsResponse(snapshot.news);
         setGeneratedAt(snapshot.generated_at);
+        setDataHealth(snapshot.health ?? null);
       } catch {
         setError("暫時無法載入分析結果，請稍後再試。");
       }
@@ -137,6 +165,47 @@ function App() {
           投資涉及風險，過往表現不代表未來結果。
         </p>
       </section>
+
+      {dataHealth && (
+        <section
+          className={`health-banner ${dataHealth.status}`}
+          aria-live="polite"
+        >
+          <div className="health-banner-header">
+            <strong>
+              {dataHealth.status === "ok"
+                ? "資料狀態正常"
+                : dataHealth.status === "partial"
+                  ? "部分資料暫時不可用"
+                  : "主要資料暫時無法取得"}
+            </strong>
+
+            <span>
+              {dataHealth.is_stale
+                ? "可能不是完整最新資料"
+                : "最新掃描正常"}
+            </span>
+          </div>
+
+          <p>{dataHealth.message}</p>
+
+          <div className="health-details">
+            <span>
+              市場：{dataHealth.market.successful_count} 成功
+              {" / "}
+              {dataHealth.market.failed_count} 失敗
+            </span>
+
+            <span>
+              Watchlist：{dataHealth.watchlist.scanned_count} 檔
+            </span>
+
+            <span>
+              新聞：{dataHealth.news.article_count} 篇
+            </span>
+          </div>
+        </section>
+      )}
 
       {generatedAt && (
         <p className="updated-time">

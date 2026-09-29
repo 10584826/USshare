@@ -41,6 +41,106 @@ STATE_PATH = ROOT_DIR / "data" / "alert-state.json"
 ALERT_COOLDOWN_SECONDS = 24 * 60 * 60
 
 
+def build_data_health(
+    market: dict[str, Any],
+    watchlist: dict[str, Any],
+    news: dict[str, Any],
+    generated_at: str,
+) -> dict[str, Any]:
+    """
+    建立 Dashboard 資料健康狀態。
+
+    status:
+    - ok：主要資料來源正常
+    - partial：部分來源失敗
+    - error：市場主要資料無法取得
+    """
+
+    market_indices = market.get("indices", [])
+
+    market_errors = [
+        item
+        for item in market_indices
+        if item.get("error") or item.get("status") == "unknown"
+    ]
+
+    watchlist_errors = watchlist.get("errors", [])
+    news_errors = news.get("errors", [])
+
+    market_unavailable = (
+        len(market_indices) == 0
+        or len(market_errors) == len(market_indices)
+    )
+
+    total_error_count = (
+        len(market_errors)
+        + len(watchlist_errors)
+        + len(news_errors)
+    )
+
+    if market_unavailable:
+        status = "error"
+    elif total_error_count > 0:
+        status = "partial"
+    else:
+        status = "ok"
+
+    return {
+        "status": status,
+        "is_stale": total_error_count > 0,
+        "generated_at": generated_at,
+        "market": {
+            "status": (
+                "error"
+                if market_unavailable
+                else "partial"
+                if market_errors
+                else "ok"
+            ),
+            "successful_count": len(market_indices) - len(market_errors),
+            "failed_count": len(market_errors),
+        },
+        "watchlist": {
+            "status": "partial" if watchlist_errors else "ok",
+            "scanned_count": watchlist.get("scanned_count", 0),
+            "failed_count": len(watchlist_errors),
+        },
+        "news": {
+            "status": "partial" if news_errors else "ok",
+            "article_count": len(news.get("top_stories", [])),
+            "failed_count": len(news_errors),
+        },
+        "total_error_count": total_error_count,
+        "message": (
+            "所有主要資料來源正常。"
+            if status == "ok"
+            else
+            "部分資料來源暫時失敗，頁面內容可能不完整。"
+            if status == "partial"
+            else
+            "市場主要資料無法取得，請不要根據目前頁面作出判斷。"
+        ),
+    }
+
+
+def remove_private_alert_fields(
+    watchlist: dict[str, Any],
+) -> dict[str, Any]:
+    """移除不應公開給瀏覽器的 Telegram 內部欄位。"""
+
+    public_watchlist = dict(watchlist)
+    public_alerts = []
+
+    for alert in watchlist.get("alerts", []):
+        public_alert = dict(alert)
+        public_alert.pop("telegram_sent", None)
+        public_alert.pop("telegram_reason", None)
+        public_alerts.append(public_alert)
+
+    public_watchlist["alerts"] = public_alerts
+    return public_watchlist
+
+
 def save_dashboard(payload: dict[str, Any]) -> None:
     """安全寫入完整 Dashboard JSON。"""
 
@@ -248,10 +348,20 @@ def main() -> int:
             "disclaimer": "新聞資料暫時無法取得，請稍後重試。",
         }
 
+    public_watchlist = remove_private_alert_fields(watchlist)
+
+    health = build_data_health(
+        market=market,
+        watchlist=watchlist,
+        news=news,
+        generated_at=generated_at,
+    )
+
     payload = {
         "generated_at": generated_at,
+        "health": health,
         "market": market,
-        "watchlist": watchlist,
+        "watchlist": public_watchlist,
         "news": news,
         "disclaimer": (
             "所有資料僅供參考，不構成投資建議。"
