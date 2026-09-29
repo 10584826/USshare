@@ -24,6 +24,9 @@ type AlertItem = {
   factors?: string[];
   score: number;
   signal_strength: "low" | "medium" | "high";
+  daily_change_percent?: number | null;
+  trend_direction?: "above" | "below" | "unknown";
+  trend_days?: number;
   is_actionable: boolean;
 };
 
@@ -337,6 +340,26 @@ function App() {
                     ? "中"
                     : "低"}
               </span>
+
+              {alert.daily_change_percent !== null &&
+                alert.daily_change_percent !== undefined && (
+                  <span className="metric-badge">
+                    今日：
+                    {alert.daily_change_percent > 0 ? "+" : ""}
+                    {alert.daily_change_percent.toFixed(2)}%
+                  </span>
+                )}
+
+              {alert.trend_days !== undefined &&
+                alert.trend_days > 0 &&
+                alert.trend_direction !== "unknown" && (
+                  <span className="metric-badge">
+                    趨勢：
+                    {alert.trend_direction === "above" ? "高於" : "低於"}
+                    {" SMA50 "}
+                    {alert.trend_days} 天
+                  </span>
+                )}
             </div>
 
             <p>{alert.message}</p>

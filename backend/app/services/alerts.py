@@ -10,18 +10,27 @@ from __future__ import annotations
 from typing import Any
 
 
+DAILY_CHANGE_POSITIVE_THRESHOLD = 2.0
+DAILY_CHANGE_NEGATIVE_THRESHOLD = -2.0
+TREND_CONFIRMATION_DAYS = 5
+
+
 def _signal_strength(score: int) -> str:
     """根據分數絕對值判斷訊號強度。"""
 
     absolute_score = abs(score)
 
-    if absolute_score >= 3:
+    if absolute_score >= 4:
         return "high"
 
     if absolute_score >= 2:
         return "medium"
 
     return "low"
+
+
+def _format_score(score: int) -> str:
+    return f"+{score}" if score > 0 else str(score)
 
 
 def _build_message(
@@ -64,22 +73,25 @@ def build_alert(
     評分規則：
     - 價格高於 SMA50：+1
     - 價格低於或等於 SMA50：-2
-    - RSI <= 35：+1，代表偏低參考區
-    - RSI >= 70：-2，代表短線偏熱
+    - RSI <= 35：+1
+    - RSI >= 70：-2
     - 成交量比率 >= 1.2：+1
     - 成交量比率 <= 0.8：-1
-
-    分數：
-    - <= -2：risk
-    - >= 1：attention
-    - 其他：information
+    - 每日變化 >= +2%：+1
+    - 每日變化 <= -2%：-1
+    - 高於 SMA50 連續至少 5 天：+1
+    - 低於或等於 SMA50 連續至少 5 天：-1
     """
 
     symbol = str(analysis.get("symbol", "UNKNOWN"))
+
     price = analysis.get("latest_price")
     sma50 = analysis.get("sma50")
     rsi14 = analysis.get("rsi14")
     volume_ratio = analysis.get("volume_ratio_20d")
+    daily_change_percent = analysis.get("daily_change_percent")
+    trend_direction = analysis.get("trend_direction")
+    trend_days = analysis.get("trend_days", 0)
 
     required_values = (price, sma50, rsi14)
 
@@ -97,6 +109,9 @@ def build_alert(
             "factors": ["價格、SMA50 或 RSI 資料不足"],
             "score": 0,
             "signal_strength": "low",
+            "daily_change_percent": daily_change_percent,
+            "trend_direction": trend_direction,
+            "trend_days": trend_days,
             "is_actionable": False,
         }
 
@@ -126,6 +141,30 @@ def build_alert(
         elif volume_ratio <= 0.8:
             score -= 1
             factors.append("成交量低於 20 日平均")
+
+    if daily_change_percent is not None:
+        if daily_change_percent >= DAILY_CHANGE_POSITIVE_THRESHOLD:
+            score += 1
+            factors.append(
+                f"單日上升 {daily_change_percent:.2f}%"
+            )
+        elif daily_change_percent <= DAILY_CHANGE_NEGATIVE_THRESHOLD:
+            score -= 1
+            factors.append(
+                f"單日下跌 {abs(daily_change_percent):.2f}%"
+            )
+
+    if trend_days >= TREND_CONFIRMATION_DAYS:
+        if trend_direction == "above":
+            score += 1
+            factors.append(
+                f"價格連續 {trend_days} 天高於 50 日均線"
+            )
+        elif trend_direction == "below":
+            score -= 1
+            factors.append(
+                f"價格連續 {trend_days} 天低於或等於 50 日均線"
+            )
 
     if score <= -2:
         alert_type = "risk"
@@ -158,6 +197,9 @@ def build_alert(
         "factors": factors,
         "score": score,
         "signal_strength": _signal_strength(score),
+        "daily_change_percent": daily_change_percent,
+        "trend_direction": trend_direction,
+        "trend_days": trend_days,
         "is_actionable": is_actionable,
     }
 

@@ -394,3 +394,13 @@ footer {
   background: #f1f5f9;
   color: #475569;
 }
+
+.metric-badge {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 5px 10px;
+  background: #e0f2fe;
+  color: #075985;
+  font-size: 0.8rem;
+  font-weight: 800;
+}

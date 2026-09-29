@@ -132,3 +132,49 @@ def determine_market_status(
         return "bearish", "偏空"
 
     return "neutral", "中性"
+
+
+def calculate_trend_days(
+    prices: pd.Series,
+    window: int = 50,
+) -> tuple[str, int]:
+    """
+    計算最新價格相對 SMA 的連續趨勢天數。
+
+    回傳：
+    - ("above", N)：最新價格連續 N 天高於 SMA
+    - ("below", N)：最新價格連續 N 天低於或等於 SMA
+    - ("unknown", 0)：資料不足
+    """
+    if len(prices) < window:
+        return "unknown", 0
+
+    moving_average = prices.rolling(window=window).mean()
+    comparisons = prices > moving_average
+
+    valid_indexes = moving_average.notna()
+    if not valid_indexes.any():
+        return "unknown", 0
+
+    latest_index = len(prices) - 1
+
+    if not valid_indexes.iloc[latest_index]:
+        return "unknown", 0
+
+    latest_is_above = bool(comparisons.iloc[latest_index])
+    trend_direction = "above" if latest_is_above else "below"
+
+    trend_days = 0
+
+    for index in range(latest_index, -1, -1):
+        if not valid_indexes.iloc[index]:
+            break
+
+        is_above = bool(comparisons.iloc[index])
+
+        if is_above != latest_is_above:
+            break
+
+        trend_days += 1
+
+    return trend_direction, trend_days

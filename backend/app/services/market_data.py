@@ -23,6 +23,7 @@ import requests
 from .indicators import (
     calculate_rsi,
     calculate_sma,
+    calculate_trend_days,
     calculate_volume_ratio,
     determine_market_status,
 )
@@ -211,6 +212,10 @@ def _build_analysis(symbol: str, dataframe: pd.DataFrame) -> dict[str, Any]:
     sma50 = calculate_sma(closes, window=50)
     rsi14 = calculate_rsi(closes, window=14)
     volume_ratio = calculate_volume_ratio(volumes, window=20)
+    trend_direction, trend_days = calculate_trend_days(
+        closes,
+        window=50,
+    )
 
     status, status_text = determine_market_status(
         price=latest_price,
@@ -244,6 +249,8 @@ def _build_analysis(symbol: str, dataframe: pd.DataFrame) -> dict[str, Any]:
         "sma50": sma50,
         "rsi14": rsi14,
         "volume_ratio_20d": volume_ratio,
+        "trend_direction": trend_direction,
+        "trend_days": trend_days,
         "status": status,
         "status_text": status_text,
         "explanation": explanation or "目前資料不足，暫時無法解釋。",
