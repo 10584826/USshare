@@ -34,3 +34,8 @@ logs/
 .vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
+
+# Keep generated dashboard snapshots used by GitHub Pages fallback.
+!data/dashboard.json
+!data/dashboard-last-good.json
+!data/alert-state.json
