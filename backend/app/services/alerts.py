@@ -74,7 +74,7 @@ def build_alert(
     - 價格高於 SMA50：+1
     - 價格低於或等於 SMA50：-2
     - RSI <= 35：+1
-    - RSI >= 70：-3
+    - RSI >= 70：-2
     - 成交量比率 >= 1.2：+1
     - 成交量比率 <= 0.8：-1
     - 每日變化 >= +2%：+1
@@ -129,9 +129,8 @@ def build_alert(
         score += 1
         factors.append("RSI 處於偏低參考區")
     elif rsi14 >= 70:
-        # 超買本身屬於較強的短線風險因素。
-        # 使用 -3，避免價格高於 SMA50 的 +1 抵銷後變成中性。
-        score -= 3
+        # 超買是短線風險因素，但仍保留價格趨勢的抵銷效果。
+        score -= 2
         factors.append("RSI 處於偏高參考區")
     else:
         factors.append("RSI 處於中間區域")
