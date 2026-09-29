@@ -1,5 +1,27 @@
 {
-  "generated_at": "2026-09-28T22:26:36.672532+00:00",
+  "generated_at": "2026-09-29T02:07:53.467092+00:00",
+  "health": {
+    "status": "partial",
+    "is_stale": true,
+    "generated_at": "2026-09-29T02:07:53.467092+00:00",
+    "market": {
+      "status": "ok",
+      "successful_count": 4,
+      "failed_count": 0
+    },
+    "watchlist": {
+      "status": "partial",
+      "scanned_count": 6,
+      "failed_count": 1
+    },
+    "news": {
+      "status": "partial",
+      "article_count": 6,
+      "failed_count": 1
+    },
+    "total_error_count": 2,
+    "message": "部分資料來源暫時失敗，頁面內容可能不完整。"
+  },
   "market": {
     "is_demo": false,
     "indices": [
@@ -10,7 +32,7 @@
         "daily_change_percent": -0.74,
         "sma50": 762.01,
         "rsi14": 49.72,
-        "volume_ratio_20d": 0.96,
+        "volume_ratio_20d": 0.97,
         "status": "bullish",
         "status_text": "偏多",
         "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
@@ -25,7 +47,7 @@
         "daily_change_percent": -1.07,
         "sma50": 713.48,
         "rsi14": 60.46,
-        "volume_ratio_20d": 1.25,
+        "volume_ratio_20d": 1.26,
         "status": "bullish",
         "status_text": "偏多",
         "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
@@ -40,7 +62,7 @@
         "daily_change_percent": -0.67,
         "sma50": 527.43,
         "rsi14": 35.34,
-        "volume_ratio_20d": 0.7,
+        "volume_ratio_20d": 0.71,
         "status": "bearish",
         "status_text": "偏空",
         "explanation": "價格在 50 日均線之下；RSI 位於相對中間區域",
@@ -55,7 +77,7 @@
         "daily_change_percent": -0.69,
         "sma50": 293.72,
         "rsi14": 22.76,
-        "volume_ratio_20d": 1.08,
+        "volume_ratio_20d": 1.09,
         "status": "bearish",
         "status_text": "偏空",
         "explanation": "價格在 50 日均線之下；RSI 顯示可能偏超賣",
@@ -99,7 +121,7 @@
         "daily_change_percent": -1.07,
         "sma50": 713.48,
         "rsi14": 60.46,
-        "volume_ratio_20d": 1.25,
+        "volume_ratio_20d": 1.26,
         "status": "bullish",
         "status_text": "偏多",
         "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
@@ -114,7 +136,7 @@
         "daily_change_percent": -0.67,
         "sma50": 527.43,
         "rsi14": 35.34,
-        "volume_ratio_20d": 0.7,
+        "volume_ratio_20d": 0.71,
         "status": "bearish",
         "status_text": "偏空",
         "explanation": "價格在 50 日均線之下；RSI 位於相對中間區域",
@@ -129,7 +151,7 @@
         "daily_change_percent": -0.69,
         "sma50": 293.72,
         "rsi14": 22.76,
-        "volume_ratio_20d": 1.08,
+        "volume_ratio_20d": 1.09,
         "status": "bearish",
         "status_text": "偏空",
         "explanation": "價格在 50 日均線之下；RSI 顯示可能偏超賣",
@@ -191,9 +213,7 @@
         "title": "QQQ 技術面相對穩定",
         "message": "QQQ 價格在 50 日均線之上，RSI 約為 60.46。目前可視為偏正面觀察，但仍需配合新聞、估值和個人風險承受能力判斷。",
         "reason": "價格高於 50 日均線，RSI 未達超買區",
-        "is_actionable": true,
-        "telegram_sent": false,
-        "telegram_reason": "cooldown active"
+        "is_actionable": true
       },
       {
         "symbol": "DIA",
@@ -202,9 +222,7 @@
         "title": "DIA 需要留意下行風險",
         "message": "DIA 現價低於 50 日均線。這表示近期價格動能較弱，應留意風險，不代表必然會繼續下跌。",
         "reason": "價格低於 50 日均線",
-        "is_actionable": true,
-        "telegram_sent": false,
-        "telegram_reason": "cooldown active"
+        "is_actionable": true
       },
       {
         "symbol": "IWM",
@@ -213,9 +231,7 @@
         "title": "IWM 需要留意下行風險",
         "message": "IWM 現價低於 50 日均線。這表示近期價格動能較弱，應留意風險，不代表必然會繼續下跌。",
         "reason": "價格低於 50 日均線",
-        "is_actionable": true,
-        "telegram_sent": false,
-        "telegram_reason": "cooldown active"
+        "is_actionable": true
       },
       {
         "symbol": "MSFT",
@@ -224,9 +240,7 @@
         "title": "MSFT 技術面相對穩定",
         "message": "MSFT 價格在 50 日均線之上，RSI 約為 59.04。目前可視為偏正面觀察，但仍需配合新聞、估值和個人風險承受能力判斷。",
         "reason": "價格高於 50 日均線，RSI 未達超買區",
-        "is_actionable": true,
-        "telegram_sent": false,
-        "telegram_reason": "cooldown active"
+        "is_actionable": true
       },
       {
         "symbol": "AAPL",
@@ -235,9 +249,7 @@
         "title": "AAPL 短線可能偏熱",
         "message": "AAPL 的 RSI 約為 76.3，進入常見超買參考區。這不是沽出指令，只表示短線波動和回調風險值得留意。",
         "reason": "RSI 高於或等於 70",
-        "is_actionable": true,
-        "telegram_sent": false,
-        "telegram_reason": "cooldown active"
+        "is_actionable": true
       },
       {
         "symbol": "NVDA",
@@ -246,9 +258,7 @@
         "title": "NVDA 技術面相對穩定",
         "message": "NVDA 價格在 50 日均線之上，RSI 約為 53.79。目前可視為偏正面觀察，但仍需配合新聞、估值和個人風險承受能力判斷。",
         "reason": "價格高於 50 日均線，RSI 未達超買區",
-        "is_actionable": true,
-        "telegram_sent": false,
-        "telegram_reason": "cooldown active"
+        "is_actionable": true
       }
     ],
     "errors": [
@@ -264,46 +274,46 @@
   "news": {
     "top_stories": [
       {
-        "title": "SpaceX’s next big growth engine isn’t rockets — it’s this play on AI power, analysts say",
-        "summary": "The company has a lucrative opportunity in letting rivals tap its data centers for computing power.",
-        "link": "https://www.marketwatch.com/story/spacexs-next-big-growth-engine-isnt-rockets-its-this-play-on-ai-power-analysts-say-11963aeb?mod=mw_rss_topstories",
-        "published": "Mon, 28 Sep 2026 22:03:00 GMT",
-        "sentiment": "positive"
+        "title": "Anthropic’s potential $2 trillion IPO comes with the following fine print",
+        "summary": "Anthropic’s revenue grew over 10-fold in 2025, but the cost of training and serving its models is also climbing.",
+        "link": "https://www.marketwatch.com/story/anthropics-potential-2-trillion-ipo-comes-with-the-following-fine-print-99d3cb90?mod=mw_rss_topstories",
+        "published": "Tue, 29 Sep 2026 01:31:00 GMT",
+        "sentiment": "neutral"
       },
       {
         "title": "AMD makes a big bet on the next era of AI with World Labs acquisition",
         "summary": "The chip maker is buying the startup and adding AI pioneer Fei-Fei Li as its chief scientist.",
         "link": "https://www.marketwatch.com/story/amd-makes-a-big-bet-on-the-next-era-of-ai-7f8a3b3c?mod=mw_rss_topstories",
-        "published": "Mon, 28 Sep 2026 21:37:00 GMT",
+        "published": "Tue, 29 Sep 2026 00:03:00 GMT",
         "sentiment": "neutral"
       },
       {
-        "title": "Nvidia makes a statement with historic $150 billion buyback announcement",
-        "summary": "The company intends to repurchase a large amount of shares through January 2028, reflecting its “confidence in the long-term opportunity ahead.”",
-        "link": "https://www.marketwatch.com/story/nvidia-makes-a-statement-with-historic-150-billion-buyback-announcement-bfab5a22?mod=mw_rss_topstories",
-        "published": "Mon, 28 Sep 2026 21:27:00 GMT",
+        "title": "‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?",
+        "summary": "“As a country, we have grown dangerously comfortable.”",
+        "link": "https://www.marketwatch.com/story/we-lived-within-our-means-i-earned-30-000-as-a-pastor-and-still-retired-comfortably-why-dont-you-tell-people-that-6b9f231e?mod=mw_rss_topstories",
+        "published": "Mon, 28 Sep 2026 23:00:00 GMT",
         "sentiment": "neutral"
       },
       {
-        "title": "MongoDB’s stock is down nearly 20% as CEO decamps to Meta",
-        "summary": "Meta is creating an enterprise platform business that aims to make it easier for developers to use its products. CJ Desai, formerly of MongoDB, will head up the initiative.",
-        "link": "https://www.marketwatch.com/story/mongodbs-stock-is-down-more-than-20-as-ceo-decamps-to-meta-ad66a942?mod=mw_rss_topstories",
-        "published": "Mon, 28 Sep 2026 21:23:00 GMT",
+        "title": "‘I want to make her proud’: My mother, a divorcée, died and I’m her executor. Do I need to file for probate?",
+        "summary": "“The only debts were utility and credit-card bills, which we will pay off.”",
+        "link": "https://www.marketwatch.com/story/i-want-to-make-her-proud-my-mother-a-divorcee-died-and-im-her-executor-do-i-need-to-file-for-probate-a39b1123?mod=mw_rss_topstories",
+        "published": "Mon, 28 Sep 2026 22:45:00 GMT",
         "sentiment": "neutral"
       },
       {
-        "title": "This AI startup has only 14 employees — and a fresh $10 billion valuation",
-        "summary": "Instinct is rapidly amassing investment dollars, illustrating the rush of excitement around personal AI assistants.",
-        "link": "https://www.marketwatch.com/story/this-ai-startup-has-only-14-employees-and-a-fresh-10-billion-valuation-5466e081?mod=mw_rss_topstories",
-        "published": "Mon, 28 Sep 2026 21:19:00 GMT",
+        "title": "‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy?",
+        "summary": "“When my paycheck lands, it takes a detour through bitcoin.”",
+        "link": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
+        "published": "Mon, 28 Sep 2026 22:35:00 GMT",
         "sentiment": "neutral"
       },
       {
-        "title": "‘I’d rather be on a beach in Bali’: My husband resents my $8 million net worth. Should I pay for his retirement?",
-        "summary": "“We have an ironclad prenup.”",
-        "link": "https://www.marketwatch.com/story/i-feel-like-hes-holding-me-back-i-have-8-million-my-husband-resents-my-success-should-i-pay-for-more-things-08a4221b?mod=mw_rss_topstories",
-        "published": "Mon, 28 Sep 2026 21:00:00 GMT",
-        "sentiment": "neutral"
+        "title": "SpaceX’s next big growth engine isn’t rockets — it’s this play on AI power, analysts say",
+        "summary": "The company has a lucrative opportunity in letting rivals tap its data centers for computing power.",
+        "link": "https://www.marketwatch.com/story/spacexs-next-big-growth-engine-isnt-rockets-its-this-play-on-ai-power-analysts-say-11963aeb?mod=mw_rss_topstories",
+        "published": "Mon, 28 Sep 2026 22:03:00 GMT",
+        "sentiment": "positive"
       }
     ],
     "sentiment_summary": {
