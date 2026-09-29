@@ -21,8 +21,10 @@ type AlertItem = {
   title: string;
   message: string;
   reason: string;
+  factors?: string[];
+  score: number;
+  signal_strength: "low" | "medium" | "high";
   is_actionable: boolean;
-  telegram_sent?: boolean;
 };
 
 type NewsItem = {
@@ -320,6 +322,21 @@ function App() {
             <div className="alert-header">
               <strong>{alert.symbol}</strong>
               <span>{alert.title}</span>
+            </div>
+
+            <div className="alert-meta">
+              <span className={`score-badge ${alert.type}`}>
+                評分 {alert.score > 0 ? `+${alert.score}` : alert.score}
+              </span>
+
+              <span className={`strength-badge ${alert.signal_strength}`}>
+                強度：
+                {alert.signal_strength === "high"
+                  ? "高"
+                  : alert.signal_strength === "medium"
+                    ? "中"
+                    : "低"}
+              </span>
             </div>
 
             <p>{alert.message}</p>

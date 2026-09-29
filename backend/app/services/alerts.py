@@ -1,14 +1,8 @@
 """
-新手友善的 Alert 引擎。
+新手友善的 Alert 評分引擎。
 
-重要：
-這些規則不是投資建議，也不是預測工具。
-它們只根據幾個簡單條件，將市場資料轉成容易理解的提醒。
-
-Alert 類型：
-- attention：值得留意
-- risk：風險提醒
-- information：一般資訊
+這些規則不是投資建議，也不是價格預測。
+評分只用來整理簡單技術條件，幫助使用者理解目前狀態。
 """
 
 from __future__ import annotations
@@ -16,25 +10,80 @@ from __future__ import annotations
 from typing import Any
 
 
+def _signal_strength(score: int) -> str:
+    """根據分數絕對值判斷訊號強度。"""
+
+    absolute_score = abs(score)
+
+    if absolute_score >= 3:
+        return "high"
+
+    if absolute_score >= 2:
+        return "medium"
+
+    return "low"
+
+
+def _build_message(
+    symbol: str,
+    score: int,
+    factors: list[str],
+    alert_type: str,
+) -> str:
+    """建立新手容易理解的 Alert 說明。"""
+
+    factor_text = "；".join(factors)
+
+    if alert_type == "risk":
+        return (
+            f"{symbol} 目前評分為 {score}，技術條件偏弱或短線風險較高。"
+            f"判斷因素：{factor_text}。"
+            "這不是沽出指令，請配合新聞、估值和個人風險承受能力判斷。"
+        )
+
+    if alert_type == "attention":
+        return (
+            f"{symbol} 目前評分為 +{score}，有值得觀察的技術條件。"
+            f"判斷因素：{factor_text}。"
+            "這不是買入指令，不代表價格一定會上升。"
+        )
+
+    return (
+        f"{symbol} 目前評分為 {score}，沒有形成明確方向性訊號。"
+        f"判斷因素：{factor_text or '目前沒有足夠的方向性因素'}。"
+        "不代表沒有風險，也不代表未來一定維持現況。"
+    )
+
+
 def build_alert(
     analysis: dict[str, Any],
 ) -> dict[str, Any] | None:
     """
-    根據單一股票分析結果建立一個簡單 Alert。
+    根據技術條件建立評分制 Alert。
 
-    優先順序：
-    1. 價格跌破 50 日均線：風險提醒
-    2. RSI 超買：留意短線過熱
-    3. RSI 超賣：可能值得觀察，但不是買入訊號
-    4. 價格在均線之上且 RSI 正常：偏正面觀察
+    評分規則：
+    - 價格高於 SMA50：+1
+    - 價格低於或等於 SMA50：-2
+    - RSI <= 35：+1，代表偏低參考區
+    - RSI >= 70：-2，代表短線偏熱
+    - 成交量比率 >= 1.2：+1
+    - 成交量比率 <= 0.8：-1
+
+    分數：
+    - <= -2：risk
+    - >= 1：attention
+    - 其他：information
     """
 
-    symbol = analysis["symbol"]
+    symbol = str(analysis.get("symbol", "UNKNOWN"))
     price = analysis.get("latest_price")
     sma50 = analysis.get("sma50")
     rsi14 = analysis.get("rsi14")
+    volume_ratio = analysis.get("volume_ratio_20d")
 
-    if price is None or sma50 is None or rsi14 is None:
+    required_values = (price, sma50, rsi14)
+
+    if any(value is None for value in required_values):
         return {
             "symbol": symbol,
             "type": "information",
@@ -45,87 +94,78 @@ def build_alert(
                 "暫時不產生方向性提醒。"
             ),
             "reason": "技術指標資料不足",
+            "factors": ["價格、SMA50 或 RSI 資料不足"],
+            "score": 0,
+            "signal_strength": "low",
             "is_actionable": False,
         }
 
-    if price < sma50:
-        return {
-            "symbol": symbol,
-            "type": "risk",
-            "severity": "warning",
-            "title": f"{symbol} 需要留意下行風險",
-            "message": (
-                f"{symbol} 現價低於 50 日均線。"
-                "這表示近期價格動能較弱，應留意風險，"
-                "不代表必然會繼續下跌。"
-            ),
-            "reason": "價格低於 50 日均線",
-            "is_actionable": True,
-        }
+    score = 0
+    factors: list[str] = []
 
-    if rsi14 >= 70:
-        return {
-            "symbol": symbol,
-            "type": "risk",
-            "severity": "warning",
-            "title": f"{symbol} 短線可能偏熱",
-            "message": (
-                f"{symbol} 的 RSI 約為 {rsi14}，進入常見超買參考區。"
-                "這不是沽出指令，只表示短線波動和回調風險值得留意。"
-            ),
-            "reason": "RSI 高於或等於 70",
-            "is_actionable": True,
-        }
+    if price > sma50:
+        score += 1
+        factors.append("價格高於 50 日均線")
+    else:
+        score -= 2
+        factors.append("價格低於或等於 50 日均線")
 
     if rsi14 <= 35:
-        return {
-            "symbol": symbol,
-            "type": "attention",
-            "severity": "info",
-            "title": f"{symbol} 可能值得觀察",
-            "message": (
-                f"{symbol} 的 RSI 約為 {rsi14}，進入偏低參考區。"
-                "低 RSI 不代表一定反彈，只表示可以加入觀察清單。"
-            ),
-            "reason": "RSI 低於或等於 35",
-            "is_actionable": True,
-        }
+        score += 1
+        factors.append("RSI 處於偏低參考區")
+    elif rsi14 >= 70:
+        score -= 2
+        factors.append("RSI 處於偏高參考區")
+    else:
+        factors.append("RSI 處於中間區域")
 
-    if price > sma50 and 35 < rsi14 < 70:
-        return {
-            "symbol": symbol,
-            "type": "attention",
-            "severity": "info",
-            "title": f"{symbol} 技術面相對穩定",
-            "message": (
-                f"{symbol} 價格在 50 日均線之上，"
-                f"RSI 約為 {rsi14}。目前可視為偏正面觀察，"
-                "但仍需配合新聞、估值和個人風險承受能力判斷。"
-            ),
-            "reason": "價格高於 50 日均線，RSI 未達超買區",
-            "is_actionable": True,
-        }
+    if volume_ratio is not None:
+        if volume_ratio >= 1.2:
+            score += 1
+            factors.append("成交量高於 20 日平均")
+        elif volume_ratio <= 0.8:
+            score -= 1
+            factors.append("成交量低於 20 日平均")
+
+    if score <= -2:
+        alert_type = "risk"
+        severity = "warning"
+        title = f"{symbol} 風險評分偏高"
+        is_actionable = True
+    elif score >= 1:
+        alert_type = "attention"
+        severity = "info"
+        title = f"{symbol} 值得觀察"
+        is_actionable = True
+    else:
+        alert_type = "information"
+        severity = "info"
+        title = f"{symbol} 暫無明確訊號"
+        is_actionable = False
 
     return {
         "symbol": symbol,
-        "type": "information",
-        "severity": "info",
-        "title": f"{symbol} 暫無明顯訊號",
-        "message": (
-            "目前技術指標沒有符合預設提醒條件，"
-            "不代表沒有風險或一定會維持現況。"
+        "type": alert_type,
+        "severity": severity,
+        "title": title,
+        "message": _build_message(
+            symbol=symbol,
+            score=score,
+            factors=factors,
+            alert_type=alert_type,
         ),
-        "reason": "沒有符合預設條件",
-        "is_actionable": False,
+        "reason": "；".join(factors),
+        "factors": factors,
+        "score": score,
+        "signal_strength": _signal_strength(score),
+        "is_actionable": is_actionable,
     }
 
 
 def build_alerts(
     analyses: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
-    """
-    將多檔股票分析結果轉成 Alert 清單。
-    """
+    """將多檔股票分析結果轉成 Alert 清單。"""
 
     alerts: list[dict[str, Any]] = []
 

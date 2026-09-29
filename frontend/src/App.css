@@ -348,3 +348,49 @@ footer {
   margin-top: 10px !important;
   font-weight: 700;
 }
+
+.alert-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.score-badge,
+.strength-badge {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.score-badge.attention {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.score-badge.risk {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.score-badge.information {
+  background: #e2e8f0;
+  color: #334155;
+}
+
+.strength-badge.high {
+  background: #ede9fe;
+  color: #6d28d9;
+}
+
+.strength-badge.medium {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.strength-badge.low {
+  background: #f1f5f9;
+  color: #475569;
+}
