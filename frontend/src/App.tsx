@@ -141,6 +141,8 @@ function App() {
   const [error, setError] = useState<string>("");
 
   useEffect(() => {
+    let disposed = false;
+
     async function loadData() {
       setIsRefreshing(true);
       setError("");
@@ -148,17 +150,25 @@ function App() {
       try {
         const snapshot = await loadDashboardSnapshot();
 
+        if (disposed) {
+          return;
+        }
+
         setMarketSummary(snapshot.market);
         setAlertsResponse(snapshot.watchlist);
         setNewsResponse(snapshot.news);
         setGeneratedAt(snapshot.generated_at);
+        setDataUpdatedAt(new Date().toISOString());
         setDataHealth(snapshot.health ?? null);
-        setDataUpdatedAt(snapshot.data_updated_at ?? null);
         setLastLoadedAt(new Date().toISOString());
       } catch {
-        setError("暫時無法載入分析結果，請稍後再試。");
+        if (!disposed) {
+          setError("暫時無法載入分析結果，請稍後再試。");
+        }
       } finally {
-        setIsRefreshing(false);
+        if (!disposed) {
+          setIsRefreshing(false);
+        }
       }
     }
 
@@ -179,6 +189,7 @@ function App() {
     );
 
     return () => {
+      disposed = true;
       window.clearInterval(refreshTimer);
       window.removeEventListener(
         "usshare:refresh",
