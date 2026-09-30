@@ -39,6 +39,10 @@ type NewsItem = {
   published_at?: string | null;
   age_hours?: number | null;
   sentiment: "positive" | "neutral" | "negative";
+  sentiment_reason?: string;
+  relevance_score?: number;
+  relevance_reasons?: string[];
+  related_symbols?: string[];
 };
 
 type MarketSummary = {
@@ -480,9 +484,21 @@ function App() {
             key={`${news.title}-${index}`}
           >
             <div className="news-header">
-              <span className={`pill ${news.sentiment}`}>
-                {news.sentiment}
-              </span>
+              <div className="news-labels">
+                <span className={`pill ${news.sentiment}`}>
+                  {news.sentiment === "positive"
+                    ? "初步偏正面"
+                    : news.sentiment === "negative"
+                      ? "初步偏負面"
+                      : "中性"}
+                </span>
+
+                {news.relevance_score !== undefined && (
+                  <span className="relevance-badge">
+                    相關性 {news.relevance_score}
+                  </span>
+                )}
+              </div>
 
               <small>
                 {news.source || "未知來源"}
@@ -494,6 +510,19 @@ function App() {
             <h3>{news.title}</h3>
 
             <p>{news.summary}</p>
+
+            {news.sentiment_reason && (
+              <small className="news-reason">
+                情緒判斷：{news.sentiment_reason}
+              </small>
+            )}
+
+            {news.related_symbols &&
+              news.related_symbols.length > 0 && (
+                <small className="news-reason">
+                  相關標的：{news.related_symbols.join(", ")}
+                </small>
+              )}
 
             {news.link && (
               <a

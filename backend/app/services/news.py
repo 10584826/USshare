@@ -1,7 +1,7 @@
 """
-新聞抓取與簡單情緒分析。
+新聞抓取與保守的市場相關性／情緒分析。
 
-新聞資料只作為市場背景參考，不代表投資建議。
+新聞只作為市場背景參考，不代表投資建議。
 """
 
 from __future__ import annotations
@@ -36,8 +36,8 @@ REQUEST_TIMEOUT_SECONDS = 10
 CACHE_TTL_SECONDS = 15 * 60
 DEFAULT_MAX_AGE_HOURS = 72
 
-# 只保留較可能與金融市場相關的文章。
-RELEVANCE_KEYWORDS = (
+# 只保留較明確的金融／市場字眼。
+MARKET_KEYWORDS = (
     "stock",
     "stocks",
     "shares",
@@ -46,7 +46,6 @@ RELEVANCE_KEYWORDS = (
     "earnings",
     "revenue",
     "profit",
-    "loss",
     "guidance",
     "forecast",
     "fed",
@@ -67,7 +66,89 @@ RELEVANCE_KEYWORDS = (
     "etf",
     "bond",
     "treasury",
+    "wall street",
+    "quarter",
+    "quarterly",
+    "analyst",
 )
+
+POSITIVE_KEYWORDS = (
+    "rally",
+    "surge",
+    "jump",
+    "upgrade",
+    "beat estimates",
+    "beat expectations",
+    "strong earnings",
+    "revenue growth",
+    "profit growth",
+    "bullish",
+    "boost",
+    "improve",
+    "higher guidance",
+    "raised forecast",
+    "outperform",
+)
+
+NEGATIVE_KEYWORDS = (
+    "plunge",
+    "selloff",
+    "warning",
+    "downgrade",
+    "miss estimates",
+    "miss expectations",
+    "weak earnings",
+    "revenue decline",
+    "profit decline",
+    "bearish",
+    "slump",
+    "concern",
+    "lower guidance",
+    "cut forecast",
+    "underperform",
+    "layoffs",
+    "investigation",
+    "lawsuit",
+    "bankruptcy",
+)
+
+# 這些字眼通常代表個人理財／生活文章，
+# 不應只因為出現 finance、equity 或 positive 就列為股票新聞。
+PERSONAL_FINANCE_PATTERNS = (
+    "sell my house",
+    "selling my house",
+    "mortgage",
+    "credit card debt",
+    "social security",
+    "retirement income",
+    "retire comfortably",
+    "paycheck",
+    "my salary",
+    "my pension",
+    "personal finance",
+    "house renovation",
+    "renovating my house",
+    "inheritance",
+    "should i sell",
+    "am i crazy",
+    "living paycheck to paycheck",
+)
+
+# 常見 watchlist 代號的公司名稱。
+# 未列出的股票仍會使用代號直接匹配。
+SYMBOL_ALIASES = {
+    "AAPL": ("apple",),
+    "MSFT": ("microsoft",),
+    "NVDA": ("nvidia",),
+    "AMZN": ("amazon",),
+    "GOOGL": ("alphabet", "google"),
+    "META": ("meta", "facebook"),
+    "TSLA": ("tesla",),
+    "SPY": ("spy", "s&p 500", "sp 500"),
+    "QQQ": ("qqq", "nasdaq 100", "nasdaq-100"),
+    "DIA": ("dia", "dow jones"),
+    "IWM": ("iwm", "russell 2000"),
+}
 
 _cache: dict[str, dict[str, Any]] = {}
 
@@ -84,61 +165,6 @@ def clean_text(text: str | None) -> str:
     cleaned = re.sub(r"\s+", " ", cleaned)
 
     return cleaned.strip()
-
-
-def classify_sentiment(title: str, summary: str = "") -> str:
-    """用可控關鍵字做簡單情緒分類。"""
-
-    combined = f"{title} {summary}".lower()
-
-    positive_keywords = [
-        "rally",
-        "surge",
-        "jump",
-        "upgrade",
-        "beat",
-        "strong",
-        "gain",
-        "growth",
-        "bullish",
-        "boost",
-        "improve",
-        "higher",
-        "positive",
-    ]
-
-    negative_keywords = [
-        "drop",
-        "plunge",
-        "selloff",
-        "warning",
-        "downgrade",
-        "miss",
-        "weak",
-        "loss",
-        "pressure",
-        "bearish",
-        "slump",
-        "concern",
-        "lower",
-        "negative",
-        "risk",
-    ]
-
-    positive_score = sum(
-        1 for keyword in positive_keywords if keyword in combined
-    )
-    negative_score = sum(
-        1 for keyword in negative_keywords if keyword in combined
-    )
-
-    if negative_score > positive_score:
-        return "negative"
-
-    if positive_score > negative_score:
-        return "positive"
-
-    return "neutral"
 
 
 def _get_max_age_hours() -> int:
@@ -185,6 +211,7 @@ def _parse_published_datetime(item: Any) -> datetime | None:
 
         try:
             parsed = parsedate_to_datetime(raw_value)
+
             if parsed.tzinfo is None:
                 parsed = parsed.replace(tzinfo=timezone.utc)
 
@@ -195,14 +222,140 @@ def _parse_published_datetime(item: Any) -> datetime | None:
     return None
 
 
-def _is_relevant(title: str, summary: str) -> bool:
+def _normalise_symbol(symbol: str) -> str:
+    return symbol.strip().upper()
+
+
+def _build_symbol_aliases(
+    symbols: list[str] | None,
+) -> dict[str, tuple[str, ...]]:
+    aliases: dict[str, tuple[str, ...]] = {}
+
+    for raw_symbol in symbols or []:
+        symbol = _normalise_symbol(raw_symbol)
+        configured_aliases = SYMBOL_ALIASES.get(symbol, ())
+        aliases[symbol] = tuple(
+            dict.fromkeys((symbol.lower(), *configured_aliases))
+        )
+
+    return aliases
+
+
+def _find_related_symbols(
+    title: str,
+    summary: str,
+    symbols: list[str] | None,
+) -> list[str]:
     combined = f"{title} {summary}".lower()
-    return any(keyword in combined for keyword in RELEVANCE_KEYWORDS)
+    aliases = _build_symbol_aliases(symbols)
+
+    related: list[str] = []
+
+    for symbol, symbol_aliases in aliases.items():
+        if any(
+            re.search(
+                rf"(?<![a-z0-9]){re.escape(alias)}(?![a-z0-9])",
+                combined,
+            )
+            for alias in symbol_aliases
+        ):
+            related.append(symbol)
+
+    return related
+
+
+def _has_personal_finance_pattern(
+    title: str,
+    summary: str,
+) -> bool:
+    combined = f"{title} {summary}".lower()
+    return any(
+        pattern in combined
+        for pattern in PERSONAL_FINANCE_PATTERNS
+    )
+
+
+def _calculate_relevance(
+    title: str,
+    summary: str,
+    related_symbols: list[str],
+) -> tuple[int, list[str]]:
+    combined = f"{title} {summary}".lower()
+    reasons: list[str] = []
+    score = 0
+
+    if related_symbols:
+        score += 3
+        reasons.append(
+            f"匹配 watchlist：{', '.join(related_symbols)}"
+        )
+
+    keyword_matches = [
+        keyword
+        for keyword in MARKET_KEYWORDS
+        if keyword in combined
+    ]
+
+    if keyword_matches:
+        score += 1
+        reasons.append(
+            f"包含市場關鍵字：{', '.join(keyword_matches[:3])}"
+        )
+
+    if not reasons:
+        reasons.append("沒有足夠的市場相關內容")
+
+    return score, reasons
+
+
+def _classify_sentiment(
+    title: str,
+    summary: str = "",
+) -> tuple[str, str]:
+    """
+    標題權重高於摘要。
+
+    只在出現較明確的市場語句時分類；
+    一般生活或個人理財字眼不會直接判定為正面。
+    """
+
+    title_lower = title.lower()
+    summary_lower = summary.lower()
+
+    positive_title = sum(
+        2 for keyword in POSITIVE_KEYWORDS
+        if keyword in title_lower
+    )
+    positive_summary = sum(
+        1 for keyword in POSITIVE_KEYWORDS
+        if keyword in summary_lower
+    )
+
+    negative_title = sum(
+        2 for keyword in NEGATIVE_KEYWORDS
+        if keyword in title_lower
+    )
+    negative_summary = sum(
+        1 for keyword in NEGATIVE_KEYWORDS
+        if keyword in summary_lower
+    )
+
+    positive_score = positive_title + positive_summary
+    negative_score = negative_title + negative_summary
+
+    if negative_score > positive_score:
+        return "negative", "市場負面關鍵字較多"
+
+    if positive_score > negative_score:
+        return "positive", "市場正面關鍵字較多"
+
+    return "neutral", "沒有明確方向性市場訊號"
 
 
 def _build_news_item(
     item: Any,
     source_name: str,
+    symbols: list[str] | None = None,
 ) -> dict[str, Any] | None:
     title = clean_text(getattr(item, "title", ""))
     summary = clean_text(getattr(item, "summary", ""))
@@ -211,7 +364,29 @@ def _build_news_item(
     if not title:
         return None
 
-    if not _is_relevant(title, summary):
+    related_symbols = _find_related_symbols(
+        title=title,
+        summary=summary,
+        symbols=symbols,
+    )
+
+    relevance_score, relevance_reasons = _calculate_relevance(
+        title=title,
+        summary=summary,
+        related_symbols=related_symbols,
+    )
+
+    is_personal_finance = _has_personal_finance_pattern(
+        title,
+        summary,
+    )
+
+    # 個人理財文章必須有明確 watchlist 股票／指數匹配，
+    # 否則不列入市場新聞。
+    if is_personal_finance and not related_symbols:
+        return None
+
+    if relevance_score < 1:
         return None
 
     published_datetime = _parse_published_datetime(item)
@@ -234,28 +409,42 @@ def _build_news_item(
         published_at = None
         published_display = "時間未知"
 
+    sentiment, sentiment_reason = _classify_sentiment(
+        title,
+        summary,
+    )
+
     return {
         "title": title,
-        "summary": summary[:220] if summary else "No summary available.",
+        "summary": (
+            summary[:220]
+            if summary
+            else "No summary available."
+        ),
         "link": link,
         "source": source_name,
         "published": published_display,
         "published_at": published_at,
         "age_hours": age_hours,
-        "sentiment": classify_sentiment(title, summary),
+        "sentiment": sentiment,
+        "sentiment_reason": sentiment_reason,
+        "relevance_score": relevance_score,
+        "relevance_reasons": relevance_reasons,
+        "related_symbols": related_symbols,
     }
 
 
 def fetch_rss_feed(
     feed_url: str,
     source_name: str,
+    symbols: list[str] | None = None,
 ) -> list[dict[str, Any]]:
     """抓取單一 RSS Feed。"""
 
     response = requests.get(
         feed_url,
         headers={
-            "User-Agent": "USshare/0.5 beginner-stock-analysis-app",
+            "User-Agent": "USshare/0.6 beginner-stock-analysis-app",
             "Accept": "application/rss+xml, application/xml, text/xml",
         },
         timeout=REQUEST_TIMEOUT_SECONDS,
@@ -266,7 +455,11 @@ def fetch_rss_feed(
     entries: list[dict[str, Any]] = []
 
     for item in feed.entries[:20]:
-        news_item = _build_news_item(item, source_name)
+        news_item = _build_news_item(
+            item=item,
+            source_name=source_name,
+            symbols=symbols,
+        )
 
         if news_item is not None:
             entries.append(news_item)
@@ -304,16 +497,25 @@ def _deduplicate_items(
     return unique_items
 
 
-def get_market_news(limit: int = 6) -> dict[str, Any]:
+def get_market_news(
+    limit: int = 6,
+    symbols: list[str] | None = None,
+) -> dict[str, Any]:
     """
     取得市場新聞摘要。
 
-    預設只保留最近 72 小時內、較可能與金融市場相關的新聞。
-    可用 NEWS_MAX_AGE_HOURS 調整。
+    只保留：
+    - 最近 NEWS_MAX_AGE_HOURS 小時新聞
+    - 市場相關文章
+    - 或明確匹配 watchlist 股票／指數的文章
     """
 
     now = time.time()
-    cache_key = "market_news"
+    normalized_symbols = tuple(
+        _normalise_symbol(symbol)
+        for symbol in symbols or []
+    )
+    cache_key = f"market_news:{','.join(normalized_symbols)}"
 
     if cache_key in _cache:
         cached = _cache[cache_key]
@@ -323,7 +525,6 @@ def get_market_news(limit: int = 6) -> dict[str, Any]:
 
     all_items: list[dict[str, Any]] = []
     errors: list[str] = []
-
     max_age_hours = _get_max_age_hours()
 
     for feed in RSS_FEEDS:
@@ -331,6 +532,7 @@ def get_market_news(limit: int = 6) -> dict[str, Any]:
             items = fetch_rss_feed(
                 feed_url=feed["url"],
                 source_name=feed["name"],
+                symbols=list(normalized_symbols),
             )
             all_items.extend(items)
         except Exception as error:
@@ -353,6 +555,7 @@ def get_market_news(limit: int = 6) -> dict[str, Any]:
 
     unique_items.sort(
         key=lambda item: (
+            -int(item.get("relevance_score", 0)),
             item.get("age_hours") is None,
             item.get("age_hours")
             if item.get("age_hours") is not None
@@ -379,10 +582,15 @@ def get_market_news(limit: int = 6) -> dict[str, Any]:
         "sentiment_summary": sentiment_summary,
         "errors": errors,
         "max_age_hours": max_age_hours,
-        "filtered_count": max(0, len(all_items) - len(fresh_items)),
+        "watchlist_symbols": list(normalized_symbols),
+        "filtered_count": max(
+            0,
+            len(all_items) - len(fresh_items),
+        ),
         "disclaimer": (
-            "新聞情緒僅為簡單摘要，不能代表市場趨勢。"
-            "新聞時間和內容可能不完整，請閱讀原文核對。"
+            "新聞相關性和情緒只作為簡單摘要，"
+            "不能代表市場趨勢或買賣建議。"
+            "請閱讀原文並自行核對。"
         ),
     }
 

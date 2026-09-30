@@ -550,3 +550,34 @@ footer {
     text-align: left;
   }
 }
+
+.news-labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.relevance-badge {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 5px 10px;
+  background: #e0f2fe;
+  color: #075985;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.news-reason {
+  display: block;
+  margin-top: 8px;
+  color: #667085;
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+  .news-labels {
+    align-items: flex-start;
+  }
+}

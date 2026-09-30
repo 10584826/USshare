@@ -370,7 +370,9 @@ def main() -> int:
     watchlist = scan_watchlist(alert_state)
 
     try:
-        news = get_market_news()
+        news = get_market_news(
+            symbols=get_watchlist(),
+        )
     except Exception as error:
         news = {
             "top_stories": [],
