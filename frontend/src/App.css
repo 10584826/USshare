@@ -526,3 +526,27 @@ footer {
     width: 100%;
   }
 }
+
+.news-header small {
+  color: #667085;
+  font-size: 0.82rem;
+  text-align: right;
+}
+
+.news-filter-note {
+  margin: 12px 0;
+  color: #667085;
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .news-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .news-header small {
+    text-align: left;
+  }
+}

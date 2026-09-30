@@ -34,7 +34,10 @@ type NewsItem = {
   title: string;
   summary: string;
   link: string;
+  source?: string;
   published: string;
+  published_at?: string | null;
+  age_hours?: number | null;
   sentiment: "positive" | "neutral" | "negative";
 };
 
@@ -65,6 +68,8 @@ type NewsResponse = {
     negative: number;
   };
   errors: string[];
+  max_age_hours?: number;
+  filtered_count?: number;
   disclaimer: string;
 };
 
@@ -479,7 +484,11 @@ function App() {
                 {news.sentiment}
               </span>
 
-              <small>{news.published || "未知時間"}</small>
+              <small>
+                {news.source || "未知來源"}
+                {" · "}
+                {news.published || "未知時間"}
+              </small>
             </div>
 
             <h3>{news.title}</h3>
@@ -501,6 +510,16 @@ function App() {
         {newsResponse?.top_stories.length === 0 && (
           <p className="info">目前沒有可顯示的新聞。</p>
         )}
+
+        {newsResponse && newsResponse.filtered_count ? (
+          <p className="news-filter-note">
+            已過濾 {newsResponse.filtered_count} 篇超過
+            {" "}
+            {newsResponse.max_age_hours ?? 72}
+            {" "}
+            小時或不符合市場相關性的新聞。
+          </p>
+        ) : null}
 
         <p className="disclaimer">
           {newsResponse?.disclaimer}
