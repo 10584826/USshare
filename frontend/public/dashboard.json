@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-30T07:24:48.480009+00:00",
-  "data_updated_at": "2026-09-30T07:24:48.480009+00:00",
+  "generated_at": "2026-09-30T08:30:47.442543+00:00",
+  "data_updated_at": "2026-09-30T08:30:47.442543+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-09-30T07:24:48.480009+00:00",
+    "generated_at": "2026-09-30T08:30:47.442543+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 6,
+      "article_count": 4,
       "failed_count": 1
     },
     "total_error_count": 1,
@@ -97,18 +97,18 @@
     ],
     "vix": {
       "symbol": "^VIX",
-      "latest_price": 16.04,
-      "previous_close": 16.07,
-      "daily_change_percent": -0.19,
-      "sma50": 15.9,
-      "rsi14": 48.3,
+      "latest_price": 15.94,
+      "previous_close": 16.04,
+      "daily_change_percent": -0.62,
+      "sma50": 15.89,
+      "rsi14": 41.43,
       "volume_ratio_20d": null,
       "trend_direction": "above",
-      "trend_days": 2,
+      "trend_days": 3,
       "status": "bullish",
       "status_text": "偏多",
       "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
-      "data_points": 129,
+      "data_points": 130,
       "data_source": "Yahoo Finance Chart endpoint",
       "from_cache": false
     },
@@ -654,57 +654,100 @@
   "news": {
     "top_stories": [
       {
-        "title": "‘I have $400,000 in equity’: I’m 80. Should I sell my house because of dangerous stairs — or spend thousands renovating?",
-        "summary": "“Generally, the advice I’ve read says not to sell because I have a low-interest-rate mortgage.”",
-        "link": "https://www.marketwatch.com/story/i-have-a-low-interest-rate-im-80-years-old-should-i-move-out-of-my-house-because-of-dangerous-stairs-389c3c7b?mod=mw_rss_topstories",
-        "published": "Wed, 30 Sep 2026 01:00:00 GMT",
-        "sentiment": "positive"
+        "title": "The real prize in AMD’s $8 billion World Labs acquisition isn’t what you’d think",
+        "summary": "AMD is getting cutting-edge spatial-intelligence models, but more importantly, a leader who can help recruit top talent and bring real-world AI applications into focus.",
+        "link": "https://www.marketwatch.com/story/the-real-prize-in-amds-8-billion-world-labs-acquisition-isnt-what-youd-think-6f609d0f?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-09-29 21:52 UTC",
+        "published_at": "2026-09-29T21:52:00+00:00",
+        "age_hours": 10.65,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 4,
+        "relevance_reasons": [
+          "匹配 watchlist：AMD",
+          "包含市場關鍵字：acquisition"
+        ],
+        "related_symbols": [
+          "AMD"
+        ]
       },
       {
-        "title": "‘I’m never selling’: I’m 47 and buy bitcoin with every dollar I earn. Am I crazy?",
-        "summary": "“When my paycheck lands, it takes a detour through bitcoin.”",
-        "link": "https://www.marketwatch.com/story/im-never-selling-im-47-and-buy-bitcoin-with-every-dollar-i-earn-am-i-crazy-364d2a64?mod=mw_rss_topstories",
-        "published": "Wed, 30 Sep 2026 00:30:00 GMT",
-        "sentiment": "neutral"
+        "title": "Tuesday’s market moves was one of the more disturbing days of late, says Goldman Sachs pro",
+        "summary": "Beneath the languished moves in the main stock-market indexes, there were some disturbing features.",
+        "link": "https://www.marketwatch.com/story/tuesdays-market-moves-was-one-of-the-more-disturbing-days-of-late-says-goldman-sachs-pro-22abf406?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-09-30 08:25 UTC",
+        "published_at": "2026-09-30T08:25:00+00:00",
+        "age_hours": 0.1,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：stock, market"
+        ],
+        "related_symbols": []
       },
       {
-        "title": "I’m 77, pay rent and live off Social Security, but I help homeless people. Why are so many people going hungry?",
-        "summary": "“I am a retired senior citizen living check-to-check.”",
-        "link": "https://www.marketwatch.com/story/im-77-pay-rent-and-live-off-social-security-but-i-help-homeless-people-why-are-so-many-people-going-hungry-5818465f?mod=mw_rss_topstories",
-        "published": "Tue, 29 Sep 2026 23:30:00 GMT",
-        "sentiment": "neutral"
+        "title": "Could SpaceX be worth $12 trillion one day? Citi says Starship gets it a step closer.",
+        "summary": "The recent Starship launch helps SpaceX with a number of priorities that could help its stock reach $900 over the long run, an analyst says.",
+        "link": "https://www.marketwatch.com/story/could-spacex-be-worth-12-trillion-one-day-citi-says-starship-gets-it-a-step-closer-6ce44961?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-09-29 21:53 UTC",
+        "published_at": "2026-09-29T21:53:00+00:00",
+        "age_hours": 10.63,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：stock, analyst"
+        ],
+        "related_symbols": []
       },
       {
-        "title": "‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?",
-        "summary": "“As a country, we have grown dangerously comfortable.”",
-        "link": "https://www.marketwatch.com/story/we-lived-within-our-means-i-earned-30-000-as-a-pastor-and-still-retired-comfortably-why-dont-you-tell-people-that-6b9f231e?mod=mw_rss_topstories",
-        "published": "Tue, 29 Sep 2026 23:03:00 GMT",
-        "sentiment": "neutral"
-      },
-      {
-        "title": "‘I’d rather be on a beach in Bali’: My husband resents my $8 million net worth. Should I pay for his retirement?",
-        "summary": "“We have an ironclad prenup.”",
-        "link": "https://www.marketwatch.com/story/i-feel-like-hes-holding-me-back-i-have-8-million-my-husband-resents-my-success-should-i-pay-for-more-things-08a4221b?mod=mw_rss_topstories",
-        "published": "Tue, 29 Sep 2026 22:00:00 GMT",
-        "sentiment": "neutral"
-      },
-      {
-        "title": "Hollywood’s big debt deal hits a wall of higher yields as Paramount finances Warner Bros. buyout",
-        "summary": "The Paramount financing will be a closely watched barometer of dealmaking appetite despite rising borrowing costs in 2026.",
-        "link": "https://www.marketwatch.com/story/hollywoods-big-debt-deal-hits-a-wall-of-higher-yields-as-paramount-finances-warner-bros-buyout-6ee6e3b8?mod=mw_rss_topstories",
-        "published": "Tue, 29 Sep 2026 21:56:00 GMT",
-        "sentiment": "positive"
+        "title": "Target’s price cuts are a sign of strength, some analysts say. Investors disagree.",
+        "summary": "A Jefferies analyst sees Target “prioritizing the health of the franchise over short-term profit optimization.”",
+        "link": "https://www.marketwatch.com/story/targets-price-cuts-are-a-sign-of-strength-some-analysts-say-investors-disagree-6a6f0717?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-09-29 21:33 UTC",
+        "published_at": "2026-09-29T21:33:00+00:00",
+        "age_hours": 10.96,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：profit, investor, analyst"
+        ],
+        "related_symbols": []
       }
     ],
     "sentiment_summary": {
-      "positive": 2,
+      "positive": 0,
       "neutral": 4,
       "negative": 0
     },
     "errors": [
-      "https://feeds.reuters.com/reuters/businessNews: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
+      "Reuters Business: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
     ],
-    "disclaimer": "新聞情緒僅為簡單摘要，不能代表市場趨勢，請與技術分析、個人風險承受能力一起看。"
+    "max_age_hours": 72,
+    "watchlist_symbols": [
+      "SPY",
+      "QQQ",
+      "DIA",
+      "IWM",
+      "AAPL",
+      "MSFT",
+      "NVDA",
+      "AMZN",
+      "META",
+      "GOOGL",
+      "TSLA",
+      "AVGO",
+      "AMD",
+      "COST"
+    ],
+    "filtered_count": 11,
+    "disclaimer": "新聞相關性和情緒只作為簡單摘要，不能代表市場趨勢或買賣建議。請閱讀原文並自行核對。"
   },
   "disclaimer": "所有資料僅供參考，不構成投資建議。投資涉及風險，請自行判斷。"
 }
