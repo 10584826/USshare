@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-01T05:47:44.495133+00:00",
-  "data_updated_at": "2026-10-01T05:47:44.495133+00:00",
+  "generated_at": "2026-10-01T13:08:23.416071+00:00",
+  "data_updated_at": "2026-10-01T13:08:23.416071+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-01T05:47:44.495133+00:00",
+    "generated_at": "2026-10-01T13:08:23.416071+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -97,18 +97,18 @@
     ],
     "vix": {
       "symbol": "^VIX",
-      "latest_price": 16.34,
-      "previous_close": 16.04,
-      "daily_change_percent": 1.87,
-      "sma50": 15.9,
-      "rsi14": 43.35,
+      "latest_price": 16.38,
+      "previous_close": 16.34,
+      "daily_change_percent": 0.24,
+      "sma50": 15.85,
+      "rsi14": 52.9,
       "volume_ratio_20d": null,
       "trend_direction": "above",
-      "trend_days": 3,
+      "trend_days": 4,
       "status": "bullish",
       "status_text": "偏多",
       "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
-      "data_points": 130,
+      "data_points": 129,
       "data_source": "Yahoo Finance Chart endpoint",
       "from_cache": false
     },
@@ -653,32 +653,70 @@
   "news": {
     "top_stories": [
       {
-        "title": "The 15 worst-performing S&P 500 stocks during a dismal September",
-        "summary": "The S&P 500 has gained slightly in September, but three-quarters of its components have declined.",
-        "link": "https://www.marketwatch.com/story/the-15-worst-performing-s-p-500-stocks-during-a-dismal-september-991f8a07?mod=mw_rss_topstories",
+        "title": "Why Amazon got a call-up to the Goldman Sachs conviction list of top stocks",
+        "summary": "What’s in the conviction list: Amazon, Huntington, Occidental, Burlington, Johnson Control. What’s out: Tyson, ConocoPhillips, Golar, Loar, Air Products & Chemicals",
+        "link": "https://www.marketwatch.com/story/why-amazon-got-a-call-up-to-the-goldman-sachs-conviction-list-of-top-stocks-9c937472?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-09-30 21:22 UTC",
-        "published_at": "2026-09-30T21:22:00+00:00",
-        "age_hours": 8.43,
+        "published": "2026-10-01 12:12 UTC",
+        "published_at": "2026-10-01T12:12:00+00:00",
+        "age_hours": 0.94,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
         "relevance_reasons": [
-          "匹配 watchlist：SPY",
-          "包含市場關鍵字：stock, stocks, s&p"
+          "匹配 watchlist：AMZN",
+          "包含市場關鍵字：stock, stocks"
         ],
         "related_symbols": [
-          "SPY"
+          "AMZN"
         ]
       },
       {
-        "title": "Google shows it’s not out of the AI race just yet",
-        "summary": "The company’s Gemini 4 Argon announcement shows Google is back with the pack when it comes to cutting-edge AI models.",
-        "link": "https://www.marketwatch.com/story/google-shows-its-not-out-of-the-ai-race-just-yet-75e19860?mod=mw_rss_topstories",
+        "title": "Meta, ServiceNow and these 7 other tech stocks could lead the next leg of the AI trade",
+        "summary": "Deutsche Bank analysts just shared their top stock picks in the tech sector for the remainder of the year.",
+        "link": "https://www.marketwatch.com/story/meta-servicenow-and-these-7-other-tech-stocks-could-lead-the-next-leg-of-the-ai-trade-b8b68c93?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-09-30 22:51 UTC",
-        "published_at": "2026-09-30T22:51:00+00:00",
-        "age_hours": 6.95,
+        "published": "2026-10-01 11:54 UTC",
+        "published_at": "2026-10-01T11:54:00+00:00",
+        "age_hours": 1.24,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 4,
+        "relevance_reasons": [
+          "匹配 watchlist：META",
+          "包含市場關鍵字：stock, stocks, analyst"
+        ],
+        "related_symbols": [
+          "META"
+        ]
+      },
+      {
+        "title": "After I sold TOMS Shoes for $400 million I was misdiagnosed with bipolar disorder — and it almost cost me everything",
+        "summary": "Most people land in a psychiatrist’s office because something happened: a loss, a breakup, the end of a career.",
+        "link": "https://www.marketwatch.com/story/after-i-sold-toms-shoes-for-400-million-i-was-misdiagnosed-with-bipolar-disorder-and-it-almost-cost-me-everything-4409da4c?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-01 11:32 UTC",
+        "published_at": "2026-10-01T11:32:00+00:00",
+        "age_hours": 1.61,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 4,
+        "relevance_reasons": [
+          "匹配 watchlist：COST",
+          "包含市場關鍵字：ipo"
+        ],
+        "related_symbols": [
+          "COST"
+        ]
+      },
+      {
+        "title": "Google is sending its first AI data center to space",
+        "summary": "Tech leaders have come to wonder if orbital data centers can help solve the industry’s power crunch.",
+        "link": "https://www.marketwatch.com/story/google-is-sending-its-first-ai-data-center-to-space-22b7c44d?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-01 12:42 UTC",
+        "published_at": "2026-10-01T12:42:00+00:00",
+        "age_hours": 0.44,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 3,
@@ -690,74 +728,42 @@
         ]
       },
       {
-        "title": "Trump touts economic wins in battleground states — like a $54 billion Alaskan pipeline — as the midterms draw closer",
-        "summary": "President Donald Trump is spending time this week talking up big job-creating projects in battleground states.",
-        "link": "https://www.marketwatch.com/story/trump-touts-economic-wins-in-battleground-states-like-a-54-billion-alaskan-pipeline-as-the-midterms-draw-closer-46db0149?mod=mw_rss_topstories",
+        "title": "The stock market is a hollow tree that could be about to snap, warns bond king Gundlach",
+        "summary": "Stocks are facing a lot of issues right now, even if investors think everything looks great on the surface warns DoubleLine Capital’s Jeffrey Gundlach.",
+        "link": "https://www.marketwatch.com/story/the-stock-market-is-a-hollow-tree-that-could-be-about-to-snap-warns-bond-king-gundlach-215134f0?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-09-30 21:16 UTC",
-        "published_at": "2026-09-30T21:16:00+00:00",
-        "age_hours": 8.53,
+        "published": "2026-10-01 13:00 UTC",
+        "published_at": "2026-10-01T13:00:00+00:00",
+        "age_hours": 0.14,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：economic"
+          "包含市場關鍵字：stock, stocks, market"
         ],
         "related_symbols": []
       },
       {
-        "title": "How the ‘AI put’ has become the only thing that matters for stocks",
-        "summary": "While investors worry a spike in global bond yields will trigger a selloff in U.S. equities, strategists at BofA Global Research say the real threat lies elsewhere.",
-        "link": "https://www.marketwatch.com/story/this-is-the-big-risk-that-stock-investors-should-be-watching-as-rising-bond-yields-menace-markets-904cae0a?mod=mw_rss_topstories",
+        "title": "The latest oil-price shock rippling through the economy is a refining crisis — not a crude crisis",
+        "summary": "‘We’re solving the crude dilemma, but we are not solving the product dilemma’",
+        "link": "https://www.marketwatch.com/story/the-latest-oil-price-shock-rippling-through-the-economy-is-a-refining-crisis-not-a-crude-crisis-e304a589?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-09-30 20:59 UTC",
-        "published_at": "2026-09-30T20:59:00+00:00",
-        "age_hours": 8.81,
-        "sentiment": "negative",
-        "sentiment_reason": "市場負面關鍵字較多",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, stocks, investor"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "A brutal September for bonds points to an even darker October",
-        "summary": "September has been a brutal month for the bond market. If history is any guide, October might be even worse.",
-        "link": "https://www.marketwatch.com/story/a-brutal-september-for-bonds-points-to-an-even-darker-october-239d0fb5?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-09-30 20:56 UTC",
-        "published_at": "2026-09-30T20:56:00+00:00",
-        "age_hours": 8.86,
+        "published": "2026-10-01 12:53 UTC",
+        "published_at": "2026-10-01T12:53:00+00:00",
+        "age_hours": 0.26,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：market, bond"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "U.S. bond yields post biggest jump in a generation as global rout rattles investors",
-        "summary": "Yields in the global bond market have risen with startling speed over the past few months, and the more than $30 trillion market for U.S. government debt certainly hasn’t been immune.",
-        "link": "https://www.marketwatch.com/story/u-s-bond-yields-head-for-biggest-jump-in-a-generation-as-global-rout-rattles-investors-7dede2f2?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-09-30 20:32 UTC",
-        "published_at": "2026-09-30T20:32:00+00:00",
-        "age_hours": 9.26,
-        "sentiment": "positive",
-        "sentiment_reason": "市場正面關鍵字較多",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：market, investor, bond"
+          "包含市場關鍵字：economy"
         ],
         "related_symbols": []
       }
     ],
     "sentiment_summary": {
-      "positive": 1,
-      "neutral": 4,
-      "negative": 1
+      "positive": 0,
+      "neutral": 6,
+      "negative": 0
     },
     "errors": [
       "Reuters Business: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
