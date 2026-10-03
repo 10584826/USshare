@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-03T13:54:34.558806+00:00",
-  "data_updated_at": "2026-10-03T13:54:34.558806+00:00",
+  "generated_at": "2026-10-03T17:56:20.826444+00:00",
+  "data_updated_at": "2026-10-03T17:56:20.826444+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-03T13:54:34.558806+00:00",
+    "generated_at": "2026-10-03T17:56:20.826444+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 6,
+      "article_count": 3,
       "failed_count": 1
     },
     "total_error_count": 1,
@@ -653,63 +653,13 @@
   "news": {
     "top_stories": [
       {
-        "title": "The next big AI battle is all about cuteness",
-        "summary": "Meta and other tech companies are betting that fuzzy mascots can win over AI skeptics.",
-        "link": "https://www.marketwatch.com/story/the-next-big-ai-battle-is-all-about-cuteness-41f6f948?mod=mw_rss_topstories",
+        "title": "A tough job market is pushing more young Americans to make a big bet: on themselves",
+        "summary": "There has been a rise in entrepreneurship among young Americans as the entry-level labor market has become tougher to join.",
+        "link": "https://www.marketwatch.com/story/a-tough-job-market-is-pushing-more-young-americans-to-make-a-big-bet-on-themselves-1aaddeca?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-03 12:30 UTC",
-        "published_at": "2026-10-03T12:30:00+00:00",
-        "age_hours": 1.41,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 3,
-        "relevance_reasons": [
-          "匹配 watchlist：META"
-        ],
-        "related_symbols": [
-          "META"
-        ]
-      },
-      {
-        "title": "This city saw 1 in 3 home sellers slash their asking price in September to attract reluctant buyers",
-        "summary": "As hesitant buyers drive home prices down, these are the places with the most price cuts and the biggest markdowns.",
-        "link": "https://www.marketwatch.com/story/this-city-saw-1-in-3-home-sellers-slash-their-asking-price-in-september-to-attract-reluctant-buyers-7f16a0c3?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-03 13:50 UTC",
-        "published_at": "2026-10-03T13:50:00+00:00",
-        "age_hours": 0.08,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：dow"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "I made $500,000 from a stock sale in my IRA. Could this change my retirement?",
-        "summary": "Diversification and tax planning go hand-in-hand.",
-        "link": "https://www.marketwatch.com/story/i-made-500-000-from-a-stock-sale-in-my-ira-could-this-change-my-retirement-6bddcf0d?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-03 13:23 UTC",
-        "published_at": "2026-10-03T13:23:00+00:00",
-        "age_hours": 0.53,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "The U.S. jobs market just took a turn for the worse. Or did it?",
-        "summary": "The bottom didn’t drop out of the labor market after a poor September U.S. jobs report. But what it did show is hiring is slow and it’s a tough time to find work.",
-        "link": "https://www.marketwatch.com/story/the-u-s-jobs-market-just-took-a-turn-for-the-worse-or-did-it-c44c371b?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-03 13:00 UTC",
-        "published_at": "2026-10-03T13:00:00+00:00",
-        "age_hours": 0.91,
+        "published": "2026-10-03 17:24 UTC",
+        "published_at": "2026-10-03T17:24:00+00:00",
+        "age_hours": 0.54,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -719,41 +669,41 @@
         "related_symbols": []
       },
       {
-        "title": "I bought a $126 concert ticket for my sister and now she can’t go. Will I be able to make a profit selling the ticket?",
-        "summary": "“I’m having trouble accepting that I’ll probably lose some money.”",
-        "link": "https://www.marketwatch.com/story/i-bought-a-126-concert-ticket-for-my-sister-and-now-she-cant-go-will-i-be-able-to-make-a-profit-selling-the-ticket-1dd5cbe9?mod=mw_rss_topstories",
+        "title": "Switching jobs to get higher pay works best in these industries",
+        "summary": "Finding a new job is one way to get a pay increase at a time when inflation has been outpacing wage growth.",
+        "link": "https://www.marketwatch.com/story/the-best-industry-to-change-jobs-to-get-paid-more-money-and-the-worst-ae33a3a7?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-03 12:00 UTC",
-        "published_at": "2026-10-03T12:00:00+00:00",
-        "age_hours": 1.91,
+        "published": "2026-10-03 16:42 UTC",
+        "published_at": "2026-10-03T16:42:00+00:00",
+        "age_hours": 1.24,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：profit"
+          "包含市場關鍵字：inflation"
         ],
         "related_symbols": []
       },
       {
-        "title": "As Treasury yields touch generational highs, investors brace for the market fallout",
-        "summary": "The surge in bond yields to generational highs has investors around the world watching and worrying about what could crack, spiral or leave a trail of carnage in its path.",
-        "link": "https://www.marketwatch.com/story/as-treasury-yields-touch-generational-highs-investors-brace-for-the-market-fallout-0457e698?mod=mw_rss_topstories",
+        "title": "The Treasury Department started Trump accounts for 60 million kids — but families still have to take this step if they want one",
+        "summary": "Here’s what parents seeking the $1,000 seed money for their child need to know.",
+        "link": "https://www.marketwatch.com/story/the-treasury-department-started-trump-accounts-for-60-million-kids-but-families-still-have-to-take-this-step-if-they-want-one-003d9282?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-03 11:30 UTC",
-        "published_at": "2026-10-03T11:30:00+00:00",
-        "age_hours": 2.41,
-        "sentiment": "positive",
-        "sentiment_reason": "市場正面關鍵字較多",
+        "published": "2026-10-03 15:06 UTC",
+        "published_at": "2026-10-03T15:06:00+00:00",
+        "age_hours": 2.84,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：market, investor, bond"
+          "包含市場關鍵字：treasury"
         ],
         "related_symbols": []
       }
     ],
     "sentiment_summary": {
-      "positive": 1,
-      "neutral": 5,
+      "positive": 0,
+      "neutral": 3,
       "negative": 0
     },
     "errors": [
