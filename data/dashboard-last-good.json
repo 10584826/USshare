@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-04T18:38:06.296595+00:00",
-  "data_updated_at": "2026-10-04T18:38:06.296595+00:00",
+  "generated_at": "2026-10-04T21:56:36.612513+00:00",
+  "data_updated_at": "2026-10-04T21:56:36.612513+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-04T18:38:06.296595+00:00",
+    "generated_at": "2026-10-04T21:56:36.612513+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 6,
+      "article_count": 5,
       "failed_count": 1
     },
     "total_error_count": 1,
@@ -659,7 +659,7 @@
         "source": "MarketWatch",
         "published": "2026-10-04 14:00 UTC",
         "published_at": "2026-10-04T14:00:00+00:00",
-        "age_hours": 4.64,
+        "age_hours": 7.94,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -675,7 +675,7 @@
         "source": "MarketWatch",
         "published": "2026-10-04 13:00 UTC",
         "published_at": "2026-10-04T13:00:00+00:00",
-        "age_hours": 5.64,
+        "age_hours": 8.94,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -691,7 +691,7 @@
         "source": "MarketWatch",
         "published": "2026-10-04 12:00 UTC",
         "published_at": "2026-10-04T12:00:00+00:00",
-        "age_hours": 6.64,
+        "age_hours": 9.94,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -707,7 +707,7 @@
         "source": "MarketWatch",
         "published": "2026-10-03 23:58 UTC",
         "published_at": "2026-10-03T23:58:00+00:00",
-        "age_hours": 18.67,
+        "age_hours": 21.98,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -723,7 +723,7 @@
         "source": "MarketWatch",
         "published": "2026-10-03 18:49 UTC",
         "published_at": "2026-10-03T18:49:00+00:00",
-        "age_hours": 23.82,
+        "age_hours": 27.13,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -731,27 +731,11 @@
           "包含市場關鍵字：investor, bond, treasury"
         ],
         "related_symbols": []
-      },
-      {
-        "title": "A tough job market is pushing more young Americans to make a big bet: on themselves",
-        "summary": "There has been a rise in entrepreneurship among young Americans as the entry-level labor market has become tougher to join.",
-        "link": "https://www.marketwatch.com/story/a-tough-job-market-is-pushing-more-young-americans-to-make-a-big-bet-on-themselves-1aaddeca?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-03 17:24 UTC",
-        "published_at": "2026-10-03T17:24:00+00:00",
-        "age_hours": 25.24,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：market"
-        ],
-        "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 6,
+      "neutral": 5,
       "negative": 0
     },
     "errors": [
