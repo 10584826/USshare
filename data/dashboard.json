@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-04T09:43:47.220603+00:00",
-  "data_updated_at": "2026-10-04T09:43:47.220603+00:00",
+  "generated_at": "2026-10-04T14:58:56.064495+00:00",
+  "data_updated_at": "2026-10-04T14:58:56.064495+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-04T09:43:47.220603+00:00",
+    "generated_at": "2026-10-04T14:58:56.064495+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 4,
+      "article_count": 6,
       "failed_count": 1
     },
     "total_error_count": 1,
@@ -653,13 +653,61 @@
   "news": {
     "top_stories": [
       {
+        "title": "Corporate America has never been this upbeat about future profits",
+        "summary": "As third-quarter earnings kick off this week, more companies than ever have expressed optimism about their bottom lines.",
+        "link": "https://www.marketwatch.com/story/corporate-america-has-never-been-this-upbeat-about-future-profits-fbaf8cd9?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-04 14:00 UTC",
+        "published_at": "2026-10-04T14:00:00+00:00",
+        "age_hours": 0.98,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：earnings, profit, quarter"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "October can be a scary month for stocks. Here’s what investors need to watch this year.",
+        "summary": "If stocks see another big swoon this year, investors already know why.",
+        "link": "https://www.marketwatch.com/story/october-can-be-a-scary-month-for-stocks-heres-what-investors-need-to-watch-this-year-ac1da700?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-04 13:00 UTC",
+        "published_at": "2026-10-04T13:00:00+00:00",
+        "age_hours": 1.98,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：stock, stocks, investor"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "Fed minutes coming this week could give markets important clues about future rate hikes",
+        "summary": "Minutes from the September meeting may provide extra context, as the real fed-funds rate is now surprisingly low.",
+        "link": "https://www.marketwatch.com/story/fed-minutes-coming-this-week-could-give-markets-important-clues-about-future-rate-hikes-31bfba5b?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-04 12:00 UTC",
+        "published_at": "2026-10-04T12:00:00+00:00",
+        "age_hours": 2.98,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：market, markets, fed"
+        ],
+        "related_symbols": []
+      },
+      {
         "title": "Falling wages, soaring energy prices and inflation: It’s beginning to look a lot like the 1970s",
         "summary": "Is it time to dust off the financial playbook from that dismal decade?",
         "link": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-10-03 23:58 UTC",
         "published_at": "2026-10-03T23:58:00+00:00",
-        "age_hours": 9.76,
+        "age_hours": 15.02,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -675,7 +723,7 @@
         "source": "MarketWatch",
         "published": "2026-10-03 18:49 UTC",
         "published_at": "2026-10-03T18:49:00+00:00",
-        "age_hours": 14.91,
+        "age_hours": 20.17,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -691,7 +739,7 @@
         "source": "MarketWatch",
         "published": "2026-10-03 17:24 UTC",
         "published_at": "2026-10-03T17:24:00+00:00",
-        "age_hours": 16.33,
+        "age_hours": 21.58,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -699,27 +747,11 @@
           "包含市場關鍵字：market"
         ],
         "related_symbols": []
-      },
-      {
-        "title": "Switching jobs to get higher pay works best in these industries",
-        "summary": "Finding a new job is one way to get a pay increase at a time when inflation has been outpacing wage growth.",
-        "link": "https://www.marketwatch.com/story/the-best-industry-to-change-jobs-to-get-paid-more-money-and-the-worst-ae33a3a7?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-03 16:42 UTC",
-        "published_at": "2026-10-03T16:42:00+00:00",
-        "age_hours": 17.03,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：inflation"
-        ],
-        "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 4,
+      "neutral": 6,
       "negative": 0
     },
     "errors": [
