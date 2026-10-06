@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-06T02:31:04.946536+00:00",
-  "data_updated_at": "2026-10-06T02:31:04.946536+00:00",
+  "generated_at": "2026-10-06T09:25:13.631134+00:00",
+  "data_updated_at": "2026-10-06T09:25:13.631134+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-06T02:31:04.946536+00:00",
+    "generated_at": "2026-10-06T09:25:13.631134+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -18,9 +18,9 @@
     "news": {
       "status": "partial",
       "article_count": 6,
-      "failed_count": 1
+      "failed_count": 2
     },
-    "total_error_count": 1,
+    "total_error_count": 2,
     "message": "部分資料來源暫時失敗，頁面內容可能不完整。"
   },
   "market": {
@@ -97,18 +97,18 @@
     ],
     "vix": {
       "symbol": "^VIX",
-      "latest_price": 15.52,
-      "previous_close": 15.31,
-      "daily_change_percent": 1.37,
-      "sma50": 15.72,
-      "rsi14": 40.93,
+      "latest_price": 15.44,
+      "previous_close": 15.52,
+      "daily_change_percent": -0.52,
+      "sma50": 15.67,
+      "rsi14": 37.15,
       "volume_ratio_20d": null,
       "trend_direction": "below",
-      "trend_days": 2,
+      "trend_days": 3,
       "status": "bearish",
       "status_text": "偏空",
       "explanation": "價格在 50 日均線之下；RSI 位於相對中間區域",
-      "data_points": 129,
+      "data_points": 130,
       "data_source": "Yahoo Finance Chart endpoint",
       "from_cache": false
     },
@@ -652,13 +652,32 @@
   "news": {
     "top_stories": [
       {
+        "title": "The S&P 500 is facing rate chaos and narrow breadth. Why one Goldman Sachs insider is still bullish on stocks.",
+        "summary": "Stocks are not expensive in an historical context, seasonal factors are supportive and Goldman Sachs hedge fund research forecasts a record high for the S&P 500 before year-end.",
+        "link": "https://www.marketwatch.com/story/the-s-p-500-is-facing-rate-chaos-and-narrow-breadth-why-one-goldman-sachs-insider-is-still-bullish-on-stocks-84a20206?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-06 09:20 UTC",
+        "published_at": "2026-10-06T09:20:00+00:00",
+        "age_hours": 0.09,
+        "sentiment": "positive",
+        "sentiment_reason": "市場正面關鍵字較多",
+        "relevance_score": 4,
+        "relevance_reasons": [
+          "匹配 watchlist：SPY",
+          "包含市場關鍵字：stock, stocks, forecast"
+        ],
+        "related_symbols": [
+          "SPY"
+        ]
+      },
+      {
         "title": "The case for Nvidia’s stock to march even higher after clinching its first record high in months",
         "summary": "Analysts highlight the stock’s cheap valuation and the chip maker’s central role in the AI ecosystem.",
         "link": "https://www.marketwatch.com/story/the-case-for-nvidias-stock-to-march-even-higher-after-clinching-its-first-record-high-in-months-2bb5a937?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-10-05 21:52 UTC",
         "published_at": "2026-10-05T21:52:00+00:00",
-        "age_hours": 4.65,
+        "age_hours": 11.56,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -677,7 +696,7 @@
         "source": "MarketWatch",
         "published": "2026-10-05 21:27 UTC",
         "published_at": "2026-10-05T21:27:00+00:00",
-        "age_hours": 5.07,
+        "age_hours": 11.97,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -690,32 +709,13 @@
         ]
       },
       {
-        "title": "This rare stock-market divide means an elevated chance of a big surge — or a deep plunge",
-        "summary": "There’s a huge and rare divergence between the two-month returns of the Nasdaq and Dow Jones Industrial Average.",
-        "link": "https://www.marketwatch.com/story/this-rare-stock-market-divide-means-an-elevated-chance-of-a-big-surge-or-a-deep-plunge-cf2cb4e5?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-05 21:12 UTC",
-        "published_at": "2026-10-05T21:12:00+00:00",
-        "age_hours": 5.32,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：DIA",
-          "包含市場關鍵字：stock, market, nasdaq"
-        ],
-        "related_symbols": [
-          "DIA"
-        ]
-      },
-      {
         "title": "This new AI model could help America close a technological gap with China",
         "summary": "Nvidia-backed Reflection AI announced Beam, a new ultra-efficient open model that boasts capabilities on par with those of Chinese ones",
         "link": "https://www.marketwatch.com/story/this-new-ai-model-could-help-america-close-a-technological-gap-with-china-c1d74492?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-10-05 21:43 UTC",
         "published_at": "2026-10-05T21:43:00+00:00",
-        "age_hours": 4.8,
+        "age_hours": 11.71,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 3,
@@ -727,22 +727,20 @@
         ]
       },
       {
-        "title": "Trump is promising $90 Medicare rebate checks ahead of the midterms. Here’s the hidden cost.",
-        "summary": "The president is betting that he can make seniors forget rising healthcare costs",
-        "link": "https://www.marketwatch.com/story/trump-is-promising-90-medicare-rebate-checks-ahead-of-the-midterms-heres-the-hidden-cost-14b7e2ce?mod=mw_rss_topstories",
+        "title": "Elon Musk is a trillionaire again. Here’s how his wealth stacks up against national economies.",
+        "summary": "Is Musk wealthier than the national economy of Poland or Ireland? Find out here.",
+        "link": "https://www.marketwatch.com/story/elon-musk-is-a-trillionaire-again-heres-how-his-wealth-stacks-up-against-national-economies-e9788b29?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-05 20:39 UTC",
-        "published_at": "2026-10-05T20:39:00+00:00",
-        "age_hours": 5.87,
+        "published": "2026-10-06 09:16 UTC",
+        "published_at": "2026-10-06T09:16:00+00:00",
+        "age_hours": 0.16,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 3,
+        "relevance_score": 1,
         "relevance_reasons": [
-          "匹配 watchlist：COST"
+          "包含市場關鍵字：economy"
         ],
-        "related_symbols": [
-          "COST"
-        ]
+        "related_symbols": []
       },
       {
         "title": "‘The pain was excruciating’: A friend in her 80s fell down her basement stairs. Could it have been avoided?",
@@ -751,7 +749,7 @@
         "source": "MarketWatch",
         "published": "2026-10-05 23:00 UTC",
         "published_at": "2026-10-05T23:00:00+00:00",
-        "age_hours": 3.52,
+        "age_hours": 10.42,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -762,11 +760,12 @@
       }
     ],
     "sentiment_summary": {
-      "positive": 0,
-      "neutral": 6,
+      "positive": 1,
+      "neutral": 5,
       "negative": 0
     },
     "errors": [
+      "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
       "Reuters Business: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
     ],
     "max_age_hours": 72,
@@ -786,7 +785,7 @@
       "AMD",
       "COST"
     ],
-    "filtered_count": 11,
+    "filtered_count": 0,
     "disclaimer": "新聞相關性和情緒只作為簡單摘要，不能代表市場趨勢或買賣建議。請閱讀原文並自行核對。"
   },
   "disclaimer": "所有資料僅供參考，不構成投資建議。投資涉及風險，請自行判斷。"
