@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-06T21:00:22.828906+00:00",
-  "data_updated_at": "2026-10-06T21:00:22.828906+00:00",
+  "generated_at": "2026-10-07T00:40:13.167870+00:00",
+  "data_updated_at": "2026-10-07T00:40:13.167870+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-06T21:00:22.828906+00:00",
+    "generated_at": "2026-10-07T00:40:13.167870+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 6,
+      "article_count": 5,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -33,7 +33,7 @@
         "daily_change_percent": 0.55,
         "sma50": 765.22,
         "rsi14": 71.99,
-        "volume_ratio_20d": 0.76,
+        "volume_ratio_20d": 0.77,
         "trend_direction": "above",
         "trend_days": 4,
         "status": "neutral",
@@ -50,7 +50,7 @@
         "daily_change_percent": 0.46,
         "sma50": 719.81,
         "rsi14": 82.86,
-        "volume_ratio_20d": 0.78,
+        "volume_ratio_20d": 0.79,
         "trend_direction": "above",
         "trend_days": 14,
         "status": "neutral",
@@ -67,7 +67,7 @@
         "daily_change_percent": 0.48,
         "sma50": 526.44,
         "rsi14": 49.09,
-        "volume_ratio_20d": 0.8,
+        "volume_ratio_20d": 0.83,
         "trend_direction": "below",
         "trend_days": 21,
         "status": "neutral",
@@ -139,7 +139,7 @@
         "daily_change_percent": 0.55,
         "sma50": 765.22,
         "rsi14": 71.99,
-        "volume_ratio_20d": 0.76,
+        "volume_ratio_20d": 0.77,
         "trend_direction": "above",
         "trend_days": 4,
         "status": "neutral",
@@ -156,7 +156,7 @@
         "daily_change_percent": 0.46,
         "sma50": 719.81,
         "rsi14": 82.86,
-        "volume_ratio_20d": 0.78,
+        "volume_ratio_20d": 0.79,
         "trend_direction": "above",
         "trend_days": 14,
         "status": "neutral",
@@ -173,7 +173,7 @@
         "daily_change_percent": 0.48,
         "sma50": 526.44,
         "rsi14": 49.09,
-        "volume_ratio_20d": 0.8,
+        "volume_ratio_20d": 0.83,
         "trend_direction": "below",
         "trend_days": 21,
         "status": "neutral",
@@ -207,7 +207,7 @@
         "daily_change_percent": 0.22,
         "sma50": 322.35,
         "rsi14": 51.49,
-        "volume_ratio_20d": 0.7,
+        "volume_ratio_20d": 0.72,
         "trend_direction": "above",
         "trend_days": 19,
         "status": "bullish",
@@ -258,7 +258,7 @@
         "daily_change_percent": 1.95,
         "sma50": 257.43,
         "rsi14": 63.66,
-        "volume_ratio_20d": 0.92,
+        "volume_ratio_20d": 0.96,
         "trend_direction": "below",
         "trend_days": 11,
         "status": "neutral",
@@ -270,18 +270,18 @@
       },
       {
         "symbol": "META",
-        "latest_price": 738.88,
-        "previous_close": 741.9,
-        "daily_change_percent": -0.41,
-        "sma50": 630.87,
-        "rsi14": 62.36,
-        "volume_ratio_20d": 0.51,
+        "latest_price": 741.9,
+        "previous_close": 728.08,
+        "daily_change_percent": 1.9,
+        "sma50": 627.97,
+        "rsi14": 63.51,
+        "volume_ratio_20d": 0.64,
         "trend_direction": "above",
-        "trend_days": 23,
+        "trend_days": 22,
         "status": "bullish",
         "status_text": "偏多",
         "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
-        "data_points": 127,
+        "data_points": 126,
         "data_source": "Yahoo Finance Chart endpoint",
         "from_cache": false
       },
@@ -360,7 +360,7 @@
         "daily_change_percent": 1.32,
         "sma50": 932.58,
         "rsi14": 74.14,
-        "volume_ratio_20d": 0.75,
+        "volume_ratio_20d": 0.79,
         "trend_direction": "above",
         "trend_days": 1,
         "status": "neutral",
@@ -416,16 +416,15 @@
         "type": "risk",
         "severity": "warning",
         "title": "DIA 風險評分偏高",
-        "message": "DIA 目前評分為 -4，技術條件偏弱或短線風險較高。判斷因素：價格低於或等於 50 日均線；RSI 處於中間區域；成交量低於 20 日平均；價格連續 21 天低於或等於 50 日均線。這不是沽出指令，請配合新聞、估值和個人風險承受能力判斷。",
-        "reason": "價格低於或等於 50 日均線；RSI 處於中間區域；成交量低於 20 日平均；價格連續 21 天低於或等於 50 日均線",
+        "message": "DIA 目前評分為 -3，技術條件偏弱或短線風險較高。判斷因素：價格低於或等於 50 日均線；RSI 處於中間區域；價格連續 21 天低於或等於 50 日均線。這不是沽出指令，請配合新聞、估值和個人風險承受能力判斷。",
+        "reason": "價格低於或等於 50 日均線；RSI 處於中間區域；價格連續 21 天低於或等於 50 日均線",
         "factors": [
           "價格低於或等於 50 日均線",
           "RSI 處於中間區域",
-          "成交量低於 20 日平均",
           "價格連續 21 天低於或等於 50 日均線"
         ],
-        "score": -4,
-        "signal_strength": "high",
+        "score": -3,
+        "signal_strength": "medium",
         "daily_change_percent": 0.48,
         "trend_direction": "below",
         "trend_days": 21,
@@ -532,19 +531,19 @@
         "type": "attention",
         "severity": "info",
         "title": "META 值得觀察",
-        "message": "META 目前評分為 +1，有值得觀察的技術條件。判斷因素：價格高於 50 日均線；RSI 處於中間區域；成交量低於 20 日平均；價格連續 23 天高於 50 日均線。這不是買入指令，不代表價格一定會上升。",
-        "reason": "價格高於 50 日均線；RSI 處於中間區域；成交量低於 20 日平均；價格連續 23 天高於 50 日均線",
+        "message": "META 目前評分為 +1，有值得觀察的技術條件。判斷因素：價格高於 50 日均線；RSI 處於中間區域；成交量低於 20 日平均；價格連續 22 天高於 50 日均線。這不是買入指令，不代表價格一定會上升。",
+        "reason": "價格高於 50 日均線；RSI 處於中間區域；成交量低於 20 日平均；價格連續 22 天高於 50 日均線",
         "factors": [
           "價格高於 50 日均線",
           "RSI 處於中間區域",
           "成交量低於 20 日平均",
-          "價格連續 23 天高於 50 日均線"
+          "價格連續 22 天高於 50 日均線"
         ],
         "score": 1,
         "signal_strength": "low",
-        "daily_change_percent": -0.41,
+        "daily_change_percent": 1.9,
         "trend_direction": "above",
-        "trend_days": 23,
+        "trend_days": 22,
         "is_actionable": true
       },
       {
@@ -654,32 +653,13 @@
   "news": {
     "top_stories": [
       {
-        "title": "Google makes a fresh bet on nuclear power as the AI energy crunch intensifies",
-        "summary": "Constellation’s stock is rising sharply following a deal that equates to as much power as would be supplied by a new nuclear reactor.",
-        "link": "https://www.marketwatch.com/story/google-makes-a-fresh-bet-on-nuclear-power-as-the-ai-energy-crunch-intensifies-a757c296?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-06 20:24 UTC",
-        "published_at": "2026-10-06T20:24:00+00:00",
-        "age_hours": 0.61,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：GOOGL",
-          "包含市場關鍵字：stock"
-        ],
-        "related_symbols": [
-          "GOOGL"
-        ]
-      },
-      {
         "title": "The S&P 500 is back in record territory as the ‘Magnificent Seven’ ride to the rescue",
         "summary": "After trading sideways for much of the past year, the “Magnificent Seven” have been staging a comeback, helping to re-energize a bull market threatened by rising bond yields and stubbornly high crude-oil prices.",
         "link": "https://www.marketwatch.com/story/the-s-p-500-is-back-in-record-territory-as-the-magnificent-seven-ride-to-the-rescue-e062724d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-06 19:54 UTC",
-        "published_at": "2026-10-06T19:54:00+00:00",
-        "age_hours": 1.11,
+        "published": "2026-10-06 21:52 UTC",
+        "published_at": "2026-10-06T21:52:00+00:00",
+        "age_hours": 2.81,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -692,22 +672,22 @@
         ]
       },
       {
-        "title": "How Meta’s stock can surge to $1,000, according to the biggest bull on Wall Street",
-        "summary": "A Wells Fargo analyst warns of a near-term profit hit from AI infrastructure spending and legal costs — but thinks that will set up massive gains by 2028.",
-        "link": "https://www.marketwatch.com/story/how-metas-stock-can-surge-to-1-000-according-to-the-biggest-bull-on-wall-street-a91afff3?mod=mw_rss_topstories",
+        "title": "Google makes a fresh bet on nuclear power as the AI energy crunch intensifies",
+        "summary": "Constellation’s stock is rising sharply following a deal that equates to as much power as would be supplied by a new nuclear reactor.",
+        "link": "https://www.marketwatch.com/story/google-makes-a-fresh-bet-on-nuclear-power-as-the-ai-energy-crunch-intensifies-a757c296?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-06 18:20 UTC",
-        "published_at": "2026-10-06T18:20:00+00:00",
-        "age_hours": 2.68,
-        "sentiment": "positive",
-        "sentiment_reason": "市場正面關鍵字較多",
+        "published": "2026-10-06 20:24 UTC",
+        "published_at": "2026-10-06T20:24:00+00:00",
+        "age_hours": 4.27,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
         "relevance_reasons": [
-          "匹配 watchlist：META",
-          "包含市場關鍵字：stock, profit, wall street"
+          "匹配 watchlist：GOOGL",
+          "包含市場關鍵字：stock"
         ],
         "related_symbols": [
-          "META"
+          "GOOGL"
         ]
       },
       {
@@ -717,7 +697,7 @@
         "source": "MarketWatch",
         "published": "2026-10-06 20:37 UTC",
         "published_at": "2026-10-06T20:37:00+00:00",
-        "age_hours": 0.39,
+        "age_hours": 4.06,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -733,7 +713,7 @@
         "source": "MarketWatch",
         "published": "2026-10-06 20:21 UTC",
         "published_at": "2026-10-06T20:21:00+00:00",
-        "age_hours": 0.66,
+        "age_hours": 4.32,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -749,7 +729,7 @@
         "source": "MarketWatch",
         "published": "2026-10-06 18:39 UTC",
         "published_at": "2026-10-06T18:39:00+00:00",
-        "age_hours": 2.36,
+        "age_hours": 6.02,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -760,7 +740,7 @@
       }
     ],
     "sentiment_summary": {
-      "positive": 1,
+      "positive": 0,
       "neutral": 5,
       "negative": 0
     },
