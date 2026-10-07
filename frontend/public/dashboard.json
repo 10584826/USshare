@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-07T06:28:15.578730+00:00",
-  "data_updated_at": "2026-10-07T06:28:15.578730+00:00",
+  "generated_at": "2026-10-07T07:27:35.150605+00:00",
+  "data_updated_at": "2026-10-07T07:27:35.150605+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-07T06:28:15.578730+00:00",
+    "generated_at": "2026-10-07T07:27:35.150605+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 5,
+      "article_count": 6,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -108,7 +108,7 @@
       "status": "bearish",
       "status_text": "偏空",
       "explanation": "價格在 50 日均線之下；RSI 位於相對中間區域",
-      "data_points": 130,
+      "data_points": 129,
       "data_source": "Yahoo Finance Chart endpoint",
       "from_cache": false
     },
@@ -659,7 +659,7 @@
         "source": "MarketWatch",
         "published": "2026-10-06 21:52 UTC",
         "published_at": "2026-10-06T21:52:00+00:00",
-        "age_hours": 8.61,
+        "age_hours": 9.59,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -678,7 +678,7 @@
         "source": "MarketWatch",
         "published": "2026-10-06 20:24 UTC",
         "published_at": "2026-10-06T20:24:00+00:00",
-        "age_hours": 10.07,
+        "age_hours": 11.06,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -691,13 +691,29 @@
         ]
       },
       {
+        "title": "How one trend-following fund outperformed rivals by bringing humans back into the decision-making process",
+        "summary": "One trend-following fund has outperformed rivals this year by deciding to take profits.",
+        "link": "https://www.marketwatch.com/story/how-one-trend-following-fund-outperformed-rivals-by-bringing-humans-back-into-the-decision-making-process-12285e18?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-07 07:08 UTC",
+        "published_at": "2026-10-07T07:08:00+00:00",
+        "age_hours": 0.33,
+        "sentiment": "positive",
+        "sentiment_reason": "市場正面關鍵字較多",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：profit"
+        ],
+        "related_symbols": []
+      },
+      {
         "title": "Oct. 9 has loomed large in stock-market history. Why investors still shouldn’t buy into an October jinx.",
         "summary": "Not just one, but two, major market turning points since 2000 have occurred on that day.",
         "link": "https://www.marketwatch.com/story/oct-9-has-loomed-large-in-stock-market-history-why-investors-still-shouldnt-buy-into-an-october-jinx-81d7149b?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-10-06 20:37 UTC",
         "published_at": "2026-10-06T20:37:00+00:00",
-        "age_hours": 9.86,
+        "age_hours": 10.84,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -713,7 +729,7 @@
         "source": "MarketWatch",
         "published": "2026-10-06 20:21 UTC",
         "published_at": "2026-10-06T20:21:00+00:00",
-        "age_hours": 10.12,
+        "age_hours": 11.11,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -729,7 +745,7 @@
         "source": "MarketWatch",
         "published": "2026-10-06 18:39 UTC",
         "published_at": "2026-10-06T18:39:00+00:00",
-        "age_hours": 11.82,
+        "age_hours": 12.81,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -740,7 +756,7 @@
       }
     ],
     "sentiment_summary": {
-      "positive": 0,
+      "positive": 1,
       "neutral": 5,
       "negative": 0
     },
