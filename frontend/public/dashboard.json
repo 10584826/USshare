@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-09T06:04:54.288636+00:00",
-  "data_updated_at": "2026-10-09T06:04:54.288636+00:00",
+  "generated_at": "2026-10-09T13:12:22.946087+00:00",
+  "data_updated_at": "2026-10-09T13:12:22.946087+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-09T06:04:54.288636+00:00",
+    "generated_at": "2026-10-09T13:12:22.946087+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -97,14 +97,14 @@
     ],
     "vix": {
       "symbol": "^VIX",
-      "latest_price": 15.41,
-      "previous_close": 15.08,
-      "daily_change_percent": 2.19,
-      "sma50": 15.51,
-      "rsi14": 54.44,
+      "latest_price": 15.24,
+      "previous_close": 15.41,
+      "daily_change_percent": -1.1,
+      "sma50": 15.5,
+      "rsi14": 52.69,
       "volume_ratio_20d": null,
       "trend_direction": "below",
-      "trend_days": 5,
+      "trend_days": 6,
       "status": "neutral",
       "status_text": "中性",
       "explanation": "價格在 50 日均線之下；RSI 位於相對中間區域",
@@ -651,64 +651,32 @@
   "news": {
     "top_stories": [
       {
-        "title": "Micron, Nvidia and AI chip stocks fall as report on OpenAI’s revenue causes ‘undue concern’",
-        "summary": "OpenAI’s annualized revenue reportedly fell short of expectations — but analysts say that reflects differences in how the figure is reported, not weakness in AI demand.",
-        "link": "https://www.marketwatch.com/story/micron-nvidia-and-ai-chip-stocks-fall-as-report-on-openais-revenue-causes-undue-concern-2a2bcf53?mod=mw_rss_topstories",
+        "title": "Is iPhone 18 demand cooling off? Here’s how deep Apple reportedly is cutting component orders.",
+        "summary": "Component orders for the iPhone 18 Pro and the iPhone 18 Pro Max are down about 15% in October, according to Nikkei Asia.",
+        "link": "https://www.marketwatch.com/story/is-iphone-18-demand-cooling-off-heres-how-deep-apple-reportedly-is-cutting-component-orders-a44244ee?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-08 22:08 UTC",
-        "published_at": "2026-10-08T22:08:00+00:00",
-        "age_hours": 7.95,
-        "sentiment": "negative",
-        "sentiment_reason": "市場負面關鍵字較多",
+        "published": "2026-10-09 10:04 UTC",
+        "published_at": "2026-10-09T10:04:00+00:00",
+        "age_hours": 3.14,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
         "relevance_reasons": [
-          "匹配 watchlist：NVDA",
-          "包含市場關鍵字：stock, stocks, revenue"
-        ],
-        "related_symbols": [
-          "NVDA"
-        ]
-      },
-      {
-        "title": "SpaceX’s Starlink Mobile plans are pressuring AT&T and Verizon shares",
-        "summary": "SpaceX plans to purchase Grain Management’s 800 MHz spectrum portfolio in a move to bolster its mobile ambitions. The news is lifting cell-tower stocks.",
-        "link": "https://www.marketwatch.com/story/spacexs-starlink-mobile-plans-are-pressuring-at-t-and-verizon-shares-7cb56764?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-09 00:52 UTC",
-        "published_at": "2026-10-09T00:52:00+00:00",
-        "age_hours": 5.22,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, stocks, shares"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "How to downsize like a pro — and free yourself from being a ‘prisoner of your possessions’",
-        "summary": "Seven tips for painlessly moving in retirement.",
-        "link": "https://www.marketwatch.com/story/how-to-downsize-like-a-pro-and-free-yourself-from-being-a-prisoner-of-your-possessions-c4b5533e?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-09 00:03 UTC",
-        "published_at": "2026-10-09T00:03:00+00:00",
-        "age_hours": 6.03,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
+          "匹配 watchlist：AAPL",
           "包含市場關鍵字：dow"
         ],
-        "related_symbols": []
+        "related_symbols": [
+          "AAPL"
+        ]
       },
       {
         "title": "Feel like a pumpkin-spice burrito? Analysts try to wrap their heads around a possible Starbucks-Chipotle tie-up.",
         "summary": "Starbucks investors would likely not be happy about the company adding debt to finance a deal to buy Chipotle, given that it already has a high debt load.",
         "link": "https://www.marketwatch.com/story/feel-like-a-pumpkin-spice-burrito-analysts-try-to-wrap-their-heads-around-a-possible-starbucks-chipotle-tie-up-5b8519fd?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-08 23:14 UTC",
-        "published_at": "2026-10-08T23:14:00+00:00",
-        "age_hours": 6.85,
+        "published": "2026-10-09 12:06 UTC",
+        "published_at": "2026-10-09T12:06:00+00:00",
+        "age_hours": 1.11,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -718,18 +686,18 @@
         "related_symbols": []
       },
       {
-        "title": "Why a longtime skeptic of Palantir’s stock is finally saying it’s time to buy",
-        "summary": "Palantir’s total addressable market could get a lot bigger, while its business model should sustain its lead against competitors, an analyst says",
-        "link": "https://www.marketwatch.com/story/why-a-longtime-skeptic-of-palantirs-stock-is-finally-saying-its-time-to-buy-60cdeede?mod=mw_rss_topstories",
+        "title": "Aging bull: Why this 4-year-old stock-market rally still packs a punch",
+        "summary": "History shows bull markets that get past their fourth year rarely throw in the towel, according to Truist Advisory Services.",
+        "link": "https://www.marketwatch.com/story/aging-bull-why-the-four-year-old-stock-market-rally-can-still-pack-a-punch-d1271631?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-08 21:56 UTC",
-        "published_at": "2026-10-08T21:56:00+00:00",
-        "age_hours": 8.15,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
+        "published": "2026-10-09 11:41 UTC",
+        "published_at": "2026-10-09T11:41:00+00:00",
+        "age_hours": 1.53,
+        "sentiment": "positive",
+        "sentiment_reason": "市場正面關鍵字較多",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：stock, market, analyst"
+          "包含市場關鍵字：stock, market, markets"
         ],
         "related_symbols": []
       },
@@ -738,9 +706,9 @@
         "summary": "“I also have $310,000 in an IRA and $46,000 in savings. My house is paid off.”",
         "link": "https://www.marketwatch.com/story/im-a-68-year-old-widow-my-two-adult-children-keep-asking-me-for-money-are-they-taking-advantage-of-me-f725374e?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-08 21:15 UTC",
-        "published_at": "2026-10-08T21:15:00+00:00",
-        "age_hours": 8.83,
+        "published": "2026-10-09 10:15 UTC",
+        "published_at": "2026-10-09T10:15:00+00:00",
+        "age_hours": 2.96,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -748,12 +716,44 @@
           "包含市場關鍵字：dow"
         ],
         "related_symbols": []
+      },
+      {
+        "title": "‘I feel like a loser’: My ETFs go up one day and crash the next. Is this a bad sign?",
+        "summary": "“I presume these are sophisticated investors taking a profit.”",
+        "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-09 09:15 UTC",
+        "published_at": "2026-10-09T09:15:00+00:00",
+        "age_hours": 3.96,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：profit, investor, etf"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "Why the price of this one ETF has gone exponential",
+        "summary": "An exchange-traded fund tied to freight futures is surging.",
+        "link": "https://www.marketwatch.com/story/why-the-price-of-this-one-exchange-traded-fund-has-suddenly-gone-exponential-7ef3d93d?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-09 09:12 UTC",
+        "published_at": "2026-10-09T09:12:00+00:00",
+        "age_hours": 4.01,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：etf"
+        ],
+        "related_symbols": []
       }
     ],
     "sentiment_summary": {
-      "positive": 0,
+      "positive": 1,
       "neutral": 5,
-      "negative": 1
+      "negative": 0
     },
     "errors": [
       "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
