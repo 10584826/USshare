@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-10T09:00:25.279642+00:00",
-  "data_updated_at": "2026-10-10T09:00:25.279642+00:00",
+  "generated_at": "2026-10-10T15:21:07.216413+00:00",
+  "data_updated_at": "2026-10-10T15:21:07.216413+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-10T09:00:25.279642+00:00",
+    "generated_at": "2026-10-10T15:21:07.216413+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -658,13 +658,51 @@
   "news": {
     "top_stories": [
       {
+        "title": "Why Nvidia’s stock is dodging the AI credit scare that is crushing Broadcom and Oracle",
+        "summary": "The P/E ratios have contracted and the CDS spreads have widened in all three cases, but Nvidia appears unscathed",
+        "link": "https://www.marketwatch.com/story/why-nvidias-stock-is-dodging-the-ai-credit-scare-that-is-crushing-broadcom-and-oracle-abc8f598?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-10 12:30 UTC",
+        "published_at": "2026-10-10T12:30:00+00:00",
+        "age_hours": 2.85,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 4,
+        "relevance_reasons": [
+          "匹配 watchlist：NVDA",
+          "包含市場關鍵字：stock"
+        ],
+        "related_symbols": [
+          "NVDA"
+        ]
+      },
+      {
+        "title": "S&P 500 at 10,000 or bust: New ETF offers investors all-or-nothing bet on the index",
+        "summary": "Wall Street has continued to blur the lines between investing and gambling with one recently launched exchange-traded fund.",
+        "link": "https://www.marketwatch.com/story/s-p-500-at-10-000-or-bust-new-etf-offers-investors-all-or-nothing-bet-on-the-index-c7d9269f?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-10 11:00 UTC",
+        "published_at": "2026-10-10T11:00:00+00:00",
+        "age_hours": 4.35,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 4,
+        "relevance_reasons": [
+          "匹配 watchlist：SPY",
+          "包含市場關鍵字：investor, s&p, etf"
+        ],
+        "related_symbols": [
+          "SPY"
+        ]
+      },
+      {
         "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
         "summary": "“The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.”",
         "link": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-10 00:15 UTC",
-        "published_at": "2026-10-10T00:15:00+00:00",
-        "age_hours": 8.76,
+        "published": "2026-10-10 11:00 UTC",
+        "published_at": "2026-10-10T11:00:00+00:00",
+        "age_hours": 4.35,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -677,51 +715,13 @@
         ]
       },
       {
-        "title": "Is iPhone 18 demand cooling off? Here’s how deep Apple reportedly is cutting component orders.",
-        "summary": "Component orders for the iPhone 18 Pro and the iPhone 18 Pro Max are down about 15% in October, according to Nikkei Asia.",
-        "link": "https://www.marketwatch.com/story/is-iphone-18-demand-cooling-off-heres-how-deep-apple-reportedly-is-cutting-component-orders-a44244ee?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-09 21:30 UTC",
-        "published_at": "2026-10-09T21:30:00+00:00",
-        "age_hours": 11.51,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：AAPL",
-          "包含市場關鍵字：dow"
-        ],
-        "related_symbols": [
-          "AAPL"
-        ]
-      },
-      {
-        "title": "Microsoft is nearing a big milestone that solidifies its revival",
-        "summary": "Microsoft is close to reclaiming a $4 trillion market cap — and fresh records are also in sight.",
-        "link": "https://www.marketwatch.com/story/microsoft-is-nearing-a-big-milestone-that-solidifies-its-revival-580d1ba8?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-09 21:24 UTC",
-        "published_at": "2026-10-09T21:24:00+00:00",
-        "age_hours": 11.61,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：MSFT",
-          "包含市場關鍵字：market"
-        ],
-        "related_symbols": [
-          "MSFT"
-        ]
-      },
-      {
-        "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Should I be worried?",
+        "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?",
         "summary": "“I presume these are sophisticated investors taking a profit.”",
         "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-10 03:15 UTC",
-        "published_at": "2026-10-10T03:15:00+00:00",
-        "age_hours": 5.76,
+        "published": "2026-10-10 15:05 UTC",
+        "published_at": "2026-10-10T15:05:00+00:00",
+        "age_hours": 0.27,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -731,34 +731,34 @@
         "related_symbols": []
       },
       {
-        "title": "AI chip stocks wobble even as investors get clarity on a key OpenAI issue",
-        "summary": "A new report paints OpenAI’s financial picture in a more optimistic light.",
-        "link": "https://www.marketwatch.com/story/nvidia-and-micron-shares-bounce-as-investors-get-clarity-on-a-key-openai-matter-ba76ed20?mod=mw_rss_topstories",
+        "title": "‘The pain was excruciating’: A friend in her 80s fell down her basement stairs. What could we have done to prevent it?",
+        "summary": "“She developed pleural effusion — fluid between the lungs and ribs — compressing her lungs and making it hard for her to breathe.”",
+        "link": "https://www.marketwatch.com/story/the-pain-was-excruciating-a-friend-in-her-80s-fell-down-her-basement-stairs-could-it-have-been-avoided-ce105db6?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-09 21:27 UTC",
-        "published_at": "2026-10-09T21:27:00+00:00",
-        "age_hours": 11.56,
+        "published": "2026-10-10 13:15 UTC",
+        "published_at": "2026-10-10T13:15:00+00:00",
+        "age_hours": 2.1,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：stock, stocks, investor"
+          "包含市場關鍵字：dow"
         ],
         "related_symbols": []
       },
       {
-        "title": "As AT&T, Verizon and T-Mobile shares fall, Wall Street assesses the growing SpaceX threat",
-        "summary": "Telecommunications stocks saw their worst daily drops in over a decade.",
-        "link": "https://www.marketwatch.com/story/as-at-t-verizon-and-t-mobile-shares-fall-wall-street-assesses-the-growing-spacex-threat-e869ef9e?mod=mw_rss_topstories",
+        "title": "‘What you don’t know is greater than anything you do know’: How Ray Dalio would build a portfolio to withstand a popping AI bubble",
+        "summary": "Look for inflation protection and unappreciated players in artificial intelligence, says the famed hedge-fund founder.",
+        "link": "https://www.marketwatch.com/story/what-you-dont-know-is-greater-than-anything-you-do-know-how-ray-dalio-would-build-a-portfolio-to-withstand-a-popping-ai-bubble-2491ac6b?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-09 21:07 UTC",
-        "published_at": "2026-10-09T21:07:00+00:00",
-        "age_hours": 11.89,
+        "published": "2026-10-10 12:00 UTC",
+        "published_at": "2026-10-10T12:00:00+00:00",
+        "age_hours": 3.35,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：stock, stocks, shares"
+          "包含市場關鍵字：inflation"
         ],
         "related_symbols": []
       }
