@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-10T02:20:32.426965+00:00",
-  "data_updated_at": "2026-10-10T02:20:32.426965+00:00",
+  "generated_at": "2026-10-10T09:00:25.279642+00:00",
+  "data_updated_at": "2026-10-10T09:00:25.279642+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-10T02:20:32.426965+00:00",
+    "generated_at": "2026-10-10T09:00:25.279642+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -664,7 +664,7 @@
         "source": "MarketWatch",
         "published": "2026-10-10 00:15 UTC",
         "published_at": "2026-10-10T00:15:00+00:00",
-        "age_hours": 2.1,
+        "age_hours": 8.76,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -683,7 +683,7 @@
         "source": "MarketWatch",
         "published": "2026-10-09 21:30 UTC",
         "published_at": "2026-10-09T21:30:00+00:00",
-        "age_hours": 4.85,
+        "age_hours": 11.51,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -702,7 +702,7 @@
         "source": "MarketWatch",
         "published": "2026-10-09 21:24 UTC",
         "published_at": "2026-10-09T21:24:00+00:00",
-        "age_hours": 4.95,
+        "age_hours": 11.61,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -715,18 +715,18 @@
         ]
       },
       {
-        "title": "‘I feel like a loser’: I check my ETFs every day. They’re up one minute, down the next. Should I be worried?",
+        "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Should I be worried?",
         "summary": "“I presume these are sophisticated investors taking a profit.”",
         "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-10 00:00 UTC",
-        "published_at": "2026-10-10T00:00:00+00:00",
-        "age_hours": 2.35,
+        "published": "2026-10-10 03:15 UTC",
+        "published_at": "2026-10-10T03:15:00+00:00",
+        "age_hours": 5.76,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：profit, investor, dow"
+          "包含市場關鍵字：stock, profit, investor"
         ],
         "related_symbols": []
       },
@@ -737,7 +737,7 @@
         "source": "MarketWatch",
         "published": "2026-10-09 21:27 UTC",
         "published_at": "2026-10-09T21:27:00+00:00",
-        "age_hours": 4.9,
+        "age_hours": 11.56,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -753,7 +753,7 @@
         "source": "MarketWatch",
         "published": "2026-10-09 21:07 UTC",
         "published_at": "2026-10-09T21:07:00+00:00",
-        "age_hours": 5.23,
+        "age_hours": 11.89,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
