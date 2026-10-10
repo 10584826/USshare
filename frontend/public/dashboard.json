@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-09T23:15:06.932271+00:00",
-  "data_updated_at": "2026-10-09T23:15:06.932271+00:00",
+  "generated_at": "2026-10-10T02:20:32.426965+00:00",
+  "data_updated_at": "2026-10-10T02:20:32.426965+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-09T23:15:06.932271+00:00",
+    "generated_at": "2026-10-10T02:20:32.426965+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -50,7 +50,7 @@
         "daily_change_percent": 0.49,
         "sma50": 724.52,
         "rsi14": 57.83,
-        "volume_ratio_20d": 0.61,
+        "volume_ratio_20d": 0.62,
         "trend_direction": "above",
         "trend_days": 17,
         "status": "bullish",
@@ -67,7 +67,7 @@
         "daily_change_percent": 0.87,
         "sma50": 525.94,
         "rsi14": 44.83,
-        "volume_ratio_20d": 0.77,
+        "volume_ratio_20d": 0.79,
         "trend_direction": "below",
         "trend_days": 24,
         "status": "bearish",
@@ -156,7 +156,7 @@
         "daily_change_percent": 0.49,
         "sma50": 724.52,
         "rsi14": 57.83,
-        "volume_ratio_20d": 0.61,
+        "volume_ratio_20d": 0.62,
         "trend_direction": "above",
         "trend_days": 17,
         "status": "bullish",
@@ -173,7 +173,7 @@
         "daily_change_percent": 0.87,
         "sma50": 525.94,
         "rsi14": 44.83,
-        "volume_ratio_20d": 0.77,
+        "volume_ratio_20d": 0.79,
         "trend_direction": "below",
         "trend_days": 24,
         "status": "bearish",
@@ -207,7 +207,7 @@
         "daily_change_percent": -1.11,
         "sma50": 322.39,
         "rsi14": 47.29,
-        "volume_ratio_20d": 0.98,
+        "volume_ratio_20d": 0.99,
         "trend_direction": "above",
         "trend_days": 22,
         "status": "bullish",
@@ -224,7 +224,7 @@
         "daily_change_percent": 2.38,
         "sma50": 500.45,
         "rsi14": 72.33,
-        "volume_ratio_20d": 0.81,
+        "volume_ratio_20d": 0.83,
         "trend_direction": "above",
         "trend_days": 51,
         "status": "neutral",
@@ -258,7 +258,7 @@
         "daily_change_percent": 3.29,
         "sma50": 259.1,
         "rsi14": 54.61,
-        "volume_ratio_20d": 0.91,
+        "volume_ratio_20d": 0.95,
         "trend_direction": "above",
         "trend_days": 1,
         "status": "bullish",
@@ -275,7 +275,7 @@
         "daily_change_percent": -0.31,
         "sma50": 639.73,
         "rsi14": 43.88,
-        "volume_ratio_20d": 0.57,
+        "volume_ratio_20d": 0.58,
         "trend_direction": "above",
         "trend_days": 26,
         "status": "bullish",
@@ -326,7 +326,7 @@
         "daily_change_percent": 0.39,
         "sma50": 371.87,
         "rsi14": 49.37,
-        "volume_ratio_20d": 0.68,
+        "volume_ratio_20d": 0.69,
         "trend_direction": "below",
         "trend_days": 2,
         "status": "neutral",
@@ -658,13 +658,32 @@
   "news": {
     "top_stories": [
       {
+        "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
+        "summary": "“The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.”",
+        "link": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-10 00:15 UTC",
+        "published_at": "2026-10-10T00:15:00+00:00",
+        "age_hours": 2.1,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 4,
+        "relevance_reasons": [
+          "匹配 watchlist：COST",
+          "包含市場關鍵字：dow"
+        ],
+        "related_symbols": [
+          "COST"
+        ]
+      },
+      {
         "title": "Is iPhone 18 demand cooling off? Here’s how deep Apple reportedly is cutting component orders.",
         "summary": "Component orders for the iPhone 18 Pro and the iPhone 18 Pro Max are down about 15% in October, according to Nikkei Asia.",
         "link": "https://www.marketwatch.com/story/is-iphone-18-demand-cooling-off-heres-how-deep-apple-reportedly-is-cutting-component-orders-a44244ee?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-10-09 21:30 UTC",
         "published_at": "2026-10-09T21:30:00+00:00",
-        "age_hours": 1.75,
+        "age_hours": 4.85,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -683,7 +702,7 @@
         "source": "MarketWatch",
         "published": "2026-10-09 21:24 UTC",
         "published_at": "2026-10-09T21:24:00+00:00",
-        "age_hours": 1.85,
+        "age_hours": 4.95,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -696,23 +715,20 @@
         ]
       },
       {
-        "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
-        "summary": "“The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.”",
-        "link": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
+        "title": "‘I feel like a loser’: I check my ETFs every day. They’re up one minute, down the next. Should I be worried?",
+        "summary": "“I presume these are sophisticated investors taking a profit.”",
+        "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-09 20:15 UTC",
-        "published_at": "2026-10-09T20:15:00+00:00",
-        "age_hours": 3.0,
+        "published": "2026-10-10 00:00 UTC",
+        "published_at": "2026-10-10T00:00:00+00:00",
+        "age_hours": 2.35,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
+        "relevance_score": 1,
         "relevance_reasons": [
-          "匹配 watchlist：COST",
-          "包含市場關鍵字：dow"
+          "包含市場關鍵字：profit, investor, dow"
         ],
-        "related_symbols": [
-          "COST"
-        ]
+        "related_symbols": []
       },
       {
         "title": "AI chip stocks wobble even as investors get clarity on a key OpenAI issue",
@@ -721,28 +737,12 @@
         "source": "MarketWatch",
         "published": "2026-10-09 21:27 UTC",
         "published_at": "2026-10-09T21:27:00+00:00",
-        "age_hours": 1.8,
+        "age_hours": 4.9,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
           "包含市場關鍵字：stock, stocks, investor"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "‘I feel like a loser’: I check my ETFs every day. They’re up one minute, down the next. Should I be worried?",
-        "summary": "“I presume these are sophisticated investors taking a profit.”",
-        "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-09 21:15 UTC",
-        "published_at": "2026-10-09T21:15:00+00:00",
-        "age_hours": 2.0,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：profit, investor, dow"
         ],
         "related_symbols": []
       },
@@ -753,7 +753,7 @@
         "source": "MarketWatch",
         "published": "2026-10-09 21:07 UTC",
         "published_at": "2026-10-09T21:07:00+00:00",
-        "age_hours": 2.14,
+        "age_hours": 5.23,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
