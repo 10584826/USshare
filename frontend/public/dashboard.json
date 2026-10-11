@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-11T19:32:43.972118+00:00",
-  "data_updated_at": "2026-10-11T19:32:43.972118+00:00",
+  "generated_at": "2026-10-11T23:09:32.351528+00:00",
+  "data_updated_at": "2026-10-11T23:09:32.351528+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-11T19:32:43.972118+00:00",
+    "generated_at": "2026-10-11T23:09:32.351528+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -662,9 +662,9 @@
         "summary": "“The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.”",
         "link": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-11 12:00 UTC",
-        "published_at": "2026-10-11T12:00:00+00:00",
-        "age_hours": 7.55,
+        "published": "2026-10-11 20:15 UTC",
+        "published_at": "2026-10-11T20:15:00+00:00",
+        "age_hours": 2.91,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -677,13 +677,45 @@
         ]
       },
       {
+        "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?",
+        "summary": "“I presume these are sophisticated investors taking a profit.”",
+        "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-11 20:00 UTC",
+        "published_at": "2026-10-11T20:00:00+00:00",
+        "age_hours": 3.16,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：stock, profit, investor"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "I’m a 68-year-old widow and give money to my two adult children. Am I putting my retirement at risk?",
+        "summary": "“I also have $310,000 in an IRA and $46,000 in savings. My house is paid off.”",
+        "link": "https://www.marketwatch.com/story/im-a-68-year-old-widow-my-two-adult-children-keep-asking-me-for-money-are-they-taking-advantage-of-me-f725374e?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-11 19:32 UTC",
+        "published_at": "2026-10-11T19:32:00+00:00",
+        "age_hours": 3.63,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：dow"
+        ],
+        "related_symbols": []
+      },
+      {
         "title": "We’re about to get a huge read on whether earnings can keep propping up the stock market",
         "summary": "High hopes for third-quarter earnings are outweighing concerns around interest rates and oil prices — but one expert warns markets have gotten “extremely complacent.”",
         "link": "https://www.marketwatch.com/story/were-about-to-get-a-huge-read-on-whether-earnings-can-keep-propping-up-the-stock-market-459b565b?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-10-11 14:00 UTC",
         "published_at": "2026-10-11T14:00:00+00:00",
-        "age_hours": 5.55,
+        "age_hours": 9.16,
         "sentiment": "negative",
         "sentiment_reason": "市場負面關鍵字較多",
         "relevance_score": 1,
@@ -699,28 +731,12 @@
         "source": "MarketWatch",
         "published": "2026-10-11 13:00 UTC",
         "published_at": "2026-10-11T13:00:00+00:00",
-        "age_hours": 6.55,
+        "age_hours": 10.16,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
           "包含市場關鍵字：market"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?",
-        "summary": "“I presume these are sophisticated investors taking a profit.”",
-        "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-11 12:30 UTC",
-        "published_at": "2026-10-11T12:30:00+00:00",
-        "age_hours": 7.05,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, profit, investor"
         ],
         "related_symbols": []
       },
@@ -731,28 +747,12 @@
         "source": "MarketWatch",
         "published": "2026-10-11 12:00 UTC",
         "published_at": "2026-10-11T12:00:00+00:00",
-        "age_hours": 7.55,
+        "age_hours": 11.16,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
           "包含市場關鍵字：earnings, economy"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "Should I put my nest egg in a 30-year Treasury bond?",
-        "summary": "Risk comes in many forms, even with “safe” investments.",
-        "link": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-10 19:44 UTC",
-        "published_at": "2026-10-10T19:44:00+00:00",
-        "age_hours": 23.82,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：bond, treasury"
         ],
         "related_symbols": []
       }
