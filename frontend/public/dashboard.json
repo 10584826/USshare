@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-11T08:46:16.130936+00:00",
-  "data_updated_at": "2026-10-11T08:46:16.130936+00:00",
+  "generated_at": "2026-10-11T15:06:21.171858+00:00",
+  "data_updated_at": "2026-10-11T15:06:21.171858+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-11T08:46:16.130936+00:00",
+    "generated_at": "2026-10-11T15:06:21.171858+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 4,
+      "article_count": 6,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -658,50 +658,53 @@
   "news": {
     "top_stories": [
       {
-        "title": "Should I put my nest egg in a 30-year Treasury bond?",
-        "summary": "Risk comes in many forms, even with “safe” investments.",
-        "link": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
+        "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
+        "summary": "“The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.”",
+        "link": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-10 19:44 UTC",
-        "published_at": "2026-10-10T19:44:00+00:00",
-        "age_hours": 13.04,
+        "published": "2026-10-11 12:00 UTC",
+        "published_at": "2026-10-11T12:00:00+00:00",
+        "age_hours": 3.11,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
+        "relevance_score": 4,
         "relevance_reasons": [
-          "包含市場關鍵字：bond, treasury"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "How to downsize like a pro — and free yourself from being a ‘prisoner of your possessions’",
-        "summary": "Seven tips for painlessly moving in retirement.",
-        "link": "https://www.marketwatch.com/story/how-to-downsize-like-a-pro-and-free-yourself-from-being-a-prisoner-of-your-possessions-c4b5533e?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-10 19:44 UTC",
-        "published_at": "2026-10-10T19:44:00+00:00",
-        "age_hours": 13.04,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
+          "匹配 watchlist：COST",
           "包含市場關鍵字：dow"
         ],
+        "related_symbols": [
+          "COST"
+        ]
+      },
+      {
+        "title": "We’re about to get a huge read on whether earnings can keep propping up the stock market",
+        "summary": "High hopes for third-quarter earnings are outweighing concerns around interest rates and oil prices — but one expert warns markets have gotten “extremely complacent.”",
+        "link": "https://www.marketwatch.com/story/were-about-to-get-a-huge-read-on-whether-earnings-can-keep-propping-up-the-stock-market-459b565b?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-11 14:00 UTC",
+        "published_at": "2026-10-11T14:00:00+00:00",
+        "age_hours": 1.11,
+        "sentiment": "negative",
+        "sentiment_reason": "市場負面關鍵字較多",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：stock, market, markets"
+        ],
         "related_symbols": []
       },
       {
-        "title": "Rising interest rates: The good, the bad and the ugly for retirees",
-        "summary": "Unlike higher gas prices, which hurt almost everyone, higher borrowing costs have an uneven impact.",
-        "link": "https://www.marketwatch.com/story/the-good-the-bad-and-the-ugly-of-rising-interest-rates-ee465a81?mod=mw_rss_topstories",
+        "title": "The bull market is turning 4 years old — but yields could crash the party",
+        "summary": "For four years, tech has been the answer to almost every question about this bull market.",
+        "link": "https://www.marketwatch.com/story/the-bull-market-is-turning-4-years-old-but-yields-could-crash-the-party-1305fe6c?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-10 19:44 UTC",
-        "published_at": "2026-10-10T19:44:00+00:00",
-        "age_hours": 13.04,
+        "published": "2026-10-11 13:00 UTC",
+        "published_at": "2026-10-11T13:00:00+00:00",
+        "age_hours": 2.11,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：interest rate"
+          "包含市場關鍵字：market"
         ],
         "related_symbols": []
       },
@@ -710,9 +713,9 @@
         "summary": "“I presume these are sophisticated investors taking a profit.”",
         "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-10 18:31 UTC",
-        "published_at": "2026-10-10T18:31:00+00:00",
-        "age_hours": 14.26,
+        "published": "2026-10-11 12:30 UTC",
+        "published_at": "2026-10-11T12:30:00+00:00",
+        "age_hours": 2.61,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -720,12 +723,44 @@
           "包含市場關鍵字：stock, profit, investor"
         ],
         "related_symbols": []
+      },
+      {
+        "title": "Bank earnings to shed the first light on how higher yields are affecting the economy",
+        "summary": "The big banks kick off earnings season on Tuesday, to provide a first read on the health of the economy in a rising-yield environment.",
+        "link": "https://www.marketwatch.com/story/bank-earnings-to-shed-the-first-light-on-how-higher-yields-are-affecting-the-economy-cf3763ef?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-11 12:00 UTC",
+        "published_at": "2026-10-11T12:00:00+00:00",
+        "age_hours": 3.11,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：earnings, economy"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "Should I put my nest egg in a 30-year Treasury bond?",
+        "summary": "Risk comes in many forms, even with “safe” investments.",
+        "link": "https://www.marketwatch.com/story/should-i-put-my-nest-egg-in-a-30-year-treasury-bond-89db6e09?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-10 19:44 UTC",
+        "published_at": "2026-10-10T19:44:00+00:00",
+        "age_hours": 19.37,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：bond, treasury"
+        ],
+        "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 4,
-      "negative": 0
+      "neutral": 5,
+      "negative": 1
     },
     "errors": [
       "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
