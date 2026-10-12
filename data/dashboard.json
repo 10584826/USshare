@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-12T02:22:10.479182+00:00",
-  "data_updated_at": "2026-10-12T02:22:10.479182+00:00",
+  "generated_at": "2026-10-12T09:45:16.307812+00:00",
+  "data_updated_at": "2026-10-12T09:45:16.307812+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-12T02:22:10.479182+00:00",
+    "generated_at": "2026-10-12T09:45:16.307812+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -97,18 +97,18 @@
     ],
     "vix": {
       "symbol": "^VIX",
-      "latest_price": 14.84,
-      "previous_close": 15.41,
-      "daily_change_percent": -3.7,
-      "sma50": 15.49,
-      "rsi14": 49.79,
+      "latest_price": 15.43,
+      "previous_close": 14.84,
+      "daily_change_percent": 3.98,
+      "sma50": 15.48,
+      "rsi14": 58.47,
       "volume_ratio_20d": null,
       "trend_direction": "below",
-      "trend_days": 6,
+      "trend_days": 7,
       "status": "neutral",
       "status_text": "中性",
       "explanation": "價格在 50 日均線之下；RSI 位於相對中間區域",
-      "data_points": 130,
+      "data_points": 129,
       "data_source": "Yahoo Finance Chart endpoint",
       "from_cache": false
     },
@@ -664,7 +664,7 @@
         "source": "MarketWatch",
         "published": "2026-10-11 20:15 UTC",
         "published_at": "2026-10-11T20:15:00+00:00",
-        "age_hours": 6.12,
+        "age_hours": 13.51,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -677,13 +677,61 @@
         ]
       },
       {
+        "title": "The bond market is doing the Fed’s job, and that could be good news for stocks, says Morgan Stanley strategist",
+        "summary": "A stronger dollar, higher bond market yields and elevated gas prices are already tightening financial conditions in the U.S. to the point that Kevin Warsh may not even need to hike rates.",
+        "link": "https://www.marketwatch.com/story/the-bond-market-is-doing-the-feds-job-and-that-could-be-good-news-for-stocks-says-morgan-stanley-strategist-ec57b81a?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-12 09:23 UTC",
+        "published_at": "2026-10-12T09:23:00+00:00",
+        "age_hours": 0.37,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：stock, stocks, market"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "My sister moved in with our widowed mother, 78, and says she deserves the family home. Is she right?",
+        "summary": "“The house is worth $925,000 and mom owns it outright. She also has $480,000 in investments.”",
+        "link": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-12 09:15 UTC",
+        "published_at": "2026-10-12T09:15:00+00:00",
+        "age_hours": 0.51,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：dow"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "Here’s why Goldman Sachs just flipped bullish on stocks for the rest of the year",
+        "summary": "Goldman Sachs is leaning more heavily into stocks for the remainder of the year. That’s down to earnings and a market that has overall gotten cheaper.",
+        "link": "https://www.marketwatch.com/story/heres-why-goldman-sachs-just-flipped-bullish-on-stocks-for-the-rest-of-the-year-dfa3b0af?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-12 09:14 UTC",
+        "published_at": "2026-10-12T09:14:00+00:00",
+        "age_hours": 0.52,
+        "sentiment": "positive",
+        "sentiment_reason": "市場正面關鍵字較多",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：stock, stocks, market"
+        ],
+        "related_symbols": []
+      },
+      {
         "title": "‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?",
         "summary": "“I presume these are sophisticated investors taking a profit.”",
         "link": "https://www.marketwatch.com/story/i-feel-like-a-loser-my-etfs-go-up-one-day-and-crash-the-next-is-this-a-bad-sign-0c9848b2?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-10-11 20:00 UTC",
         "published_at": "2026-10-11T20:00:00+00:00",
-        "age_hours": 6.37,
+        "age_hours": 13.76,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -699,7 +747,7 @@
         "source": "MarketWatch",
         "published": "2026-10-11 19:32 UTC",
         "published_at": "2026-10-11T19:32:00+00:00",
-        "age_hours": 6.84,
+        "age_hours": 14.22,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -707,60 +755,12 @@
           "包含市場關鍵字：dow"
         ],
         "related_symbols": []
-      },
-      {
-        "title": "We’re about to get a huge read on whether earnings can keep propping up the stock market",
-        "summary": "High hopes for third-quarter earnings are outweighing concerns around interest rates and oil prices — but one expert warns markets have gotten “extremely complacent.”",
-        "link": "https://www.marketwatch.com/story/were-about-to-get-a-huge-read-on-whether-earnings-can-keep-propping-up-the-stock-market-459b565b?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-11 14:00 UTC",
-        "published_at": "2026-10-11T14:00:00+00:00",
-        "age_hours": 12.37,
-        "sentiment": "negative",
-        "sentiment_reason": "市場負面關鍵字較多",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, market, markets"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "The bull market is turning 4 years old — but yields could crash the party",
-        "summary": "For four years, tech has been the answer to almost every question about this bull market.",
-        "link": "https://www.marketwatch.com/story/the-bull-market-is-turning-4-years-old-but-yields-could-crash-the-party-1305fe6c?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-11 13:00 UTC",
-        "published_at": "2026-10-11T13:00:00+00:00",
-        "age_hours": 13.37,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：market"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "Bank earnings to shed the first light on how higher yields are affecting the economy",
-        "summary": "The big banks kick off earnings season on Tuesday, to provide a first read on the health of the economy in a rising-yield environment.",
-        "link": "https://www.marketwatch.com/story/bank-earnings-to-shed-the-first-light-on-how-higher-yields-are-affecting-the-economy-cf3763ef?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-11 12:00 UTC",
-        "published_at": "2026-10-11T12:00:00+00:00",
-        "age_hours": 14.37,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：earnings, economy"
-        ],
-        "related_symbols": []
       }
     ],
     "sentiment_summary": {
-      "positive": 0,
+      "positive": 1,
       "neutral": 5,
-      "negative": 1
+      "negative": 0
     },
     "errors": [
       "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
