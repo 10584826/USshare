@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-14T05:23:48.766391+00:00",
-  "data_updated_at": "2026-10-14T05:23:48.766391+00:00",
+  "generated_at": "2026-10-14T10:36:35.440158+00:00",
+  "data_updated_at": "2026-10-14T10:36:35.440158+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-14T05:23:48.766391+00:00",
+    "generated_at": "2026-10-14T10:36:35.440158+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 6,
+      "article_count": 5,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -97,14 +97,14 @@
     ],
     "vix": {
       "symbol": "^VIX",
-      "latest_price": 15.27,
-      "previous_close": 15.21,
-      "daily_change_percent": 0.39,
-      "sma50": 15.45,
-      "rsi14": 50.74,
+      "latest_price": 15.22,
+      "previous_close": 15.27,
+      "daily_change_percent": -0.33,
+      "sma50": 15.44,
+      "rsi14": 46.0,
       "volume_ratio_20d": null,
       "trend_direction": "below",
-      "trend_days": 8,
+      "trend_days": 9,
       "status": "neutral",
       "status_text": "中性",
       "explanation": "價格在 50 日均線之下；RSI 位於相對中間區域",
@@ -652,37 +652,34 @@
   "news": {
     "top_stories": [
       {
-        "title": "UnitedHealth keeps medical costs under control — and raises its outlook again",
-        "summary": "The health-insurance giant said its medical-cost ratio was 88.4% in the third quarter of this year, as the company tries to rein in spending on medical care.",
-        "link": "https://www.marketwatch.com/story/unitedhealth-keeps-medical-costs-under-control-and-raises-its-outlook-again-71abc99c?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-13 20:29 UTC",
-        "published_at": "2026-10-13T20:29:00+00:00",
-        "age_hours": 8.92,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：COST",
-          "包含市場關鍵字：quarter"
-        ],
-        "related_symbols": [
-          "COST"
-        ]
-      },
-      {
-        "title": "My wife says we can’t afford to retire, yet she wants to take an $8,000 trip to Italy. We have $4 million. Do I keep working?",
+        "title": "My wife says we can’t afford to retire, so I vetoed her $8,000 trip to Italy. We have $4 million saved. Do I keep working?",
         "summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
         "link": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-14 01:25 UTC",
-        "published_at": "2026-10-14T01:25:00+00:00",
-        "age_hours": 3.98,
+        "published": "2026-10-14 10:16 UTC",
+        "published_at": "2026-10-14T10:16:00+00:00",
+        "age_hours": 0.35,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
           "包含市場關鍵字：market, inflation"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "Investors have made big bets on tech stocks. Why one strategist just downgraded the sector.",
+        "summary": "Slowing flows into tech stocks as valuations deteriorate has one strategist lowering the firm’s rating on tech stocks.",
+        "link": "https://www.marketwatch.com/story/investors-have-made-big-bets-on-tech-stocks-why-one-strategist-just-downgraded-the-sector-4c893077?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-14 10:00 UTC",
+        "published_at": "2026-10-14T10:00:00+00:00",
+        "age_hours": 0.61,
+        "sentiment": "negative",
+        "sentiment_reason": "市場負面關鍵字較多",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：stock, stocks, investor"
         ],
         "related_symbols": []
       },
@@ -693,7 +690,7 @@
         "source": "MarketWatch",
         "published": "2026-10-13 21:02 UTC",
         "published_at": "2026-10-13T21:02:00+00:00",
-        "age_hours": 8.37,
+        "age_hours": 13.58,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -709,7 +706,7 @@
         "source": "MarketWatch",
         "published": "2026-10-13 20:42 UTC",
         "published_at": "2026-10-13T20:42:00+00:00",
-        "age_hours": 8.7,
+        "age_hours": 13.91,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -725,7 +722,7 @@
         "source": "MarketWatch",
         "published": "2026-10-13 20:41 UTC",
         "published_at": "2026-10-13T20:41:00+00:00",
-        "age_hours": 8.72,
+        "age_hours": 13.93,
         "sentiment": "negative",
         "sentiment_reason": "市場負面關鍵字較多",
         "relevance_score": 1,
@@ -733,28 +730,12 @@
           "包含市場關鍵字：stock, shares"
         ],
         "related_symbols": []
-      },
-      {
-        "title": "AST SpaceMobile’s stock is feeling the heat from SpaceX’s wireless plans",
-        "summary": "AST’s commercial rollout could face delays due to satellite-launch challenges and SpaceX’s growing ambitions, an analyst warns.",
-        "link": "https://www.marketwatch.com/story/ast-spacemobiles-stock-is-feeling-the-heat-from-spacexs-wireless-plans-7e2fafb4?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-13 20:32 UTC",
-        "published_at": "2026-10-13T20:32:00+00:00",
-        "age_hours": 8.87,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, analyst"
-        ],
-        "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 5,
-      "negative": 1
+      "neutral": 3,
+      "negative": 2
     },
     "errors": [
       "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
