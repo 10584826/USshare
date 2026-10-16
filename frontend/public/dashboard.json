@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-16T21:42:58.636890+00:00",
-  "data_updated_at": "2026-10-16T21:42:58.636890+00:00",
+  "generated_at": "2026-10-16T23:52:34.472425+00:00",
+  "data_updated_at": "2026-10-16T23:52:34.472425+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-16T21:42:58.636890+00:00",
+    "generated_at": "2026-10-16T23:52:34.472425+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -659,7 +659,7 @@
         "source": "MarketWatch",
         "published": "2026-10-16 19:45 UTC",
         "published_at": "2026-10-16T19:45:00+00:00",
-        "age_hours": 1.97,
+        "age_hours": 4.13,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -672,41 +672,20 @@
         ]
       },
       {
-        "title": "Did this year’s COLA beat inflation? Here’s how spending by American seniors stacks up so far in 2026.",
-        "summary": "The cost-of-living adjustment for 2027 will be 3.6%, which will give Social Security recipients an average of $75 more per month.",
-        "link": "https://www.marketwatch.com/story/did-this-years-cola-beat-inflation-heres-how-spending-by-american-seniors-stacks-up-so-far-in-2026-917c400c?mod=mw_rss_topstories",
+        "title": "Nowhere to hide: Tech selloff hits software and chip stocks alike",
+        "summary": "The software and semiconductor sectors haven’t been trading in tandem much this year, but they collectively fell Friday as AI and interest-rate fears hit the market.",
+        "link": "https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-16 19:45 UTC",
-        "published_at": "2026-10-16T19:45:00+00:00",
-        "age_hours": 1.97,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
+        "published": "2026-10-16 21:59 UTC",
+        "published_at": "2026-10-16T21:59:00+00:00",
+        "age_hours": 1.9,
+        "sentiment": "negative",
+        "sentiment_reason": "市場負面關鍵字較多",
+        "relevance_score": 1,
         "relevance_reasons": [
-          "匹配 watchlist：COST",
-          "包含市場關鍵字：inflation"
+          "包含市場關鍵字：stock, stocks, market"
         ],
-        "related_symbols": [
-          "COST"
-        ]
-      },
-      {
-        "title": "The COLA wars are coming for Social Security",
-        "summary": "The annual cost-of-living adjustment may soon be capped, curtailed, means-tested or scrapped altogether under various proposals being actively considered",
-        "link": "https://www.marketwatch.com/story/the-cola-wars-are-coming-for-social-security-10c177f1?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-16 19:45 UTC",
-        "published_at": "2026-10-16T19:45:00+00:00",
-        "age_hours": 1.97,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 3,
-        "relevance_reasons": [
-          "匹配 watchlist：COST"
-        ],
-        "related_symbols": [
-          "COST"
-        ]
+        "related_symbols": []
       },
       {
         "title": "Could an Anthropic IPO put your 401(k) at risk? The AI safety debate hits a new dimension.",
@@ -715,7 +694,7 @@
         "source": "MarketWatch",
         "published": "2026-10-16 21:35 UTC",
         "published_at": "2026-10-16T21:35:00+00:00",
-        "age_hours": 0.13,
+        "age_hours": 2.3,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -731,7 +710,7 @@
         "source": "MarketWatch",
         "published": "2026-10-16 21:30 UTC",
         "published_at": "2026-10-16T21:30:00+00:00",
-        "age_hours": 0.22,
+        "age_hours": 2.38,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -747,7 +726,7 @@
         "source": "MarketWatch",
         "published": "2026-10-16 21:21 UTC",
         "published_at": "2026-10-16T21:21:00+00:00",
-        "age_hours": 0.37,
+        "age_hours": 2.53,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -755,12 +734,28 @@
           "包含市場關鍵字：investor, wall street"
         ],
         "related_symbols": []
+      },
+      {
+        "title": "Don’t buy this dip: Several signs suggest there’s more pain ahead for tech stocks",
+        "summary": "Thinking of buying the dip in technology stocks? The Nasdaq Composite’s technical outlook suggests don’t do it — at least not yet.",
+        "link": "https://www.marketwatch.com/story/dont-buy-this-dip-several-signs-suggest-theres-more-pain-ahead-for-tech-stocks-83f971d7?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-16 20:58 UTC",
+        "published_at": "2026-10-16T20:58:00+00:00",
+        "age_hours": 2.91,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：stock, stocks, nasdaq"
+        ],
+        "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 6,
-      "negative": 0
+      "neutral": 5,
+      "negative": 1
     },
     "errors": [
       "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
