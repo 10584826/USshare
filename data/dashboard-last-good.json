@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-16T05:04:23.436896+00:00",
-  "data_updated_at": "2026-10-16T05:04:23.436896+00:00",
+  "generated_at": "2026-10-16T09:46:02.176885+00:00",
+  "data_updated_at": "2026-10-16T09:46:02.176885+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-16T05:04:23.436896+00:00",
+    "generated_at": "2026-10-16T09:46:02.176885+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 6,
+      "article_count": 5,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -97,14 +97,14 @@
     ],
     "vix": {
       "symbol": "^VIX",
-      "latest_price": 16.46,
-      "previous_close": 16.87,
-      "daily_change_percent": -2.43,
-      "sma50": 15.5,
-      "rsi14": 61.71,
+      "latest_price": 16.01,
+      "previous_close": 16.46,
+      "daily_change_percent": -2.73,
+      "sma50": 15.52,
+      "rsi14": 49.5,
       "volume_ratio_20d": null,
       "trend_direction": "above",
-      "trend_days": 2,
+      "trend_days": 3,
       "status": "bullish",
       "status_text": "偏多",
       "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
@@ -658,7 +658,7 @@
         "source": "MarketWatch",
         "published": "2026-10-15 21:23 UTC",
         "published_at": "2026-10-15T21:23:00+00:00",
-        "age_hours": 7.69,
+        "age_hours": 12.39,
         "sentiment": "negative",
         "sentiment_reason": "市場負面關鍵字較多",
         "relevance_score": 4,
@@ -677,7 +677,7 @@
         "source": "MarketWatch",
         "published": "2026-10-16 02:42 UTC",
         "published_at": "2026-10-16T02:42:00+00:00",
-        "age_hours": 2.38,
+        "age_hours": 7.07,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 3,
@@ -689,13 +689,29 @@
         ]
       },
       {
+        "title": "Here are the key things Fed Chairman Kevin Warsh said — and didn’t say — while Americans were sleeping Thursday night",
+        "summary": "Federal Reserve Chair Kevin Warsh had an opportunity Thursday night to shape expectations heading into the central bank’s interest-rate-setting meeting in two week’s time — and in keeping with his practice of leaving mar",
+        "link": "https://www.marketwatch.com/story/here-are-the-key-things-fed-chairman-kevin-warsh-said-and-didnt-say-while-americans-were-sleeping-thursday-night-b82238a1?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-16 09:16 UTC",
+        "published_at": "2026-10-16T09:16:00+00:00",
+        "age_hours": 0.5,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：market, markets, fed"
+        ],
+        "related_symbols": []
+      },
+      {
         "title": "Pepsi loses more ground in the soda wars, as KFC switches to Coke",
         "summary": "As more people switch to Coke, some analysts are getting more worried about the state of archrival Pepsi.",
         "link": "https://www.marketwatch.com/story/pepsi-loses-more-ground-in-the-soda-wars-as-kfc-switches-to-coke-49b1ef53?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-10-15 23:29 UTC",
         "published_at": "2026-10-15T23:29:00+00:00",
-        "age_hours": 5.59,
+        "age_hours": 10.29,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -711,41 +727,9 @@
         "source": "MarketWatch",
         "published": "2026-10-15 21:21 UTC",
         "published_at": "2026-10-15T21:21:00+00:00",
-        "age_hours": 7.73,
+        "age_hours": 12.42,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, stocks, investor"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "CoreWeave’s polarizing stock rebounds as Wall Street squares off about AI spending",
-        "summary": "Wall Street’s views on CoreWeave are starkly divisive as investors pay more attention to the financial details of big artificial-intelligence companies.",
-        "link": "https://www.marketwatch.com/story/coreweave-investors-are-feeling-spooked-as-the-companys-stock-and-bonds-see-fresh-pressure-ba39a931?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-15 21:03 UTC",
-        "published_at": "2026-10-15T21:03:00+00:00",
-        "age_hours": 8.03,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, investor, wall street"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "Investors are dumping AI stocks as ‘tech wreck’ worsens. Here’s where they’re turning now.",
-        "summary": "A continued selloff in the AI trade is forcing investors to move from tech names to the relative safety of government bonds and defensive stock sectors.",
-        "link": "https://www.marketwatch.com/story/traders-pile-into-bonds-and-defensive-stocks-as-the-tech-wreck-picks-up-steam-48c04374?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-15 20:40 UTC",
-        "published_at": "2026-10-15T20:40:00+00:00",
-        "age_hours": 8.41,
-        "sentiment": "negative",
-        "sentiment_reason": "市場負面關鍵字較多",
         "relevance_score": 1,
         "relevance_reasons": [
           "包含市場關鍵字：stock, stocks, investor"
@@ -756,7 +740,7 @@
     "sentiment_summary": {
       "positive": 0,
       "neutral": 4,
-      "negative": 2
+      "negative": 1
     },
     "errors": [
       "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
