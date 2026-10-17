@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-17T12:57:51.188760+00:00",
-  "data_updated_at": "2026-10-17T12:57:51.188760+00:00",
+  "generated_at": "2026-10-17T16:23:20.210285+00:00",
+  "data_updated_at": "2026-10-17T16:23:20.210285+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-17T12:57:51.188760+00:00",
+    "generated_at": "2026-10-17T16:23:20.210285+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 6,
+      "article_count": 5,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -659,7 +659,7 @@
         "source": "MarketWatch",
         "published": "2026-10-17 12:01 UTC",
         "published_at": "2026-10-17T12:01:00+00:00",
-        "age_hours": 0.95,
+        "age_hours": 4.37,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -678,7 +678,7 @@
         "source": "MarketWatch",
         "published": "2026-10-17 11:30 UTC",
         "published_at": "2026-10-17T11:30:00+00:00",
-        "age_hours": 1.47,
+        "age_hours": 4.89,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -697,7 +697,7 @@
         "source": "MarketWatch",
         "published": "2026-10-17 12:30 UTC",
         "published_at": "2026-10-17T12:30:00+00:00",
-        "age_hours": 0.47,
+        "age_hours": 3.89,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -713,7 +713,7 @@
         "source": "MarketWatch",
         "published": "2026-10-17 11:00 UTC",
         "published_at": "2026-10-17T11:00:00+00:00",
-        "age_hours": 1.97,
+        "age_hours": 5.39,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -729,7 +729,7 @@
         "source": "MarketWatch",
         "published": "2026-10-16 21:59 UTC",
         "published_at": "2026-10-16T21:59:00+00:00",
-        "age_hours": 14.98,
+        "age_hours": 18.41,
         "sentiment": "negative",
         "sentiment_reason": "市場負面關鍵字較多",
         "relevance_score": 1,
@@ -737,27 +737,11 @@
           "包含市場關鍵字：stock, stocks, market"
         ],
         "related_symbols": []
-      },
-      {
-        "title": "Could an Anthropic IPO put your 401(k) at risk? The AI safety debate hits a new dimension.",
-        "summary": "Anthropic and New York City’s comptroller have opened a line of communication to discuss “existential risks” posed by AI and what that could mean for the company’s future stock.",
-        "link": "https://www.marketwatch.com/story/could-an-anthropic-ipo-put-your-401-k-at-risk-the-ai-safety-debate-hits-a-new-dimension-db3f09f7?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-16 21:35 UTC",
-        "published_at": "2026-10-16T21:35:00+00:00",
-        "age_hours": 15.38,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, ipo"
-        ],
-        "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 5,
+      "neutral": 4,
       "negative": 1
     },
     "errors": [
