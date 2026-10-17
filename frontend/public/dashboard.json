@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-17T16:23:20.210285+00:00",
-  "data_updated_at": "2026-10-17T16:23:20.210285+00:00",
+  "generated_at": "2026-10-17T18:50:02.984288+00:00",
+  "data_updated_at": "2026-10-17T18:50:02.984288+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-17T16:23:20.210285+00:00",
+    "generated_at": "2026-10-17T18:50:02.984288+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 5,
+      "article_count": 4,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -653,13 +653,33 @@
   "news": {
     "top_stories": [
       {
+        "title": "Is Apple’s foldable iPhone Duo worth $2,000? See how it stacks up against other foldable phones.",
+        "summary": "Preorders for the iPhone Duo began Friday, marking Apple’s debut in a foldable phone market largely dominated by Samsung and Google.",
+        "link": "https://www.marketwatch.com/story/is-apples-foldable-iphone-duo-worth-2-000-see-how-it-stacks-up-against-other-foldable-phones-c9066b13?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-17 18:40 UTC",
+        "published_at": "2026-10-17T18:40:00+00:00",
+        "age_hours": 0.17,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 4,
+        "relevance_reasons": [
+          "匹配 watchlist：AAPL, GOOGL",
+          "包含市場關鍵字：market"
+        ],
+        "related_symbols": [
+          "AAPL",
+          "GOOGL"
+        ]
+      },
+      {
         "title": "Microsoft, Shopify and 3 more AI stocks that are favorite Wall Street earnings plays",
         "summary": "As earnings season kicks off, select tech companies have the opportunity to deliver big positive surprises for investors.",
         "link": "https://www.marketwatch.com/story/microsoft-shopify-and-3-more-ai-stocks-that-are-favorite-wall-street-earnings-plays-0bb61e81?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-10-17 12:01 UTC",
         "published_at": "2026-10-17T12:01:00+00:00",
-        "age_hours": 4.37,
+        "age_hours": 6.82,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -678,7 +698,7 @@
         "source": "MarketWatch",
         "published": "2026-10-17 11:30 UTC",
         "published_at": "2026-10-17T11:30:00+00:00",
-        "age_hours": 4.89,
+        "age_hours": 7.34,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -697,7 +717,7 @@
         "source": "MarketWatch",
         "published": "2026-10-17 12:30 UTC",
         "published_at": "2026-10-17T12:30:00+00:00",
-        "age_hours": 3.89,
+        "age_hours": 6.34,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -705,44 +725,12 @@
           "包含市場關鍵字：economy, economic, dow"
         ],
         "related_symbols": []
-      },
-      {
-        "title": "Fed interest-rate decision this month is a closer call than markets think",
-        "summary": "Here are some of the arguments against a Fed rate hike — and why some economists disagree with them.",
-        "link": "https://www.marketwatch.com/story/fed-interest-rate-decision-this-month-is-a-closer-call-than-markets-think-f96ccf95?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-17 11:00 UTC",
-        "published_at": "2026-10-17T11:00:00+00:00",
-        "age_hours": 5.39,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：market, markets, fed"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "Nowhere to hide: Tech selloff hits software and chip stocks alike",
-        "summary": "The software and semiconductor sectors haven’t been trading in tandem much this year, but they collectively fell Friday as AI and interest-rate fears hit the market.",
-        "link": "https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-16 21:59 UTC",
-        "published_at": "2026-10-16T21:59:00+00:00",
-        "age_hours": 18.41,
-        "sentiment": "negative",
-        "sentiment_reason": "市場負面關鍵字較多",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, stocks, market"
-        ],
-        "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 0,
       "neutral": 4,
-      "negative": 1
+      "negative": 0
     },
     "errors": [
       "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
