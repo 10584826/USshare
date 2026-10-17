@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-17T08:48:31.084477+00:00",
-  "data_updated_at": "2026-10-17T08:48:31.084477+00:00",
+  "generated_at": "2026-10-17T12:57:51.188760+00:00",
+  "data_updated_at": "2026-10-17T12:57:51.188760+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-17T08:48:31.084477+00:00",
+    "generated_at": "2026-10-17T12:57:51.188760+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -653,23 +653,74 @@
   "news": {
     "top_stories": [
       {
-        "title": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
-        "summary": "The 3.6% COLA for 2027 is aimed at helping more than 68 million beneficiaries keep pace with the cost of living",
-        "link": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
+        "title": "Microsoft, Shopify and 3 more AI stocks that are favorite Wall Street earnings plays",
+        "summary": "As earnings season kicks off, select tech companies have the opportunity to deliver big positive surprises for investors.",
+        "link": "https://www.marketwatch.com/story/microsoft-shopify-and-3-more-ai-stocks-that-are-favorite-wall-street-earnings-plays-0bb61e81?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-16 19:45 UTC",
-        "published_at": "2026-10-16T19:45:00+00:00",
-        "age_hours": 13.06,
+        "published": "2026-10-17 12:01 UTC",
+        "published_at": "2026-10-17T12:01:00+00:00",
+        "age_hours": 0.95,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
         "relevance_reasons": [
-          "匹配 watchlist：COST",
-          "包含市場關鍵字：inflation"
+          "匹配 watchlist：MSFT",
+          "包含市場關鍵字：stock, stocks, earnings"
         ],
         "related_symbols": [
-          "COST"
+          "MSFT"
         ]
+      },
+      {
+        "title": "It was another great week for the average stock as market leadership shifts away from tech",
+        "summary": "The S&P 500’s tech sector just had its worst week in a year and a half, while an equal-weighted version of the index cemented a second-straight weekly advance.",
+        "link": "https://www.marketwatch.com/story/it-was-another-great-week-for-the-average-stock-as-market-leadership-shifts-away-from-tech-8e8516da?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-17 11:30 UTC",
+        "published_at": "2026-10-17T11:30:00+00:00",
+        "age_hours": 1.47,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 4,
+        "relevance_reasons": [
+          "匹配 watchlist：SPY",
+          "包含市場關鍵字：stock, market, s&p"
+        ],
+        "related_symbols": [
+          "SPY"
+        ]
+      },
+      {
+        "title": "Silver’s recent 50% drop from a record high hints that an economic slowdown looms",
+        "summary": "There’s a relatively off-the-radar commodity that can provide hints on where the economy is headed — and it’s seen its value drop more than 50% from a record high earlier this year.",
+        "link": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-17 12:30 UTC",
+        "published_at": "2026-10-17T12:30:00+00:00",
+        "age_hours": 0.47,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：economy, economic, dow"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "Fed interest-rate decision this month is a closer call than markets think",
+        "summary": "Here are some of the arguments against a Fed rate hike — and why some economists disagree with them.",
+        "link": "https://www.marketwatch.com/story/fed-interest-rate-decision-this-month-is-a-closer-call-than-markets-think-f96ccf95?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-17 11:00 UTC",
+        "published_at": "2026-10-17T11:00:00+00:00",
+        "age_hours": 1.97,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：market, markets, fed"
+        ],
+        "related_symbols": []
       },
       {
         "title": "Nowhere to hide: Tech selloff hits software and chip stocks alike",
@@ -678,7 +729,7 @@
         "source": "MarketWatch",
         "published": "2026-10-16 21:59 UTC",
         "published_at": "2026-10-16T21:59:00+00:00",
-        "age_hours": 10.83,
+        "age_hours": 14.98,
         "sentiment": "negative",
         "sentiment_reason": "市場負面關鍵字較多",
         "relevance_score": 1,
@@ -694,60 +745,12 @@
         "source": "MarketWatch",
         "published": "2026-10-16 21:35 UTC",
         "published_at": "2026-10-16T21:35:00+00:00",
-        "age_hours": 11.23,
+        "age_hours": 15.38,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
           "包含市場關鍵字：stock, ipo"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "The bond market shrugged off two inflation shocks. Why stock investors should pay attention.",
-        "summary": "Hot CPI and PPI data should have pushed Treasury yields higher. Instead, bond buyers stepped in to suggest yields have risen high enough to become attractive for investors.",
-        "link": "https://www.marketwatch.com/story/the-bond-market-shrugged-off-two-inflation-shocks-why-stock-investors-should-pay-attention-5da4f771?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-16 21:30 UTC",
-        "published_at": "2026-10-16T21:30:00+00:00",
-        "age_hours": 11.31,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, market, inflation"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "New SEC rules would fleece everyday investors to enrich Wall Street",
-        "summary": "New proposals from the Securities and Exchange Commission will tilt the scales in favor of Wall Street and against a huge group of retail investors.",
-        "link": "https://www.marketwatch.com/story/new-sec-rules-would-fleece-everyday-investors-to-enrich-wall-street-0a00fe03?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-16 21:21 UTC",
-        "published_at": "2026-10-16T21:21:00+00:00",
-        "age_hours": 11.46,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：investor, wall street"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "Don’t buy this dip: Several signs suggest there’s more pain ahead for tech stocks",
-        "summary": "Thinking of buying the dip in technology stocks? The Nasdaq Composite’s technical outlook suggests don’t do it — at least not yet.",
-        "link": "https://www.marketwatch.com/story/dont-buy-this-dip-several-signs-suggest-theres-more-pain-ahead-for-tech-stocks-83f971d7?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-16 20:58 UTC",
-        "published_at": "2026-10-16T20:58:00+00:00",
-        "age_hours": 11.84,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, stocks, nasdaq"
         ],
         "related_symbols": []
       }
