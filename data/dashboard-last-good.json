@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-17T18:50:02.984288+00:00",
-  "data_updated_at": "2026-10-17T18:50:02.984288+00:00",
+  "generated_at": "2026-10-17T21:26:19.706017+00:00",
+  "data_updated_at": "2026-10-17T21:26:19.706017+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-17T18:50:02.984288+00:00",
+    "generated_at": "2026-10-17T21:26:19.706017+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 4,
+      "article_count": 3,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -659,7 +659,7 @@
         "source": "MarketWatch",
         "published": "2026-10-17 18:40 UTC",
         "published_at": "2026-10-17T18:40:00+00:00",
-        "age_hours": 0.17,
+        "age_hours": 2.77,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -679,7 +679,7 @@
         "source": "MarketWatch",
         "published": "2026-10-17 12:01 UTC",
         "published_at": "2026-10-17T12:01:00+00:00",
-        "age_hours": 6.82,
+        "age_hours": 9.42,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -692,32 +692,13 @@
         ]
       },
       {
-        "title": "It was another great week for the average stock as market leadership shifts away from tech",
-        "summary": "The S&P 500’s tech sector just had its worst week in a year and a half, while an equal-weighted version of the index cemented a second-straight weekly advance.",
-        "link": "https://www.marketwatch.com/story/it-was-another-great-week-for-the-average-stock-as-market-leadership-shifts-away-from-tech-8e8516da?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-17 11:30 UTC",
-        "published_at": "2026-10-17T11:30:00+00:00",
-        "age_hours": 7.34,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：SPY",
-          "包含市場關鍵字：stock, market, s&p"
-        ],
-        "related_symbols": [
-          "SPY"
-        ]
-      },
-      {
         "title": "Silver’s recent 50% drop from a record high hints that an economic slowdown looms",
         "summary": "There’s a relatively off-the-radar commodity that can provide hints on where the economy is headed — and it’s seen its value drop more than 50% from a record high earlier this year.",
         "link": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-10-17 12:30 UTC",
         "published_at": "2026-10-17T12:30:00+00:00",
-        "age_hours": 6.34,
+        "age_hours": 8.94,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -729,7 +710,7 @@
     ],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 4,
+      "neutral": 3,
       "negative": 0
     },
     "errors": [
