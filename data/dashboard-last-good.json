@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-18T11:42:55.565887+00:00",
-  "data_updated_at": "2026-10-18T11:42:55.565887+00:00",
+  "generated_at": "2026-10-18T14:49:21.775104+00:00",
+  "data_updated_at": "2026-10-18T14:49:21.775104+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-18T11:42:55.565887+00:00",
+    "generated_at": "2026-10-18T14:49:21.775104+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 3,
+      "article_count": 4,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -653,13 +653,52 @@
   "news": {
     "top_stories": [
       {
+        "title": "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth",
+        "summary": "Boeing, Meta and EchoStar recorded steep charges and expenses a year ago, which are expected to make this latest quarter’s results look especially strong by comparison.",
+        "link": "https://www.marketwatch.com/story/these-surprising-stocks-could-be-some-of-the-biggest-drivers-of-s-p-500-earnings-growth-ea073a07?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-18 14:00 UTC",
+        "published_at": "2026-10-18T14:00:00+00:00",
+        "age_hours": 0.83,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 4,
+        "relevance_reasons": [
+          "匹配 watchlist：SPY, META",
+          "包含市場關鍵字：stock, stocks, earnings"
+        ],
+        "related_symbols": [
+          "SPY",
+          "META"
+        ]
+      },
+      {
+        "title": "There is a silent market rotation inside the S&P 500 that’s warning of more weakness ahead",
+        "summary": "A “triple-top” reversal chart pattern is pointing to a period of underperformance for the S&P 500 — perhaps a long one.",
+        "link": "https://www.marketwatch.com/story/there-is-a-silent-market-rotation-inside-the-s-p-500-thats-warning-of-more-weakness-ahead-549e7650?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-18 12:00 UTC",
+        "published_at": "2026-10-18T12:00:00+00:00",
+        "age_hours": 2.83,
+        "sentiment": "negative",
+        "sentiment_reason": "市場負面關鍵字較多",
+        "relevance_score": 4,
+        "relevance_reasons": [
+          "匹配 watchlist：SPY",
+          "包含市場關鍵字：market, s&p"
+        ],
+        "related_symbols": [
+          "SPY"
+        ]
+      },
+      {
         "title": "Is Apple’s foldable iPhone Duo worth $2,000? See how it stacks up against other foldable phones.",
         "summary": "Preorders for the iPhone Duo began Friday, marking Apple’s debut in a foldable phone market largely dominated by Samsung and Google.",
         "link": "https://www.marketwatch.com/story/is-apples-foldable-iphone-duo-worth-2-000-see-how-it-stacks-up-against-other-foldable-phones-c9066b13?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-10-17 18:40 UTC",
         "published_at": "2026-10-17T18:40:00+00:00",
-        "age_hours": 17.05,
+        "age_hours": 20.16,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -673,45 +712,26 @@
         ]
       },
       {
-        "title": "Microsoft, Shopify and 3 more AI stocks that are favorite Wall Street earnings plays",
-        "summary": "As earnings season kicks off, select tech companies have the opportunity to deliver big positive surprises for investors.",
-        "link": "https://www.marketwatch.com/story/microsoft-shopify-and-3-more-ai-stocks-that-are-favorite-wall-street-earnings-plays-0bb61e81?mod=mw_rss_topstories",
+        "title": "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs",
+        "summary": "The idea that the AI trade has been mostly immune to rising bond yields isn’t quite right, one strategist notes.",
+        "link": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-17 12:01 UTC",
-        "published_at": "2026-10-17T12:01:00+00:00",
-        "age_hours": 23.7,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：MSFT",
-          "包含市場關鍵字：stock, stocks, earnings"
-        ],
-        "related_symbols": [
-          "MSFT"
-        ]
-      },
-      {
-        "title": "Silver’s recent 50% drop from a record high hints that an economic slowdown looms",
-        "summary": "There’s a relatively off-the-radar commodity that can provide hints on where the economy is headed — and it’s seen its value drop more than 50% from a record high earlier this year.",
-        "link": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-17 12:30 UTC",
-        "published_at": "2026-10-17T12:30:00+00:00",
-        "age_hours": 23.22,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
+        "published": "2026-10-18 13:00 UTC",
+        "published_at": "2026-10-18T13:00:00+00:00",
+        "age_hours": 1.83,
+        "sentiment": "positive",
+        "sentiment_reason": "市場正面關鍵字較多",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：economy, economic, dow"
+          "包含市場關鍵字：stock, stocks, earnings"
         ],
         "related_symbols": []
       }
     ],
     "sentiment_summary": {
-      "positive": 0,
-      "neutral": 3,
-      "negative": 0
+      "positive": 1,
+      "neutral": 2,
+      "negative": 1
     },
     "errors": [
       "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
