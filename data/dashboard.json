@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-20T05:17:38.288526+00:00",
-  "data_updated_at": "2026-10-20T05:17:38.288526+00:00",
+  "generated_at": "2026-10-20T10:25:16.603882+00:00",
+  "data_updated_at": "2026-10-20T10:25:16.603882+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-20T05:17:38.288526+00:00",
+    "generated_at": "2026-10-20T10:25:16.603882+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 5,
+      "article_count": 4,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -97,18 +97,18 @@
     ],
     "vix": {
       "symbol": "^VIX",
-      "latest_price": 18.44,
-      "previous_close": 19.99,
-      "daily_change_percent": -7.75,
-      "sma50": 15.66,
-      "rsi14": 61.28,
+      "latest_price": 18.68,
+      "previous_close": 18.44,
+      "daily_change_percent": 1.3,
+      "sma50": 15.73,
+      "rsi14": 61.06,
       "volume_ratio_20d": null,
       "trend_direction": "above",
-      "trend_days": 4,
+      "trend_days": 5,
       "status": "bullish",
       "status_text": "偏多",
       "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
-      "data_points": 129,
+      "data_points": 130,
       "data_source": "Yahoo Finance Chart endpoint",
       "from_cache": false
     },
@@ -649,43 +649,55 @@
   "news": {
     "top_stories": [
       {
-        "title": "Micron and other chip stocks spring back to life after bruising selloff",
-        "summary": "It’s a key week for tech stocks as Nvidia gears up for a European conference and Meta prepares to report earnings.",
-        "link": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541?mod=mw_rss_topstories",
+        "title": "South Korean IPO flop is the latest in a string of disappointments for the global AI trade",
+        "summary": "October alone has witnessed the shelving of three separate flotations planned for data-center providers, backed by AI powerhouses like Nvidia, Blackstone and SoftBank. Investors are not convinced of the sustainability of",
+        "link": "https://www.marketwatch.com/story/south-korean-ipo-flop-is-the-latest-in-a-string-of-disappointments-for-the-global-ai-trade-fc97748c?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-19 21:06 UTC",
-        "published_at": "2026-10-19T21:06:00+00:00",
-        "age_hours": 8.2,
-        "sentiment": "negative",
-        "sentiment_reason": "市場負面關鍵字較多",
+        "published": "2026-10-20 09:30 UTC",
+        "published_at": "2026-10-20T09:30:00+00:00",
+        "age_hours": 0.92,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
         "relevance_reasons": [
-          "匹配 watchlist：NVDA, META",
-          "包含市場關鍵字：stock, stocks, earnings"
+          "匹配 watchlist：NVDA",
+          "包含市場關鍵字：investor, ipo"
         ],
         "related_symbols": [
-          "NVDA",
-          "META"
+          "NVDA"
         ]
       },
       {
-        "title": "SpaceX earnings will be all about AI — for better or for worse",
-        "summary": "SpaceX has been renting out access to computing power, which is a big source of revenue growth but also one that comes at a high cost.",
-        "link": "https://www.marketwatch.com/story/spacex-earnings-will-be-all-about-ai-for-better-or-for-worse-89bbc772?mod=mw_rss_topstories",
+        "title": "Strategist Tom Lee says he’s buying the AI stock dip, and Cisco holds the key",
+        "summary": "Strategist Tom Lee says investors should not shrink from the pullback in stocks surrounding AI investment fears. He points to Cisco’s history as one reason to buy.",
+        "link": "https://www.marketwatch.com/story/strategist-tom-lee-says-hes-buying-the-ai-stock-dip-and-cisco-holds-the-key-33233a9d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-19 21:02 UTC",
-        "published_at": "2026-10-19T21:02:00+00:00",
-        "age_hours": 8.26,
-        "sentiment": "positive",
-        "sentiment_reason": "市場正面關鍵字較多",
-        "relevance_score": 4,
+        "published": "2026-10-20 10:15 UTC",
+        "published_at": "2026-10-20T10:15:00+00:00",
+        "age_hours": 0.17,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
         "relevance_reasons": [
-          "匹配 watchlist：COST",
-          "包含市場關鍵字：earnings, revenue"
+          "包含市場關鍵字：stock, stocks, investor"
         ],
-        "related_symbols": [
-          "COST"
-        ]
+        "related_symbols": []
+      },
+      {
+        "title": "The multi-million dollar real estate portfolio of Buffalo Bills QB Josh Allen and actress Hailee Steinfeld",
+        "summary": "Josh Allen reached another milestone in his NFL career, but his life away from football is equally impressive—including the real estate portfolio he shares with his actress wife, Hailee Steinfeld.",
+        "link": "https://www.marketwatch.com/story/the-multi-million-dollar-real-estate-portfolio-of-buffalo-bills-qb-josh-allen-and-actress-hailee-steinfeld-58a9bd62?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-20 09:02 UTC",
+        "published_at": "2026-10-20T09:02:00+00:00",
+        "age_hours": 1.39,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：shares"
+        ],
+        "related_symbols": []
       },
       {
         "title": "Credit markets have entered uncharted territory as the riskiest junk bonds send a warning to investors",
@@ -694,7 +706,7 @@
         "source": "MarketWatch",
         "published": "2026-10-19 21:36 UTC",
         "published_at": "2026-10-19T21:36:00+00:00",
-        "age_hours": 7.7,
+        "age_hours": 12.82,
         "sentiment": "negative",
         "sentiment_reason": "市場負面關鍵字較多",
         "relevance_score": 1,
@@ -702,44 +714,12 @@
           "包含市場關鍵字：market, markets, investor"
         ],
         "related_symbols": []
-      },
-      {
-        "title": "Why a former Intel skeptic is giving up his negative call on the stock after four years",
-        "summary": "Intel’s manufacturing and chip design have improved, according to a J.P. Morgan analyst.",
-        "link": "https://www.marketwatch.com/story/why-a-former-intel-skeptic-is-giving-up-his-negative-call-on-the-stock-after-four-years-47c2fab6?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-19 21:00 UTC",
-        "published_at": "2026-10-19T21:00:00+00:00",
-        "age_hours": 8.3,
-        "sentiment": "positive",
-        "sentiment_reason": "市場正面關鍵字較多",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, analyst"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "Why the midterm elections are likely to become a strong tailwind for the stock market",
-        "summary": "The six months subsequent to midterm elections have seen strong gains, historically",
-        "link": "https://www.marketwatch.com/story/why-the-midterm-elections-are-likely-to-become-a-strong-tailwind-for-the-stock-market-3edfca6c?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-19 21:00 UTC",
-        "published_at": "2026-10-19T21:00:00+00:00",
-        "age_hours": 8.3,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, market"
-        ],
-        "related_symbols": []
       }
     ],
     "sentiment_summary": {
-      "positive": 2,
-      "neutral": 1,
-      "negative": 2
+      "positive": 0,
+      "neutral": 3,
+      "negative": 1
     },
     "errors": [
       "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
