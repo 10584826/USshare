@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-21T06:00:39.386659+00:00",
-  "data_updated_at": "2026-10-21T06:00:39.386659+00:00",
+  "generated_at": "2026-10-21T11:44:14.234479+00:00",
+  "data_updated_at": "2026-10-21T11:44:14.234479+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-21T06:00:39.386659+00:00",
+    "generated_at": "2026-10-21T11:44:14.234479+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -98,13 +98,13 @@
     "vix": {
       "symbol": "^VIX",
       "latest_price": 17.31,
-      "previous_close": 18.44,
-      "daily_change_percent": -6.13,
-      "sma50": 15.7,
-      "rsi14": 54.23,
+      "previous_close": 17.31,
+      "daily_change_percent": 0.0,
+      "sma50": 15.76,
+      "rsi14": 54.03,
       "volume_ratio_20d": null,
       "trend_direction": "above",
-      "trend_days": 5,
+      "trend_days": 6,
       "status": "bullish",
       "status_text": "偏多",
       "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
@@ -645,102 +645,50 @@
   "news": {
     "top_stories": [
       {
-        "title": "Bull markets tend to peak with a whimper, not a bang — but a 15% correction for the S&P 500 may be next",
-        "summary": "Unlike bear-market bottoms, which typically end with a spasm of despair as traders throw in the towel, bull-market tops are far more gradual and less dramatic.",
-        "link": "https://www.marketwatch.com/story/bull-markets-tend-to-peak-with-a-whimper-not-a-bang-but-a-15-correction-for-the-s-p-500-may-be-next-dab40e2c?mod=mw_rss_topstories",
+        "title": "Musk says he’s exploring a SpaceX-Tesla megamerger. What would a combined company be worth?",
+        "summary": "SpaceX and Super Micro Computer help revive Wall Street’s flagging enthusiasm, with more key earnings on tap.",
+        "link": "https://www.marketwatch.com/story/musk-says-hes-exploring-a-spacex-tesla-megamerger-what-would-a-combined-company-be-worth-f35566aa?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-21 00:24 UTC",
-        "published_at": "2026-10-21T00:24:00+00:00",
-        "age_hours": 5.61,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：SPY",
-          "包含市場關鍵字：market, markets, s&p"
-        ],
-        "related_symbols": [
-          "SPY"
-        ]
-      },
-      {
-        "title": "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger",
-        "summary": "Special committees at both companies are assessing merger prospects but a combination is no sure thing, Musk says.",
-        "link": "https://www.marketwatch.com/story/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger-8cc44fc2?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-21 00:14 UTC",
-        "published_at": "2026-10-21T00:14:00+00:00",
-        "age_hours": 5.78,
+        "published": "2026-10-21 11:39 UTC",
+        "published_at": "2026-10-21T11:39:00+00:00",
+        "age_hours": 0.09,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
         "relevance_reasons": [
           "匹配 watchlist：TSLA",
-          "包含市場關鍵字：stock, merger"
+          "包含市場關鍵字：earnings, merger, wall street"
         ],
         "related_symbols": [
           "TSLA"
         ]
       },
       {
-        "title": "Walmart takes aim at Amazon and Costco with new membership program — but is it a good deal?",
-        "summary": "Some analysts question whether people will actually take advantage of Walmart’s new bundle, and how easy it is to make sense of the benefits.",
-        "link": "https://www.marketwatch.com/story/walmart-takes-aim-at-amazon-and-costco-with-new-membership-program-but-is-it-a-good-deal-8e2292ef?mod=mw_rss_topstories",
+        "title": "In the battle for AI supremacy, China is only six months behind the U.S — but that means it’s winning, says former Google CEO",
+        "summary": "AI is not a bubble, says Google’s former CEO. It’s real growth, real money, real customers paying for something useful.",
+        "link": "https://www.marketwatch.com/story/in-the-battle-for-ai-supremacy-china-is-only-six-months-behind-the-u-s-but-that-means-theyre-winning-says-former-google-ceo-82d71e7a?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-20 21:47 UTC",
-        "published_at": "2026-10-20T21:47:00+00:00",
-        "age_hours": 8.23,
+        "published": "2026-10-21 10:12 UTC",
+        "published_at": "2026-10-21T10:12:00+00:00",
+        "age_hours": 1.54,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
+        "relevance_score": 3,
         "relevance_reasons": [
-          "匹配 watchlist：AMZN",
-          "包含市場關鍵字：analyst"
+          "匹配 watchlist：GOOGL"
         ],
         "related_symbols": [
-          "AMZN"
+          "GOOGL"
         ]
       },
       {
-        "title": "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally",
-        "summary": "Super Micro unexpectedly disclosed that its revenue and profitability could be much stronger than originally anticipated.",
-        "link": "https://www.marketwatch.com/story/super-micros-stock-soars-after-surprise-update-with-dell-and-hpe-shares-joining-the-rally-1837a69f?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-21 00:15 UTC",
-        "published_at": "2026-10-21T00:15:00+00:00",
-        "age_hours": 5.76,
-        "sentiment": "positive",
-        "sentiment_reason": "市場正面關鍵字較多",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, shares, revenue"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "Netflix vows to revive viewership trends, but investors hit ‘sell’ on the stock",
-        "summary": "Streaming service cites “intense competition’ and acknowledges ‘some investor concern about our view hours growth.”",
-        "link": "https://www.marketwatch.com/story/netflix-vows-to-revive-viewership-trends-but-investors-hit-sell-on-the-stock-3e24420a?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-21 00:12 UTC",
-        "published_at": "2026-10-21T00:12:00+00:00",
-        "age_hours": 5.81,
-        "sentiment": "negative",
-        "sentiment_reason": "市場負面關鍵字較多",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, investor, etf"
-        ],
-        "related_symbols": []
-      },
-      {
         "title": "Why SpaceX’s stock is surging — and lifting the broader AI universe along with it",
-        "summary": "SpaceX just gave Wall Street a big reason to believe in the AI boom as demand for its computing power is off the charts.",
+        "summary": "SpaceX just gave Wall Street a big reason to believe in the artificial-intelligence boom as demand for its computing power is off the charts.",
         "link": "https://www.marketwatch.com/story/why-spacexs-stock-is-surging-and-lifting-the-broader-ai-universe-along-with-it-0cd62f39?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-20 23:10 UTC",
-        "published_at": "2026-10-20T23:10:00+00:00",
-        "age_hours": 6.85,
+        "published": "2026-10-21 11:22 UTC",
+        "published_at": "2026-10-21T11:22:00+00:00",
+        "age_hours": 0.37,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -748,12 +696,60 @@
           "包含市場關鍵字：stock, wall street"
         ],
         "related_symbols": []
+      },
+      {
+        "title": "Opposition to data centers will drive up inflation, says BlackRock’s Larry Fink",
+        "summary": "Fight the data centers at your economic peril, says BlackRock CEO Larry Fink.",
+        "link": "https://www.marketwatch.com/story/opposition-to-data-centers-will-drive-up-inflation-says-blackrocks-larry-fink-831c25b9?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-21 10:59 UTC",
+        "published_at": "2026-10-21T10:59:00+00:00",
+        "age_hours": 0.76,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：inflation, economic"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "AT&T shrugs off SpaceX fears with its own large haul of new internet subscribers",
+        "summary": "AT&T’s fiber business was the star of the show in Wednesday’s third-quarter earnings report.",
+        "link": "https://www.marketwatch.com/story/at-t-shrugs-off-spacex-fears-with-its-own-large-haul-of-new-internet-subscribers-644f66a8?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-21 10:58 UTC",
+        "published_at": "2026-10-21T10:58:00+00:00",
+        "age_hours": 0.77,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：earnings, quarter"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "George Foreman’s lavish Texas estate with 50-car garage is listed for $6 million",
+        "summary": "The sprawling Texas estate where boxing legend George Foreman spent the final decades of his life has hit the market for $6 million—offering a rare glimpse inside the private world of the heavyweight champion.",
+        "link": "https://www.marketwatch.com/story/george-foremans-lavish-texas-estate-with-50-car-garage-is-listed-for-6-million-d464b764?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-21 09:04 UTC",
+        "published_at": "2026-10-21T09:04:00+00:00",
+        "age_hours": 2.67,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：market"
+        ],
+        "related_symbols": []
       }
     ],
     "sentiment_summary": {
-      "positive": 1,
-      "neutral": 4,
-      "negative": 1
+      "positive": 0,
+      "neutral": 6,
+      "negative": 0
     },
     "errors": [
       "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
