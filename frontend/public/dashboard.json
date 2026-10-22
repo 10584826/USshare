@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-21T23:16:33.688471+00:00",
-  "data_updated_at": "2026-10-21T23:16:33.688471+00:00",
+  "generated_at": "2026-10-22T01:33:01.246478+00:00",
+  "data_updated_at": "2026-10-22T01:33:01.246478+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-21T23:16:33.688471+00:00",
+    "generated_at": "2026-10-22T01:33:01.246478+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 5,
+      "article_count": 6,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -33,7 +33,7 @@
         "daily_change_percent": 0.53,
         "sma50": 768.34,
         "rsi14": 58.36,
-        "volume_ratio_20d": 0.76,
+        "volume_ratio_20d": 0.77,
         "trend_direction": "above",
         "trend_days": 2,
         "status": "bullish",
@@ -50,7 +50,7 @@
         "daily_change_percent": 1.05,
         "sma50": 726.75,
         "rsi14": 40.83,
-        "volume_ratio_20d": 0.9,
+        "volume_ratio_20d": 0.91,
         "trend_direction": "below",
         "trend_days": 4,
         "status": "bearish",
@@ -67,7 +67,7 @@
         "daily_change_percent": 0.64,
         "sma50": 523.3,
         "rsi14": 77.07,
-        "volume_ratio_20d": 0.75,
+        "volume_ratio_20d": 0.78,
         "trend_direction": "above",
         "trend_days": 2,
         "status": "neutral",
@@ -139,7 +139,7 @@
         "daily_change_percent": 0.53,
         "sma50": 768.34,
         "rsi14": 58.36,
-        "volume_ratio_20d": 0.76,
+        "volume_ratio_20d": 0.77,
         "trend_direction": "above",
         "trend_days": 2,
         "status": "bullish",
@@ -156,7 +156,7 @@
         "daily_change_percent": 1.05,
         "sma50": 726.75,
         "rsi14": 40.83,
-        "volume_ratio_20d": 0.9,
+        "volume_ratio_20d": 0.91,
         "trend_direction": "below",
         "trend_days": 4,
         "status": "bearish",
@@ -173,7 +173,7 @@
         "daily_change_percent": 0.64,
         "sma50": 523.3,
         "rsi14": 77.07,
-        "volume_ratio_20d": 0.75,
+        "volume_ratio_20d": 0.78,
         "trend_direction": "above",
         "trend_days": 2,
         "status": "neutral",
@@ -207,7 +207,7 @@
         "daily_change_percent": 1.32,
         "sma50": 327.7,
         "rsi14": 70.92,
-        "volume_ratio_20d": 0.96,
+        "volume_ratio_20d": 0.97,
         "trend_direction": "above",
         "trend_days": 30,
         "status": "neutral",
@@ -224,7 +224,7 @@
         "daily_change_percent": 0.2,
         "sma50": 507.3,
         "rsi14": 62.91,
-        "volume_ratio_20d": 0.64,
+        "volume_ratio_20d": 0.65,
         "trend_direction": "above",
         "trend_days": 59,
         "status": "bullish",
@@ -241,7 +241,7 @@
         "daily_change_percent": 2.54,
         "sma50": 223.01,
         "rsi14": 40.54,
-        "volume_ratio_20d": 0.83,
+        "volume_ratio_20d": 0.84,
         "trend_direction": "below",
         "trend_days": 6,
         "status": "bearish",
@@ -275,7 +275,7 @@
         "daily_change_percent": 0.47,
         "sma50": 661.46,
         "rsi14": 40.81,
-        "volume_ratio_20d": 1.35,
+        "volume_ratio_20d": 1.46,
         "trend_direction": "above",
         "trend_days": 34,
         "status": "bullish",
@@ -292,7 +292,7 @@
         "daily_change_percent": -1.62,
         "sma50": 343.85,
         "rsi14": 46.47,
-        "volume_ratio_20d": 1.19,
+        "volume_ratio_20d": 1.21,
         "trend_direction": "below",
         "trend_days": 4,
         "status": "neutral",
@@ -309,7 +309,7 @@
         "daily_change_percent": 3.41,
         "sma50": 362.18,
         "rsi14": 66.23,
-        "volume_ratio_20d": 1.29,
+        "volume_ratio_20d": 1.37,
         "trend_direction": "above",
         "trend_days": 3,
         "status": "bullish",
@@ -326,7 +326,7 @@
         "daily_change_percent": 1.03,
         "sma50": 360.54,
         "rsi14": 47.02,
-        "volume_ratio_20d": 0.78,
+        "volume_ratio_20d": 0.79,
         "trend_direction": "below",
         "trend_days": 10,
         "status": "neutral",
@@ -360,7 +360,7 @@
         "daily_change_percent": 0.37,
         "sma50": 936.66,
         "rsi14": 89.77,
-        "volume_ratio_20d": 0.65,
+        "volume_ratio_20d": 0.66,
         "trend_direction": "above",
         "trend_days": 12,
         "status": "neutral",
@@ -550,14 +550,15 @@
         "type": "risk",
         "severity": "warning",
         "title": "GOOGL 風險評分偏高",
-        "message": "GOOGL 目前評分為 -2，技術條件偏弱或短線風險較高。判斷因素：價格低於或等於 50 日均線；RSI 處於中間區域。這不是沽出指令，請配合新聞、估值和個人風險承受能力判斷。",
-        "reason": "價格低於或等於 50 日均線；RSI 處於中間區域",
+        "message": "GOOGL 目前評分為 -1，技術條件偏弱或短線風險較高。判斷因素：價格低於或等於 50 日均線；RSI 處於中間區域；成交量高於 20 日平均。這不是沽出指令，請配合新聞、估值和個人風險承受能力判斷。",
+        "reason": "價格低於或等於 50 日均線；RSI 處於中間區域；成交量高於 20 日平均",
         "factors": [
           "價格低於或等於 50 日均線",
-          "RSI 處於中間區域"
+          "RSI 處於中間區域",
+          "成交量高於 20 日平均"
         ],
-        "score": -2,
-        "signal_strength": "medium",
+        "score": -1,
+        "signal_strength": "low",
         "daily_change_percent": -1.62,
         "trend_direction": "below",
         "trend_days": 4,
@@ -651,13 +652,51 @@
   "news": {
     "top_stories": [
       {
+        "title": "This wonky maneuver kept Mark Zuckerberg from fleeing a California billionaire tax",
+        "summary": "Facing a potentially giant tax bill that could threaten his voting power, Zuckerberg was days away from listing his Palo Alto home when Meta agreed to create a new class of stock.",
+        "link": "https://www.marketwatch.com/story/this-wonky-maneuver-kept-mark-zuckerberg-from-fleeing-a-california-billionaire-tax-1de34562?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-22 00:48 UTC",
+        "published_at": "2026-10-22T00:48:00+00:00",
+        "age_hours": 0.75,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 4,
+        "relevance_reasons": [
+          "匹配 watchlist：META",
+          "包含市場關鍵字：stock"
+        ],
+        "related_symbols": [
+          "META"
+        ]
+      },
+      {
+        "title": "Tesla’s stock falls as Elon Musk leaves investors wanting more",
+        "summary": "SpaceX merger commentary is arguably the biggest thing on the minds of Tesla investors right now — and Musk had nothing new to offer on Wednesday.",
+        "link": "https://www.marketwatch.com/story/teslas-stock-falls-as-elon-musk-leaves-investors-wanting-more-eb347f38?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-21 23:29 UTC",
+        "published_at": "2026-10-21T23:29:00+00:00",
+        "age_hours": 2.07,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 4,
+        "relevance_reasons": [
+          "匹配 watchlist：TSLA",
+          "包含市場關鍵字：stock, investor, merger"
+        ],
+        "related_symbols": [
+          "TSLA"
+        ]
+      },
+      {
         "title": "Meta’s stock rises as investors glimpse an opportunity that could dwarf the ad business",
         "summary": "Meta’s core advertising business delivered a strong quarter, but investors are eyeing promising new businesses around the Muse personal assistant",
         "link": "https://www.marketwatch.com/story/metas-stock-rises-as-investors-glimpse-an-opportunity-that-could-dwarf-the-ad-business-89369c6c?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-10-21 23:07 UTC",
         "published_at": "2026-10-21T23:07:00+00:00",
-        "age_hours": 0.16,
+        "age_hours": 2.44,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -676,7 +715,7 @@
         "source": "MarketWatch",
         "published": "2026-10-21 21:44 UTC",
         "published_at": "2026-10-21T21:44:00+00:00",
-        "age_hours": 1.55,
+        "age_hours": 3.82,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -695,7 +734,7 @@
         "source": "MarketWatch",
         "published": "2026-10-21 21:14 UTC",
         "published_at": "2026-10-21T21:14:00+00:00",
-        "age_hours": 2.05,
+        "age_hours": 4.32,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -711,7 +750,7 @@
         "source": "MarketWatch",
         "published": "2026-10-21 20:59 UTC",
         "published_at": "2026-10-21T20:59:00+00:00",
-        "age_hours": 2.3,
+        "age_hours": 4.57,
         "sentiment": "positive",
         "sentiment_reason": "市場正面關鍵字較多",
         "relevance_score": 1,
@@ -719,27 +758,11 @@
           "包含市場關鍵字：stock, stocks, revenue"
         ],
         "related_symbols": []
-      },
-      {
-        "title": "Moderna is about to release the trial results for its cancer vaccine. A lot is riding on this data.",
-        "summary": "Moderna is one of the hottest stocks of the year because of its custom cancer treatment. Full Phase 3 data are set to be revealed this weekend.",
-        "link": "https://www.marketwatch.com/story/moderna-is-about-to-release-the-trial-results-for-its-cancer-vaccine-a-lot-is-riding-on-this-data-ccbf8c9c?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-21 20:18 UTC",
-        "published_at": "2026-10-21T20:18:00+00:00",
-        "age_hours": 2.98,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, stocks"
-        ],
-        "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 1,
-      "neutral": 4,
+      "neutral": 5,
       "negative": 0
     },
     "errors": [
