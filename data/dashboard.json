@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-23T04:44:49.362267+00:00",
-  "data_updated_at": "2026-10-23T04:44:49.362267+00:00",
+  "generated_at": "2026-10-23T09:36:32.882487+00:00",
+  "data_updated_at": "2026-10-23T09:36:32.882487+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-23T04:44:49.362267+00:00",
+    "generated_at": "2026-10-23T09:36:32.882487+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 6,
+      "article_count": 4,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -97,14 +97,14 @@
     ],
     "vix": {
       "symbol": "^VIX",
-      "latest_price": 19.03,
-      "previous_close": 16.68,
-      "daily_change_percent": 14.09,
-      "sma50": 15.83,
-      "rsi14": 63.96,
+      "latest_price": 19.29,
+      "previous_close": 19.03,
+      "daily_change_percent": 1.37,
+      "sma50": 15.93,
+      "rsi14": 64.1,
       "volume_ratio_20d": null,
       "trend_direction": "above",
-      "trend_days": 7,
+      "trend_days": 8,
       "status": "bullish",
       "status_text": "偏多",
       "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
@@ -660,108 +660,73 @@
   "news": {
     "top_stories": [
       {
-        "title": "3 big reasons Micron and other chip stocks fell hard on Thursday",
-        "summary": "Investors are spooked by Tesla’s lower spending target, Lam Research’s weaker-than-expected forecast and a fresh reminder that the AI boom relies on outside funding.",
-        "link": "https://www.marketwatch.com/story/two-big-reasons-micron-and-other-chip-stocks-are-falling-on-thursday-312f1fb2?mod=mw_rss_topstories",
+        "title": "France is getting its credit rating reviewed by Moody’s. What to expect as French debt turmoil spills overseas.",
+        "summary": "Moody’s is set to update its rating on France’s debt after U.S. markets close on Friday.",
+        "link": "https://www.marketwatch.com/story/france-is-getting-its-credit-rating-reviewed-by-moodys-what-to-expect-as-french-debt-turmoil-spills-overseas-e39de111?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-22 21:19 UTC",
-        "published_at": "2026-10-22T21:19:00+00:00",
-        "age_hours": 7.43,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：TSLA",
-          "包含市場關鍵字：stock, stocks, forecast"
-        ],
-        "related_symbols": [
-          "TSLA"
-        ]
-      },
-      {
-        "title": "CoreWeave set off a wave of anxiety — but Wall Street’s dire prognosis is premature",
-        "summary": "Stop listening to market pundits and start looking at market performance.",
-        "link": "https://www.marketwatch.com/story/coreweave-set-off-a-wave-of-anxiety-but-wall-streets-dire-prognosis-is-premature-edc3f5dd?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-22 22:54 UTC",
-        "published_at": "2026-10-22T22:54:00+00:00",
-        "age_hours": 5.85,
+        "published": "2026-10-23 09:28 UTC",
+        "published_at": "2026-10-23T09:28:00+00:00",
+        "age_hours": 0.14,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：market, wall street"
+          "包含市場關鍵字：market, markets"
         ],
         "related_symbols": []
       },
       {
-        "title": "The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash",
-        "summary": "The artificial-intelligence trade is on the ropes. CNN’s “Fear & Greed” index is screaming fear, and the yield on the 10-year Treasury note just clinched its biggest daily drop since the collapse of Silicon Valley Bank.",
-        "link": "https://www.marketwatch.com/story/the-u-s-stock-market-is-fracturing-into-two-camps-and-its-leaving-investors-with-a-brutal-case-of-whiplash-e8580a99?mod=mw_rss_topstories",
+        "title": "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
+        "summary": "A company beating earnings expectations by 36% and revenue expectations by 15% would usually see a post-results bump. But not for Bloom Energy, the fuel-cell maker that has flourished due to data-center demand.",
+        "link": "https://www.marketwatch.com/story/this-hot-ai-fueled-stock-has-been-in-a-rut-it-just-beat-earnings-expectations-by-36-4a4188cb?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-22 22:17 UTC",
-        "published_at": "2026-10-22T22:17:00+00:00",
-        "age_hours": 6.47,
+        "published": "2026-10-23 09:19 UTC",
+        "published_at": "2026-10-23T09:19:00+00:00",
+        "age_hours": 0.29,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：stock, market, investor"
+          "包含市場關鍵字：stock, earnings, revenue"
         ],
         "related_symbols": []
       },
       {
-        "title": "Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on.",
-        "summary": "‘It’s a take-back trade,’ says PGIM’s Tipp. ‘Not an all-out fear of recession type of situation.’",
-        "link": "https://www.marketwatch.com/story/treasury-yields-see-extreme-plunge-why-investors-are-ducking-for-cover-60044c66?mod=mw_rss_topstories",
+        "title": "This market signal just occurred for only the second time since 1999. Here’s what happened and what it means.",
+        "summary": "An unusual occurrence with breadth and the stock market just occurred.",
+        "link": "https://www.marketwatch.com/story/this-market-signal-just-occurred-for-only-the-second-time-since-1999-heres-what-happened-and-what-it-means-a126cf31?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-22 22:07 UTC",
-        "published_at": "2026-10-22T22:07:00+00:00",
-        "age_hours": 6.63,
+        "published": "2026-10-23 09:06 UTC",
+        "published_at": "2026-10-23T09:06:00+00:00",
+        "age_hours": 0.51,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：treasury"
+          "包含市場關鍵字：stock, market"
         ],
         "related_symbols": []
       },
       {
-        "title": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
-        "summary": "Wall Street may be starting to price in the scenario everyone fears: a full-scale regional conflict that could further choke off global energy supplies and unleash a fresh wave of turmoil across financial markets.",
-        "link": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982?mod=mw_rss_topstories",
+        "title": "The mobile ambitions of SpaceX see telecom stocks get hit again. What the latest developments mean.",
+        "summary": "Reports of Starlink’s discussions with cell-tower owners were taken badly by shareholders of Verizon, AT&T and T-Mobile.",
+        "link": "https://www.marketwatch.com/story/the-mobile-ambitions-of-spacex-see-telecom-stocks-get-hit-again-what-the-latest-developments-mean-9a4159b5?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-22 20:46 UTC",
-        "published_at": "2026-10-22T20:46:00+00:00",
-        "age_hours": 7.98,
+        "published": "2026-10-23 09:01 UTC",
+        "published_at": "2026-10-23T09:01:00+00:00",
+        "age_hours": 0.59,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：market, markets, wall street"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "Moderna’s cancer vaccine hits its targets, but a data leak rattled investors and the stock tumbled",
-        "summary": "A ‘sell-the-news reaction’? The experimental treatment helped prevent the return of cancer or death in melanoma patients by 42% after two years.",
-        "link": "https://www.marketwatch.com/story/modernas-stock-tumbles-after-reported-leak-of-data-for-cancer-vaccine-dcc897c1?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-22 20:14 UTC",
-        "published_at": "2026-10-22T20:14:00+00:00",
-        "age_hours": 8.52,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, investor"
+          "包含市場關鍵字：stock, stocks"
         ],
         "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 6,
+      "neutral": 4,
       "negative": 0
     },
     "errors": [
