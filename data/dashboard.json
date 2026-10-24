@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-24T19:29:00.432514+00:00",
-  "data_updated_at": "2026-10-24T19:29:00.432514+00:00",
+  "generated_at": "2026-10-24T21:52:53.529609+00:00",
+  "data_updated_at": "2026-10-24T21:52:53.529609+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-24T19:29:00.432514+00:00",
+    "generated_at": "2026-10-24T21:52:53.529609+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 1,
+      "article_count": 0,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -647,27 +647,10 @@
     "disclaimer": "Alert 僅根據簡化技術條件產生，不構成投資建議或買賣指令。"
   },
   "news": {
-    "top_stories": [
-      {
-        "title": "Retire on 8% a year with little or no risk? How to use annuities the right way.",
-        "summary": "Market turmoil has created a remarkable opportunity in recent weeks for retirees and those seeking secure, stable income for life.",
-        "link": "https://www.marketwatch.com/story/retire-on-8-a-year-with-little-or-no-risk-how-to-use-annuities-the-right-way-06ababc5?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-24 16:04 UTC",
-        "published_at": "2026-10-24T16:04:00+00:00",
-        "age_hours": 3.42,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：market"
-        ],
-        "related_symbols": []
-      }
-    ],
+    "top_stories": [],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 1,
+      "neutral": 0,
       "negative": 0
     },
     "errors": [
