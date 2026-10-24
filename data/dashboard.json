@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-24T09:07:14.750359+00:00",
-  "data_updated_at": "2026-10-24T09:07:14.750359+00:00",
+  "generated_at": "2026-10-24T13:18:41.446217+00:00",
+  "data_updated_at": "2026-10-24T13:18:41.446217+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-24T09:07:14.750359+00:00",
+    "generated_at": "2026-10-24T13:18:41.446217+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 6,
+      "article_count": 4,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -649,13 +649,45 @@
   "news": {
     "top_stories": [
       {
+        "title": "AI fever ignites a boom in thematic ETFs as fund managers hunt for their next big hit",
+        "summary": "The runaway success of the artificial-intelligence trade has left investors hungry for the next big market theme. Wall Street fund managers are happily obliging with a flurry of new targeted products, helping investors i",
+        "link": "https://www.marketwatch.com/story/ai-fever-ignites-a-boom-in-thematic-etfs-as-fund-managers-hunt-for-their-next-big-hit-82d1566c?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-24 12:00 UTC",
+        "published_at": "2026-10-24T12:00:00+00:00",
+        "age_hours": 1.31,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：market, economy, investor"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "‘Non-answers’ aren’t working. This is what investors really need from the Fed.",
+        "summary": "What really matters to investors, economists say, is for Fed Chairman Kevin Warsh to prove he can successfully communicate the central bank’s strategy.",
+        "link": "https://www.marketwatch.com/story/non-answers-arent-working-this-is-what-investors-really-need-from-the-fed-673a9dce?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-24 11:30 UTC",
+        "published_at": "2026-10-24T11:30:00+00:00",
+        "age_hours": 1.81,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：fed, investor"
+        ],
+        "related_symbols": []
+      },
+      {
         "title": "Will Anthropic pull off a November IPO? Time is running out to file key paperwork.",
         "summary": "If market pressures keep building, Anthropic “could reasonably decide it is better to stay private and wait for a better opportunity,” one portfolio manager says.",
         "link": "https://www.marketwatch.com/story/will-anthropic-pull-off-a-november-ipo-time-is-running-out-to-file-key-paperwork-52677343?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-10-23 22:00 UTC",
         "published_at": "2026-10-23T22:00:00+00:00",
-        "age_hours": 11.12,
+        "age_hours": 15.31,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -671,7 +703,7 @@
         "source": "MarketWatch",
         "published": "2026-10-23 21:46 UTC",
         "published_at": "2026-10-23T21:46:00+00:00",
-        "age_hours": 11.36,
+        "age_hours": 15.55,
         "sentiment": "positive",
         "sentiment_reason": "市場正面關鍵字較多",
         "relevance_score": 1,
@@ -679,75 +711,11 @@
           "包含市場關鍵字：stock, stocks, investor"
         ],
         "related_symbols": []
-      },
-      {
-        "title": "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
-        "summary": "A company beating earnings expectations by 36% and revenue expectations by 15% would usually see a postresults bump. But not for Bloom Energy, the fuel-cell maker that has flourished due to data-center demand.",
-        "link": "https://www.marketwatch.com/story/this-hot-ai-fueled-stock-has-been-in-a-rut-it-just-beat-earnings-expectations-by-36-4a4188cb?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-23 21:13 UTC",
-        "published_at": "2026-10-23T21:13:00+00:00",
-        "age_hours": 11.91,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, earnings, revenue"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "The mobile ambitions of SpaceX are hitting telecom stocks again. Here’s what the latest developments mean.",
-        "summary": "Reports of Starlink’s discussions with cell-tower owners were noticed by shareholders of Verizon, AT&T and T-Mobile.",
-        "link": "https://www.marketwatch.com/story/the-mobile-ambitions-of-spacex-see-telecom-stocks-get-hit-again-what-the-latest-developments-mean-9a4159b5?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-23 21:11 UTC",
-        "published_at": "2026-10-23T21:11:00+00:00",
-        "age_hours": 11.94,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, stocks"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "Some Republicans are opposing Trump on tariffs. Maine’s Susan Collins just got him to back down on Canadian levies.",
-        "summary": "As she faces a tough midterm race, the five-term GOP senator is touting her successful lobbying effort against certain tariffs on Canada",
-        "link": "https://www.marketwatch.com/story/some-republicans-are-opposing-trump-on-tariffs-maines-susan-collins-just-got-him-to-back-down-on-canadian-levies-02b202ae?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-23 20:50 UTC",
-        "published_at": "2026-10-23T20:50:00+00:00",
-        "age_hours": 12.29,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：dow"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "The U.S. economy is great by this measure, and the good times aren’t over. So why are Americans so sour?",
-        "summary": "A once-in-a-generation investment boom has created lots of winners — but many Americans are feeling left out.",
-        "link": "https://www.marketwatch.com/story/the-u-s-economy-is-great-by-this-measure-and-the-good-times-arent-over-so-why-are-americans-so-sour-4be897db?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-23 20:19 UTC",
-        "published_at": "2026-10-23T20:19:00+00:00",
-        "age_hours": 12.81,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：economy"
-        ],
-        "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 1,
-      "neutral": 5,
+      "neutral": 3,
       "negative": 0
     },
     "errors": [
