@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-25T14:21:15.199416+00:00",
-  "data_updated_at": "2026-10-25T14:21:15.199416+00:00",
+  "generated_at": "2026-10-25T17:51:43.921726+00:00",
+  "data_updated_at": "2026-10-25T17:51:43.921726+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-25T14:21:15.199416+00:00",
+    "generated_at": "2026-10-25T17:51:43.921726+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 5,
+      "article_count": 3,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -655,7 +655,7 @@
         "source": "MarketWatch",
         "published": "2026-10-25 14:00 UTC",
         "published_at": "2026-10-25T14:00:00+00:00",
-        "age_hours": 0.36,
+        "age_hours": 3.86,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -674,7 +674,7 @@
         "source": "MarketWatch",
         "published": "2026-10-25 13:00 UTC",
         "published_at": "2026-10-25T13:00:00+00:00",
-        "age_hours": 1.36,
+        "age_hours": 4.86,
         "sentiment": "negative",
         "sentiment_reason": "市場負面關鍵字較多",
         "relevance_score": 4,
@@ -693,39 +693,7 @@
         "source": "MarketWatch",
         "published": "2026-10-25 12:44 UTC",
         "published_at": "2026-10-25T12:44:00+00:00",
-        "age_hours": 1.62,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：fed, investor"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "Why economic health no longer dictates stock-market returns",
-        "summary": "There is a wide disconnect between Wall Street and Main Street, and AI could drive them even further apart",
-        "link": "https://www.marketwatch.com/story/why-economic-health-no-longer-dictates-stock-market-returns-c44b88f2?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-25 12:00 UTC",
-        "published_at": "2026-10-25T12:00:00+00:00",
-        "age_hours": 2.36,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, market, economic"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "Here’s the real signal to watch for the Fed’s next move",
-        "summary": "Investors should focus not on the rate itself, but on where financial conditions are",
-        "link": "https://www.marketwatch.com/story/heres-the-real-signal-to-watch-for-the-feds-next-move-9189cb51?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-25 11:30 UTC",
-        "published_at": "2026-10-25T11:30:00+00:00",
-        "age_hours": 2.86,
+        "age_hours": 5.13,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -737,7 +705,7 @@
     ],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 4,
+      "neutral": 2,
       "negative": 1
     },
     "errors": [
