@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-25T10:08:45.588181+00:00",
-  "data_updated_at": "2026-10-25T10:08:45.588181+00:00",
+  "generated_at": "2026-10-25T14:21:15.199416+00:00",
+  "data_updated_at": "2026-10-25T14:21:15.199416+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-25T10:08:45.588181+00:00",
+    "generated_at": "2026-10-25T14:21:15.199416+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 0,
+      "article_count": 5,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -647,11 +647,98 @@
     "disclaimer": "Alert 僅根據簡化技術條件產生，不構成投資建議或買賣指令。"
   },
   "news": {
-    "top_stories": [],
+    "top_stories": [
+      {
+        "title": "More than a third of S&P 500 companies are about to report earnings as market confidence cracks",
+        "summary": "“With cautious to negative market sentiment, it could be a tricky week,” one strategist says.",
+        "link": "https://www.marketwatch.com/story/more-than-a-third-of-s-p-500-companies-are-about-to-report-earnings-as-market-confidence-cracks-03b7a8f1?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-25 14:00 UTC",
+        "published_at": "2026-10-25T14:00:00+00:00",
+        "age_hours": 0.36,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 4,
+        "relevance_reasons": [
+          "匹配 watchlist：SPY",
+          "包含市場關鍵字：market, earnings, s&p"
+        ],
+        "related_symbols": [
+          "SPY"
+        ]
+      },
+      {
+        "title": "Worried about this stock-market selloff? Relief may be coming after the midterms — no matter who wins.",
+        "summary": "The nine months between Election Day and June 30 have seen the S&P 500 deliver an average return of 15.5% going back to 1950.",
+        "link": "https://www.marketwatch.com/story/worried-about-this-stock-market-selloff-relief-may-be-coming-after-the-midterms-no-matter-who-wins-39322c07?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-25 13:00 UTC",
+        "published_at": "2026-10-25T13:00:00+00:00",
+        "age_hours": 1.36,
+        "sentiment": "negative",
+        "sentiment_reason": "市場負面關鍵字較多",
+        "relevance_score": 4,
+        "relevance_reasons": [
+          "匹配 watchlist：SPY",
+          "包含市場關鍵字：stock, market, s&p"
+        ],
+        "related_symbols": [
+          "SPY"
+        ]
+      },
+      {
+        "title": "‘Nonanswers’ aren’t working. This is what investors really need from the Fed.",
+        "summary": "What really matters to investors, economists say, is for Fed Chairman Kevin Warsh to prove he can successfully communicate the central bank’s strategy.",
+        "link": "https://www.marketwatch.com/story/non-answers-arent-working-this-is-what-investors-really-need-from-the-fed-673a9dce?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-25 12:44 UTC",
+        "published_at": "2026-10-25T12:44:00+00:00",
+        "age_hours": 1.62,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：fed, investor"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "Why economic health no longer dictates stock-market returns",
+        "summary": "There is a wide disconnect between Wall Street and Main Street, and AI could drive them even further apart",
+        "link": "https://www.marketwatch.com/story/why-economic-health-no-longer-dictates-stock-market-returns-c44b88f2?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-25 12:00 UTC",
+        "published_at": "2026-10-25T12:00:00+00:00",
+        "age_hours": 2.36,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：stock, market, economic"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "Here’s the real signal to watch for the Fed’s next move",
+        "summary": "Investors should focus not on the rate itself, but on where financial conditions are",
+        "link": "https://www.marketwatch.com/story/heres-the-real-signal-to-watch-for-the-feds-next-move-9189cb51?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-25 11:30 UTC",
+        "published_at": "2026-10-25T11:30:00+00:00",
+        "age_hours": 2.86,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：fed, investor"
+        ],
+        "related_symbols": []
+      }
+    ],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 0,
-      "negative": 0
+      "neutral": 4,
+      "negative": 1
     },
     "errors": [
       "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
