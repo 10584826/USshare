@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-25T17:51:43.921726+00:00",
-  "data_updated_at": "2026-10-25T17:51:43.921726+00:00",
+  "generated_at": "2026-10-25T20:48:06.492095+00:00",
+  "data_updated_at": "2026-10-25T20:48:06.492095+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-25T17:51:43.921726+00:00",
+    "generated_at": "2026-10-25T20:48:06.492095+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 3,
+      "article_count": 2,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -655,7 +655,7 @@
         "source": "MarketWatch",
         "published": "2026-10-25 14:00 UTC",
         "published_at": "2026-10-25T14:00:00+00:00",
-        "age_hours": 3.86,
+        "age_hours": 6.8,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -674,7 +674,7 @@
         "source": "MarketWatch",
         "published": "2026-10-25 13:00 UTC",
         "published_at": "2026-10-25T13:00:00+00:00",
-        "age_hours": 4.86,
+        "age_hours": 7.8,
         "sentiment": "negative",
         "sentiment_reason": "市場負面關鍵字較多",
         "relevance_score": 4,
@@ -685,27 +685,11 @@
         "related_symbols": [
           "SPY"
         ]
-      },
-      {
-        "title": "‘Nonanswers’ aren’t working. This is what investors really need from the Fed.",
-        "summary": "What really matters to investors, economists say, is for Fed Chairman Kevin Warsh to prove he can successfully communicate the central bank’s strategy.",
-        "link": "https://www.marketwatch.com/story/non-answers-arent-working-this-is-what-investors-really-need-from-the-fed-673a9dce?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-25 12:44 UTC",
-        "published_at": "2026-10-25T12:44:00+00:00",
-        "age_hours": 5.13,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：fed, investor"
-        ],
-        "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 2,
+      "neutral": 1,
       "negative": 1
     },
     "errors": [
