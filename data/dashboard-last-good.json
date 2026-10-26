@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-26T06:09:18.576020+00:00",
-  "data_updated_at": "2026-10-26T06:09:18.576020+00:00",
+  "generated_at": "2026-10-26T12:55:28.142442+00:00",
+  "data_updated_at": "2026-10-26T12:55:28.142442+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-26T06:09:18.576020+00:00",
+    "generated_at": "2026-10-26T12:55:28.142442+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 2,
+      "article_count": 6,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -97,18 +97,18 @@
     ],
     "vix": {
       "symbol": "^VIX",
-      "latest_price": 19.45,
-      "previous_close": 19.03,
-      "daily_change_percent": 2.21,
-      "sma50": 15.94,
-      "rsi14": 64.52,
+      "latest_price": 19.29,
+      "previous_close": 19.45,
+      "daily_change_percent": -0.82,
+      "sma50": 16.02,
+      "rsi14": 66.24,
       "volume_ratio_20d": null,
       "trend_direction": "above",
-      "trend_days": 8,
+      "trend_days": 9,
       "status": "bullish",
       "status_text": "偏多",
       "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
-      "data_points": 130,
+      "data_points": 129,
       "data_source": "Yahoo Finance Chart endpoint",
       "from_cache": false
     },
@@ -649,44 +649,110 @@
   "news": {
     "top_stories": [
       {
-        "title": "More than a third of S&P 500 companies are about to report earnings as market confidence cracks",
-        "summary": "“With cautious to negative market sentiment, it could be a tricky week,” one strategist says.",
-        "link": "https://www.marketwatch.com/story/more-than-a-third-of-s-p-500-companies-are-about-to-report-earnings-as-market-confidence-cracks-03b7a8f1?mod=mw_rss_topstories",
+        "title": "Nvidia, AMD and Broadcom could buy Meta shares as part of $35 billion stock offering",
+        "summary": "Meta is looking to raise a total of $95 billion through stock-related deals that stretch into early next year.",
+        "link": "https://www.marketwatch.com/story/nvidia-amd-and-broadcom-could-buy-meta-shares-as-part-of-35-billion-stock-offering-d816fec2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-25 14:00 UTC",
-        "published_at": "2026-10-25T14:00:00+00:00",
-        "age_hours": 16.16,
+        "published": "2026-10-26 12:08 UTC",
+        "published_at": "2026-10-26T12:08:00+00:00",
+        "age_hours": 0.79,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
         "relevance_reasons": [
-          "匹配 watchlist：SPY",
-          "包含市場關鍵字：market, earnings, s&p"
+          "匹配 watchlist：NVDA, META, AMD",
+          "包含市場關鍵字：stock, shares"
         ],
         "related_symbols": [
-          "SPY"
+          "NVDA",
+          "META",
+          "AMD"
         ]
       },
       {
-        "title": "Musk says SpaceX landed a $40 billion debt deal — and forecasts doom for some AI rivals",
-        "summary": "SpaceX is rapidly growing an AI business that rents out access to advanced chips.",
+        "title": "Musk says SpaceX’s AI rivals are in trouble, sending their stocks lower",
+        "summary": "SpaceX just landed a $40 billion debt deal, but Musk says lenders won’t be so hospitable to less-diversified competitors.",
         "link": "https://www.marketwatch.com/story/musk-says-spacex-landed-a-40-billion-debt-deal-and-forecasts-doom-for-some-ai-rivals-a0a4991e?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-26 01:50 UTC",
-        "published_at": "2026-10-26T01:50:00+00:00",
-        "age_hours": 4.32,
+        "published": "2026-10-26 12:39 UTC",
+        "published_at": "2026-10-26T12:39:00+00:00",
+        "age_hours": 0.28,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：forecast"
+          "包含市場關鍵字：stock, stocks"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "A dot-com survivor warns retail investors against buying the tech dip: ‘You’re taking a knife to a gunfight.’",
+        "summary": "Technology-portfolio mangers are treading carefully with tech these days, retail investors should be just as cautious, says industry veteran Ted Mortonson.",
+        "link": "https://www.marketwatch.com/story/a-dot-com-survivor-warns-retail-investors-against-buying-the-tech-dip-youre-taking-a-knife-to-a-gunfight-6c940361?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-26 12:10 UTC",
+        "published_at": "2026-10-26T12:10:00+00:00",
+        "age_hours": 0.76,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：investor"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "The stock market’s biggest test in weeks is here",
+        "summary": "Here’s what’s I’m watching this morning: A week chockablock with enough catalysts that we might finally get some answers about the direction of the market by the end of it.",
+        "link": "https://www.marketwatch.com/story/the-stock-markets-biggest-test-in-weeks-is-here-256f5a37?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-26 11:37 UTC",
+        "published_at": "2026-10-26T11:37:00+00:00",
+        "age_hours": 1.31,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：stock, market"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "Verizon’s stock rises as subscriber surge impresses Wall Street",
+        "summary": "Verizon’s performance on a key measure of subscriber growth was more than double what analysts had expected",
+        "link": "https://www.marketwatch.com/story/verizons-stock-rises-as-subscriber-surge-impresses-wall-street-2be3ef2c?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-26 11:11 UTC",
+        "published_at": "2026-10-26T11:11:00+00:00",
+        "age_hours": 1.74,
+        "sentiment": "positive",
+        "sentiment_reason": "市場正面關鍵字較多",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：stock, wall street, analyst"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "These four shocks could hand investors an unexpected buying window, strategists say",
+        "summary": "Yardeni Research said a surprise interest-rate decision by the Federal Reserve or increasing constraints in the artificial-intelligence trade could provide valuable entry points for investors.",
+        "link": "https://www.marketwatch.com/story/these-four-shocks-could-hand-investors-an-unexpected-buying-window-strategists-say-5ae7c4db?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-26 10:58 UTC",
+        "published_at": "2026-10-26T10:58:00+00:00",
+        "age_hours": 1.96,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：fed, investor, dow"
         ],
         "related_symbols": []
       }
     ],
     "sentiment_summary": {
-      "positive": 0,
-      "neutral": 2,
+      "positive": 1,
+      "neutral": 5,
       "negative": 0
     },
     "errors": [
