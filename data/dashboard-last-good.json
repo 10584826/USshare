@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-26T01:10:01.171213+00:00",
-  "data_updated_at": "2026-10-26T01:10:01.171213+00:00",
+  "generated_at": "2026-10-26T06:09:18.576020+00:00",
+  "data_updated_at": "2026-10-26T06:09:18.576020+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-26T01:10:01.171213+00:00",
+    "generated_at": "2026-10-26T06:09:18.576020+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -655,7 +655,7 @@
         "source": "MarketWatch",
         "published": "2026-10-25 14:00 UTC",
         "published_at": "2026-10-25T14:00:00+00:00",
-        "age_hours": 11.17,
+        "age_hours": 16.16,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -668,29 +668,26 @@
         ]
       },
       {
-        "title": "Worried about this stock-market selloff? Relief may be coming after the midterms — no matter who wins.",
-        "summary": "The nine months between Election Day and June 30 have seen the S&P 500 deliver an average return of 15.5% going back to 1950.",
-        "link": "https://www.marketwatch.com/story/worried-about-this-stock-market-selloff-relief-may-be-coming-after-the-midterms-no-matter-who-wins-39322c07?mod=mw_rss_topstories",
+        "title": "Musk says SpaceX landed a $40 billion debt deal — and forecasts doom for some AI rivals",
+        "summary": "SpaceX is rapidly growing an AI business that rents out access to advanced chips.",
+        "link": "https://www.marketwatch.com/story/musk-says-spacex-landed-a-40-billion-debt-deal-and-forecasts-doom-for-some-ai-rivals-a0a4991e?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-25 13:00 UTC",
-        "published_at": "2026-10-25T13:00:00+00:00",
-        "age_hours": 12.17,
-        "sentiment": "negative",
-        "sentiment_reason": "市場負面關鍵字較多",
-        "relevance_score": 4,
+        "published": "2026-10-26 01:50 UTC",
+        "published_at": "2026-10-26T01:50:00+00:00",
+        "age_hours": 4.32,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
         "relevance_reasons": [
-          "匹配 watchlist：SPY",
-          "包含市場關鍵字：stock, market, s&p"
+          "包含市場關鍵字：forecast"
         ],
-        "related_symbols": [
-          "SPY"
-        ]
+        "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 1,
-      "negative": 1
+      "neutral": 2,
+      "negative": 0
     },
     "errors": [
       "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
