@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-30T02:38:50.386473+00:00",
-  "data_updated_at": "2026-10-30T02:38:50.386473+00:00",
+  "generated_at": "2026-10-30T08:59:09.520845+00:00",
+  "data_updated_at": "2026-10-30T08:59:09.520845+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-30T02:38:50.386473+00:00",
+    "generated_at": "2026-10-30T08:59:09.520845+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -97,14 +97,14 @@
     ],
     "vix": {
       "symbol": "^VIX",
-      "latest_price": 17.2,
-      "previous_close": 16.91,
-      "daily_change_percent": 1.71,
-      "sma50": 16.1,
-      "rsi14": 57.93,
+      "latest_price": 18.33,
+      "previous_close": 17.2,
+      "daily_change_percent": 6.57,
+      "sma50": 16.16,
+      "rsi14": 59.97,
       "volume_ratio_20d": null,
       "trend_direction": "above",
-      "trend_days": 12,
+      "trend_days": 13,
       "status": "bullish",
       "status_text": "偏多",
       "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
@@ -660,7 +660,7 @@
         "source": "MarketWatch",
         "published": "2026-10-30 00:15 UTC",
         "published_at": "2026-10-30T00:15:00+00:00",
-        "age_hours": 2.4,
+        "age_hours": 8.74,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -679,7 +679,7 @@
         "source": "MarketWatch",
         "published": "2026-10-30 00:06 UTC",
         "published_at": "2026-10-30T00:06:00+00:00",
-        "age_hours": 2.55,
+        "age_hours": 8.89,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -698,7 +698,7 @@
         "source": "MarketWatch",
         "published": "2026-10-29 21:52 UTC",
         "published_at": "2026-10-29T21:52:00+00:00",
-        "age_hours": 4.78,
+        "age_hours": 11.12,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -711,13 +711,31 @@
         ]
       },
       {
+        "title": "What gave this city its ‘best place to retire’ crown? You can actually afford to live there.",
+        "summary": "Low cost of living, high quality of life and favorable taxes for retirees, for the win.",
+        "link": "https://www.marketwatch.com/story/what-gave-this-city-its-best-place-to-retire-crown-you-can-actually-afford-to-live-there-a06f8f4d?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-30 03:16 UTC",
+        "published_at": "2026-10-30T03:16:00+00:00",
+        "age_hours": 5.72,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 3,
+        "relevance_reasons": [
+          "匹配 watchlist：COST"
+        ],
+        "related_symbols": [
+          "COST"
+        ]
+      },
+      {
         "title": "A Starbucks turnaround is brewing — but perhaps not quickly enough for investors",
         "summary": "The coffee chain beat expectations on a key sales metric, but its stock was still moving lower.",
         "link": "https://www.marketwatch.com/story/a-starbucks-turnaround-is-brewing-but-perhaps-not-quickly-enough-3b5f57ac?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-10-30 00:14 UTC",
         "published_at": "2026-10-30T00:14:00+00:00",
-        "age_hours": 2.42,
+        "age_hours": 8.76,
         "sentiment": "positive",
         "sentiment_reason": "市場正面關鍵字較多",
         "relevance_score": 1,
@@ -733,28 +751,12 @@
         "source": "MarketWatch",
         "published": "2026-10-30 00:05 UTC",
         "published_at": "2026-10-30T00:05:00+00:00",
-        "age_hours": 2.57,
+        "age_hours": 8.91,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
           "包含市場關鍵字：inflation"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "Why Intel’s stock is sinking toward its worst drop in two years",
-        "summary": "Intel’s PC business is under pressure as memory-chip prices dent demand and as corporate IT teams have less budget for laptops.",
-        "link": "https://www.marketwatch.com/story/why-intels-stock-is-sinking-toward-its-worst-drop-in-two-years-492d71a7?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-29 23:21 UTC",
-        "published_at": "2026-10-29T23:21:00+00:00",
-        "age_hours": 3.3,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock"
         ],
         "related_symbols": []
       }
