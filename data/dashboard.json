@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-31T16:06:02.499077+00:00",
-  "data_updated_at": "2026-10-31T16:06:02.499077+00:00",
+  "generated_at": "2026-10-31T19:57:30.044464+00:00",
+  "data_updated_at": "2026-10-31T19:57:30.044464+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-31T16:06:02.499077+00:00",
+    "generated_at": "2026-10-31T19:57:30.044464+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 5,
+      "article_count": 3,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -658,60 +658,39 @@
   "news": {
     "top_stories": [
       {
-        "title": "The S&P 500 isn’t the big winner you may think it is",
-        "summary": "The index’s weakness may surprise a generation of investors raised on the cult of “stocks always go up.”",
-        "link": "https://www.marketwatch.com/story/you-cant-rely-on-the-s-p-500-as-much-as-you-may-think-a3ac0cb7?mod=mw_rss_topstories",
+        "title": "Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment.",
+        "summary": "Several proposals consider changing the way retirees receive inflation protection. Here’s what it could cost you.",
+        "link": "https://www.marketwatch.com/story/is-it-curtains-for-cola-saving-social-security-could-mean-changing-the-cost-of-living-adjustment-867c6bd8?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-31 14:54 UTC",
-        "published_at": "2026-10-31T14:54:00+00:00",
-        "age_hours": 1.2,
+        "published": "2026-10-31 18:33 UTC",
+        "published_at": "2026-10-31T18:33:00+00:00",
+        "age_hours": 1.41,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
         "relevance_reasons": [
-          "匹配 watchlist：SPY",
-          "包含市場關鍵字：stock, stocks, investor"
-        ],
-        "related_symbols": [
-          "SPY"
-        ]
-      },
-      {
-        "title": "Google taught the world how to search. Now it faces a revolution it can’t afford to lose.",
-        "summary": "Wall Street is grappling with a fundamental question: Are Google’s AI Overviews bound to save search — or ruin the whole business?",
-        "link": "https://www.marketwatch.com/story/google-taught-the-world-how-to-search-now-it-faces-a-revolution-it-cant-afford-to-lose-b7a01394?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-31 13:15 UTC",
-        "published_at": "2026-10-31T13:15:00+00:00",
-        "age_hours": 2.85,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：GOOGL",
-          "包含市場關鍵字：wall street"
-        ],
-        "related_symbols": [
-          "GOOGL"
-        ]
-      },
-      {
-        "title": "What gave this city its ‘best place to retire’ crown? You can actually afford to live there.",
-        "summary": "Low cost of living, high quality of life and favorable taxes for retirees, for the win.",
-        "link": "https://www.marketwatch.com/story/what-gave-this-city-its-best-place-to-retire-crown-you-can-actually-afford-to-live-there-a06f8f4d?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-31 15:25 UTC",
-        "published_at": "2026-10-31T15:25:00+00:00",
-        "age_hours": 0.69,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 3,
-        "relevance_reasons": [
-          "匹配 watchlist：COST"
+          "匹配 watchlist：COST",
+          "包含市場關鍵字：inflation"
         ],
         "related_symbols": [
           "COST"
         ]
+      },
+      {
+        "title": "80% of workers make this 401(k) mistake when they retire",
+        "summary": "Other tax repercussions crop up down the road because balances build up, and RMDs get complicated",
+        "link": "https://www.marketwatch.com/story/whats-the-first-thing-most-people-do-with-their-401-k-after-they-retire-nothing-8a606518?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-10-31 16:46 UTC",
+        "published_at": "2026-10-31T16:46:00+00:00",
+        "age_hours": 3.19,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：dow"
+        ],
+        "related_symbols": []
       },
       {
         "title": "Want guaranteed income in retirement without an annuity? Try laddering I bonds.",
@@ -720,7 +699,7 @@
         "source": "MarketWatch",
         "published": "2026-10-31 16:02 UTC",
         "published_at": "2026-10-31T16:02:00+00:00",
-        "age_hours": 0.07,
+        "age_hours": 3.93,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -728,27 +707,11 @@
           "包含市場關鍵字：interest rate, bond"
         ],
         "related_symbols": []
-      },
-      {
-        "title": "Your stock portfolio increasingly hinges on the bond market — and the midterm elections",
-        "summary": "Tech stocks in late October caught the cold that for months has been a drag on the corporate bond market.",
-        "link": "https://www.marketwatch.com/story/your-stock-portfolio-increasingly-hinges-on-the-bond-market-and-the-midterm-elections-dc1abadb?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-31 14:03 UTC",
-        "published_at": "2026-10-31T14:03:00+00:00",
-        "age_hours": 2.05,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, stocks, market"
-        ],
-        "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 5,
+      "neutral": 3,
       "negative": 0
     },
     "errors": [
