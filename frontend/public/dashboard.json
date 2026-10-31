@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-31T11:14:28.164024+00:00",
-  "data_updated_at": "2026-10-31T11:14:28.164024+00:00",
+  "generated_at": "2026-10-31T16:06:02.499077+00:00",
+  "data_updated_at": "2026-10-31T16:06:02.499077+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-10-31T11:14:28.164024+00:00",
+    "generated_at": "2026-10-31T16:06:02.499077+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 6,
+      "article_count": 5,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -658,110 +658,90 @@
   "news": {
     "top_stories": [
       {
-        "title": "This cybersecurity stock will be the next to join the S&P 500",
-        "summary": "Okta is slated to join the index on Wednesday, replacing Kenvue.",
-        "link": "https://www.marketwatch.com/story/this-cybersecurity-stock-will-be-the-next-to-join-the-s-p-500-dc976803?mod=mw_rss_topstories",
+        "title": "The S&P 500 isn’t the big winner you may think it is",
+        "summary": "The index’s weakness may surprise a generation of investors raised on the cult of “stocks always go up.”",
+        "link": "https://www.marketwatch.com/story/you-cant-rely-on-the-s-p-500-as-much-as-you-may-think-a3ac0cb7?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-30 22:20 UTC",
-        "published_at": "2026-10-30T22:20:00+00:00",
-        "age_hours": 12.91,
+        "published": "2026-10-31 14:54 UTC",
+        "published_at": "2026-10-31T14:54:00+00:00",
+        "age_hours": 1.2,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
         "relevance_reasons": [
           "匹配 watchlist：SPY",
-          "包含市場關鍵字：stock, s&p"
+          "包含市場關鍵字：stock, stocks, investor"
         ],
         "related_symbols": [
           "SPY"
         ]
       },
       {
-        "title": "In a wild October for markets, these stocks were the biggest winners and losers",
-        "summary": "Many Big Tech stocks were hit hard but the S&P 500 showed strength under the surface, with a majority of stocks showing gains for the month.",
-        "link": "https://www.marketwatch.com/story/in-a-wild-october-for-markets-these-stocks-were-the-biggest-winners-and-losers-3736f043?mod=mw_rss_topstories",
+        "title": "Google taught the world how to search. Now it faces a revolution it can’t afford to lose.",
+        "summary": "Wall Street is grappling with a fundamental question: Are Google’s AI Overviews bound to save search — or ruin the whole business?",
+        "link": "https://www.marketwatch.com/story/google-taught-the-world-how-to-search-now-it-faces-a-revolution-it-cant-afford-to-lose-b7a01394?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-30 20:52 UTC",
-        "published_at": "2026-10-30T20:52:00+00:00",
-        "age_hours": 14.38,
+        "published": "2026-10-31 13:15 UTC",
+        "published_at": "2026-10-31T13:15:00+00:00",
+        "age_hours": 2.85,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
         "relevance_reasons": [
-          "匹配 watchlist：SPY",
-          "包含市場關鍵字：stock, stocks, market"
+          "匹配 watchlist：GOOGL",
+          "包含市場關鍵字：wall street"
         ],
         "related_symbols": [
-          "SPY"
+          "GOOGL"
         ]
       },
       {
-        "title": "Microsoft is winning the cloud wars and becoming Wall Street’s new golden child",
-        "summary": "Various factors indicate that Microsoft is in a better financial position than its cloud rivals, analysts say.",
-        "link": "https://www.marketwatch.com/story/microsoft-is-winning-the-cloud-wars-and-becoming-wall-streets-new-golden-child-62eecbbd?mod=mw_rss_topstories",
+        "title": "What gave this city its ‘best place to retire’ crown? You can actually afford to live there.",
+        "summary": "Low cost of living, high quality of life and favorable taxes for retirees, for the win.",
+        "link": "https://www.marketwatch.com/story/what-gave-this-city-its-best-place-to-retire-crown-you-can-actually-afford-to-live-there-a06f8f4d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-30 20:29 UTC",
-        "published_at": "2026-10-30T20:29:00+00:00",
-        "age_hours": 14.76,
+        "published": "2026-10-31 15:25 UTC",
+        "published_at": "2026-10-31T15:25:00+00:00",
+        "age_hours": 0.69,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
+        "relevance_score": 3,
         "relevance_reasons": [
-          "匹配 watchlist：MSFT",
-          "包含市場關鍵字：wall street, analyst"
+          "匹配 watchlist：COST"
         ],
         "related_symbols": [
-          "MSFT"
+          "COST"
         ]
       },
       {
-        "title": "AMD’s stock slides after Intel earnings reveal two big issues",
-        "summary": "Intel is struggling to make enough AI server chips and dealing with a weak PC market. Investors will soon find out the degree to which AMD may be suffering from the same problems.",
-        "link": "https://www.marketwatch.com/story/amds-stock-slides-after-intel-earnings-reveal-two-big-issues-d3afed91?mod=mw_rss_topstories",
+        "title": "Want guaranteed income in retirement without an annuity? Try laddering I bonds.",
+        "summary": "The new I-bond interest rate could be 5.5% or 5.4%, but that shouldn’t change your strategy.",
+        "link": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-30 20:28 UTC",
-        "published_at": "2026-10-30T20:28:00+00:00",
-        "age_hours": 14.78,
+        "published": "2026-10-31 16:02 UTC",
+        "published_at": "2026-10-31T16:02:00+00:00",
+        "age_hours": 0.07,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：AMD",
-          "包含市場關鍵字：stock, market, earnings"
-        ],
-        "related_symbols": [
-          "AMD"
-        ]
-      },
-      {
-        "title": "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.",
-        "summary": "Friday’s big plunge raises disturbing parallels with the top of the dot-com bubble",
-        "link": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-30 23:14 UTC",
-        "published_at": "2026-10-30T23:14:00+00:00",
-        "age_hours": 12.01,
-        "sentiment": "negative",
-        "sentiment_reason": "市場負面關鍵字較多",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：nasdaq"
+          "包含市場關鍵字：interest rate, bond"
         ],
         "related_symbols": []
       },
       {
-        "title": "Warsh wants the Fed to say less. Two officials are pushing for more transparency.",
-        "summary": "More interest-rate hikes are needed to fight inflation, Fed officials say.",
-        "link": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
+        "title": "Your stock portfolio increasingly hinges on the bond market — and the midterm elections",
+        "summary": "Tech stocks in late October caught the cold that for months has been a drag on the corporate bond market.",
+        "link": "https://www.marketwatch.com/story/your-stock-portfolio-increasingly-hinges-on-the-bond-market-and-the-midterm-elections-dc1abadb?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-30 21:23 UTC",
-        "published_at": "2026-10-30T21:23:00+00:00",
-        "age_hours": 13.86,
+        "published": "2026-10-31 14:03 UTC",
+        "published_at": "2026-10-31T14:03:00+00:00",
+        "age_hours": 2.05,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：fed, inflation"
+          "包含市場關鍵字：stock, stocks, market"
         ],
         "related_symbols": []
       }
@@ -769,7 +749,7 @@
     "sentiment_summary": {
       "positive": 0,
       "neutral": 5,
-      "negative": 1
+      "negative": 0
     },
     "errors": [
       "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
