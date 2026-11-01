@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-01T09:43:07.954672+00:00",
-  "data_updated_at": "2026-11-01T09:43:07.954672+00:00",
+  "generated_at": "2026-11-01T16:23:08.812914+00:00",
+  "data_updated_at": "2026-11-01T16:23:08.812914+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-11-01T09:43:07.954672+00:00",
+    "generated_at": "2026-11-01T16:23:08.812914+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 3,
+      "article_count": 4,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -658,13 +658,32 @@
   "news": {
     "top_stories": [
       {
+        "title": "Apple’s new earnings era begins at a critical time for Big Tech",
+        "summary": "A rare Monday earnings report for Apple will give investors a glimpse into how new CEO John Ternus is managing inflated memory prices and a tougher backdrop for consumer spending.",
+        "link": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-01 15:00 UTC",
+        "published_at": "2026-11-01T15:00:00+00:00",
+        "age_hours": 1.39,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 4,
+        "relevance_reasons": [
+          "匹配 watchlist：AAPL",
+          "包含市場關鍵字：earnings, investor"
+        ],
+        "related_symbols": [
+          "AAPL"
+        ]
+      },
+      {
         "title": "Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment.",
         "summary": "Several proposals consider changing the way retirees receive inflation protection. Here’s what it could cost you.",
         "link": "https://www.marketwatch.com/story/is-it-curtains-for-cola-saving-social-security-could-mean-changing-the-cost-of-living-adjustment-867c6bd8?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-10-31 18:33 UTC",
         "published_at": "2026-10-31T18:33:00+00:00",
-        "age_hours": 15.17,
+        "age_hours": 21.84,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -677,41 +696,41 @@
         ]
       },
       {
-        "title": "80% of workers make this 401(k) mistake when they retire",
-        "summary": "Other tax repercussions crop up down the road because balances build up, and RMDs get complicated",
-        "link": "https://www.marketwatch.com/story/whats-the-first-thing-most-people-do-with-their-401-k-after-they-retire-nothing-8a606518?mod=mw_rss_topstories",
+        "title": "This is the biggest threat to the AI-powered bull market",
+        "summary": "Blockbuster earnings growth has helped to power the stock market higher in 2026. In 2027, that engine might stall.",
+        "link": "https://www.marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-31 16:46 UTC",
-        "published_at": "2026-10-31T16:46:00+00:00",
-        "age_hours": 16.95,
+        "published": "2026-11-01 14:00 UTC",
+        "published_at": "2026-11-01T14:00:00+00:00",
+        "age_hours": 2.39,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：dow"
+          "包含市場關鍵字：stock, market, earnings"
         ],
         "related_symbols": []
       },
       {
-        "title": "Want guaranteed income in retirement without an annuity? Try laddering I bonds.",
-        "summary": "The new I-bond interest rate could be 5.5% or 5.4%, but that shouldn’t change your strategy.",
-        "link": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories",
+        "title": "Who really wins under Trump’s economy? Coastal liberal elites who hate him.",
+        "summary": "In other words, not the people Republicans likely intended.",
+        "link": "https://www.marketwatch.com/story/who-really-wins-under-trumps-economy-coastal-liberal-elites-who-hate-him-d74c63cb?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-10-31 16:02 UTC",
-        "published_at": "2026-10-31T16:02:00+00:00",
-        "age_hours": 17.69,
+        "published": "2026-11-01 13:00 UTC",
+        "published_at": "2026-11-01T13:00:00+00:00",
+        "age_hours": 3.39,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：interest rate, bond"
+          "包含市場關鍵字：economy"
         ],
         "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 3,
+      "neutral": 4,
       "negative": 0
     },
     "errors": [
