@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-01T16:23:08.812914+00:00",
-  "data_updated_at": "2026-11-01T16:23:08.812914+00:00",
+  "generated_at": "2026-11-01T20:49:44.558187+00:00",
+  "data_updated_at": "2026-11-01T20:49:44.558187+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-11-01T16:23:08.812914+00:00",
+    "generated_at": "2026-11-01T20:49:44.558187+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 4,
+      "article_count": 3,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -664,7 +664,7 @@
         "source": "MarketWatch",
         "published": "2026-11-01 15:00 UTC",
         "published_at": "2026-11-01T15:00:00+00:00",
-        "age_hours": 1.39,
+        "age_hours": 5.83,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -677,32 +677,13 @@
         ]
       },
       {
-        "title": "Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment.",
-        "summary": "Several proposals consider changing the way retirees receive inflation protection. Here’s what it could cost you.",
-        "link": "https://www.marketwatch.com/story/is-it-curtains-for-cola-saving-social-security-could-mean-changing-the-cost-of-living-adjustment-867c6bd8?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-10-31 18:33 UTC",
-        "published_at": "2026-10-31T18:33:00+00:00",
-        "age_hours": 21.84,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：COST",
-          "包含市場關鍵字：inflation"
-        ],
-        "related_symbols": [
-          "COST"
-        ]
-      },
-      {
         "title": "This is the biggest threat to the AI-powered bull market",
         "summary": "Blockbuster earnings growth has helped to power the stock market higher in 2026. In 2027, that engine might stall.",
         "link": "https://www.marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-01 14:00 UTC",
         "published_at": "2026-11-01T14:00:00+00:00",
-        "age_hours": 2.39,
+        "age_hours": 6.83,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -718,7 +699,7 @@
         "source": "MarketWatch",
         "published": "2026-11-01 13:00 UTC",
         "published_at": "2026-11-01T13:00:00+00:00",
-        "age_hours": 3.39,
+        "age_hours": 7.83,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -730,7 +711,7 @@
     ],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 4,
+      "neutral": 3,
       "negative": 0
     },
     "errors": [
