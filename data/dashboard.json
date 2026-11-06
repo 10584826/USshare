@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-06T03:24:52.211363+00:00",
-  "data_updated_at": "2026-11-06T03:24:52.211363+00:00",
+  "generated_at": "2026-11-06T11:30:02.561880+00:00",
+  "data_updated_at": "2026-11-06T11:30:02.561880+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-11-06T03:24:52.211363+00:00",
+    "generated_at": "2026-11-06T11:30:02.561880+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 6,
+      "article_count": 3,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -97,14 +97,14 @@
     ],
     "vix": {
       "symbol": "^VIX",
-      "latest_price": 28.18,
-      "previous_close": 16.61,
-      "daily_change_percent": 69.66,
-      "sma50": 16.7,
-      "rsi14": 64.14,
+      "latest_price": 26.73,
+      "previous_close": 28.18,
+      "daily_change_percent": -5.15,
+      "sma50": 16.94,
+      "rsi14": 64.36,
       "volume_ratio_20d": null,
       "trend_direction": "above",
-      "trend_days": 17,
+      "trend_days": 18,
       "status": "bullish",
       "status_text": "偏多",
       "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
@@ -666,38 +666,19 @@
   "news": {
     "top_stories": [
       {
-        "title": "Tech stocks log worst day since 2020 as carnage comes to the AI trade",
-        "summary": "The S&P 500 lost an estimated $2.9 trillion in market capitalization, the largest one-day loss of market value on record.",
-        "link": "https://www.marketwatch.com/story/tech-stocks-log-worst-day-since-2020-as-carnage-comes-to-the-ai-trade-56109845?mod=mw_rss_topstories",
+        "title": "Is it the end of the Cybertruck? Elon Musk announces factory will shift production",
+        "summary": "Tesla CEO Elon Musk said in a post on X that the automaker will wind down the production of Cybertrucks in its Texas Gigafactory next year.",
+        "link": "https://www.marketwatch.com/story/is-it-the-end-of-the-cybertruck-elon-musk-announces-factory-will-shift-production-3e33cafd?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-11-05 22:48 UTC",
-        "published_at": "2026-11-05T22:48:00+00:00",
-        "age_hours": 4.62,
+        "published": "2026-11-06 10:37 UTC",
+        "published_at": "2026-11-06T10:37:00+00:00",
+        "age_hours": 0.89,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
         "relevance_reasons": [
-          "匹配 watchlist：SPY",
-          "包含市場關鍵字：stock, stocks, market"
-        ],
-        "related_symbols": [
-          "SPY"
-        ]
-      },
-      {
-        "title": "The ‘Musk selloff’ deepens as Tesla and SpaceX combine for $456 billion two-day wipeout",
-        "summary": "Investors worry a divided Washington could derail “Elon, Inc.”",
-        "link": "https://www.marketwatch.com/story/the-musk-selloff-deepens-as-tesla-and-spacex-combine-for-450-billion-two-day-wipeout-d300ab4f?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-05 21:43 UTC",
-        "published_at": "2026-11-05T21:43:00+00:00",
-        "age_hours": 5.7,
-        "sentiment": "negative",
-        "sentiment_reason": "市場負面關鍵字較多",
-        "relevance_score": 4,
-        "relevance_reasons": [
           "匹配 watchlist：TSLA",
-          "包含市場關鍵字：investor"
+          "包含市場關鍵字：dow"
         ],
         "related_symbols": [
           "TSLA"
@@ -710,7 +691,7 @@
         "source": "MarketWatch",
         "published": "2026-11-06 01:07 UTC",
         "published_at": "2026-11-06T01:07:00+00:00",
-        "age_hours": 2.3,
+        "age_hours": 10.39,
         "sentiment": "negative",
         "sentiment_reason": "市場負面關鍵字較多",
         "relevance_score": 1,
@@ -726,7 +707,7 @@
         "source": "MarketWatch",
         "published": "2026-11-06 01:06 UTC",
         "published_at": "2026-11-06T01:06:00+00:00",
-        "age_hours": 2.32,
+        "age_hours": 10.4,
         "sentiment": "positive",
         "sentiment_reason": "市場正面關鍵字較多",
         "relevance_score": 1,
@@ -734,44 +715,12 @@
           "包含市場關鍵字：stock, earnings"
         ],
         "related_symbols": []
-      },
-      {
-        "title": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
-        "summary": "The tax brackets at the heart of Americans’ income-tax bills will be adjusting at a steeper level in 2027 compared to this year, underscoring inflation’s rekindled presence.",
-        "link": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-05 22:40 UTC",
-        "published_at": "2026-11-05T22:40:00+00:00",
-        "age_hours": 4.75,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：inflation"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "Buy the dip or wait it out? Young investors react as retail stock selling hits one of its highest levels since COVID crash.",
-        "summary": "Some see another buying opportunity. Others fear the worst isn’t over. A market rout is testing the instincts of a generation raised on quick rebounds.",
-        "link": "https://www.marketwatch.com/story/buy-the-dip-or-wait-it-out-young-investors-react-as-retail-stock-selling-hits-one-of-its-highest-levels-since-covid-crash-610d8087?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-05 21:44 UTC",
-        "published_at": "2026-11-05T21:44:00+00:00",
-        "age_hours": 5.68,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, market, investor"
-        ],
-        "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 1,
-      "neutral": 3,
-      "negative": 2
+      "neutral": 1,
+      "negative": 1
     },
     "errors": [
       "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
