@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-07T10:01:28.931150+00:00",
-  "data_updated_at": "2026-11-07T10:01:28.931150+00:00",
+  "generated_at": "2026-11-07T16:24:10.393379+00:00",
+  "data_updated_at": "2026-11-07T16:24:10.393379+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-11-07T10:01:28.931150+00:00",
+    "generated_at": "2026-11-07T16:24:10.393379+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 5,
+      "article_count": 3,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -650,81 +650,29 @@
   "news": {
     "top_stories": [
       {
-        "title": "Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?",
-        "summary": "Analysts warn of further volatility ahead, although there are several new factors that work in the AI trade’s favor.",
-        "link": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories",
+        "title": "You follow the rules for smart stock trading. But are they the right rules?",
+        "summary": "Apply the wisdom of investment pros to develop your own consistent methodology.",
+        "link": "https://www.marketwatch.com/story/you-follow-the-rules-for-smart-stock-trading-but-are-they-the-right-rules-9bfe5846?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-11-06 21:24 UTC",
-        "published_at": "2026-11-06T21:24:00+00:00",
-        "age_hours": 12.63,
-        "sentiment": "negative",
-        "sentiment_reason": "市場負面關鍵字較多",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：NVDA, AMD",
-          "包含市場關鍵字：stock, stocks, analyst"
-        ],
-        "related_symbols": [
-          "NVDA",
-          "AMD"
-        ]
-      },
-      {
-        "title": "Elon Musk opens the door for a big SpaceX acquisition",
-        "summary": "The rocket and satellite-internet company is looking to challenge telecom giants.",
-        "link": "https://www.marketwatch.com/story/elon-musk-opens-the-door-for-a-big-spacex-acquisition-4f62bcad?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-06 21:45 UTC",
-        "published_at": "2026-11-06T21:45:00+00:00",
-        "age_hours": 12.28,
+        "published": "2026-11-07 16:00 UTC",
+        "published_at": "2026-11-07T16:00:00+00:00",
+        "age_hours": 0.41,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：acquisition"
+          "包含市場關鍵字：stock"
         ],
         "related_symbols": []
       },
       {
-        "title": "Data centers run on debt. That was a problem for bonds this year — and it’s only going to get worse.",
-        "summary": "AI debt issuance this year overwhelmed investor portfolios, and has disappointed from a performance perspective. The funding need won’t get any better with Democrats in control of Congress.",
-        "link": "https://www.marketwatch.com/story/data-centers-run-on-debt-that-was-a-problem-for-bonds-this-year-and-its-only-going-to-get-worse-09c03be6?mod=mw_rss_topstories",
+        "title": "A record number of first-time home buyers now pay in cash. Here’s where they get the money.",
+        "summary": "All-cash buyers are becoming more common, despite a housing market that’s been struggling with affordability issues.",
+        "link": "https://www.marketwatch.com/story/a-record-10-of-first-time-home-buyers-now-pay-in-cash-heres-where-they-get-the-money-70f2e656?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-11-06 21:37 UTC",
-        "published_at": "2026-11-06T21:37:00+00:00",
-        "age_hours": 12.41,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：investor, bond"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "Micron’s stock is dirt cheap — and that’s igniting a fierce online debate",
-        "summary": "Valuation purists see a ridiculously inexpensive stock, but some semiconductor investors say Micron’s earnings power won’t hold up.",
-        "link": "https://www.marketwatch.com/story/microns-stock-is-dirt-cheap-and-thats-igniting-a-fierce-online-debate-0626791d?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-06 20:58 UTC",
-        "published_at": "2026-11-06T20:58:00+00:00",
-        "age_hours": 13.06,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, earnings, investor"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "My adviser recommended an annuity. Is it the right move in this market environment?",
-        "summary": "“I haven’t committed to the strategy yet and would appreciate some independent perspectives.”",
-        "link": "https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-06 18:53 UTC",
-        "published_at": "2026-11-06T18:53:00+00:00",
-        "age_hours": 15.14,
+        "published": "2026-11-07 15:35 UTC",
+        "published_at": "2026-11-07T15:35:00+00:00",
+        "age_hours": 0.82,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -732,11 +680,27 @@
           "包含市場關鍵字：market"
         ],
         "related_symbols": []
+      },
+      {
+        "title": "The AI trade is now counting on Anthropic’s IPO — but it couldn’t be happening at a worse time",
+        "summary": "The ongoing tech selloff is leading investors to wonder if Anthropic will delay its IPO or list at a discount.",
+        "link": "https://www.marketwatch.com/story/the-ai-trade-is-now-counting-on-anthropics-ipo-but-it-couldnt-be-happening-at-a-worse-time-8bd0f1c4?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-07 13:30 UTC",
+        "published_at": "2026-11-07T13:30:00+00:00",
+        "age_hours": 2.91,
+        "sentiment": "negative",
+        "sentiment_reason": "市場負面關鍵字較多",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：investor, ipo"
+        ],
+        "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 4,
+      "neutral": 2,
       "negative": 1
     },
     "errors": [
