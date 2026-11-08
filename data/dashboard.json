@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-08T18:30:07.597972+00:00",
-  "data_updated_at": "2026-11-08T18:30:07.597972+00:00",
+  "generated_at": "2026-11-08T22:28:54.075382+00:00",
+  "data_updated_at": "2026-11-08T22:28:54.075382+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-11-08T18:30:07.597972+00:00",
+    "generated_at": "2026-11-08T22:28:54.075382+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -656,7 +656,7 @@
         "source": "MarketWatch",
         "published": "2026-11-08 15:00 UTC",
         "published_at": "2026-11-08T15:00:00+00:00",
-        "age_hours": 3.51,
+        "age_hours": 7.48,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -669,29 +669,32 @@
         ]
       },
       {
+        "title": "Nvidia’s board will probe CEO Jensen Huang’s relationship with an alleged spy. Here’s what to know.",
+        "summary": "“Today’s news will not slow Nvidia,” a spokesperson says. Huang will remain in his role and cooperate with the investigation.",
+        "link": "https://www.marketwatch.com/story/nvidias-board-will-probe-ceo-jensen-huangs-relationship-with-an-alleged-spy-heres-what-to-know-86656cd9?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-08 21:29 UTC",
+        "published_at": "2026-11-08T21:29:00+00:00",
+        "age_hours": 1.0,
+        "sentiment": "negative",
+        "sentiment_reason": "市場負面關鍵字較多",
+        "relevance_score": 3,
+        "relevance_reasons": [
+          "匹配 watchlist：SPY, NVDA"
+        ],
+        "related_symbols": [
+          "SPY",
+          "NVDA"
+        ]
+      },
+      {
         "title": "Stocks are moving in sync again for the first time in a while. There’s just one problem.",
         "summary": "An increasingly divided U.S. equity market is enjoying a rare moment of unity. Unfortunately, it has coincided with the biggest selloff in more than a year.",
         "link": "https://www.marketwatch.com/story/stocks-are-moving-in-sync-again-for-the-first-time-in-a-while-theres-just-one-problem-c953bf72?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-08 14:00 UTC",
         "published_at": "2026-11-08T14:00:00+00:00",
-        "age_hours": 4.51,
-        "sentiment": "negative",
-        "sentiment_reason": "市場負面關鍵字較多",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, stocks, market"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "This market signal called the tech selloff. Now it’s sending another warning.",
-        "summary": "Correlations between individual stocks recently hit a record low, and a reversion to the mean may not be a good thing for the market.",
-        "link": "https://www.marketwatch.com/story/this-market-signal-called-the-tech-selloff-now-its-sending-another-warning-f7f8eb9b?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-08 12:00 UTC",
-        "published_at": "2026-11-08T12:00:00+00:00",
-        "age_hours": 6.51,
+        "age_hours": 8.48,
         "sentiment": "negative",
         "sentiment_reason": "市場負面關鍵字較多",
         "relevance_score": 1,
