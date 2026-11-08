@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-08T05:56:27.517081+00:00",
-  "data_updated_at": "2026-11-08T05:56:27.517081+00:00",
+  "generated_at": "2026-11-08T13:18:20.342200+00:00",
+  "data_updated_at": "2026-11-08T13:18:20.342200+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-11-08T05:56:27.517081+00:00",
+    "generated_at": "2026-11-08T13:18:20.342200+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -656,7 +656,7 @@
         "source": "MarketWatch",
         "published": "2026-11-07 16:40 UTC",
         "published_at": "2026-11-07T16:40:00+00:00",
-        "age_hours": 13.28,
+        "age_hours": 20.64,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -675,7 +675,7 @@
         "source": "MarketWatch",
         "published": "2026-11-07 19:20 UTC",
         "published_at": "2026-11-07T19:20:00+00:00",
-        "age_hours": 10.61,
+        "age_hours": 17.97,
         "sentiment": "positive",
         "sentiment_reason": "市場正面關鍵字較多",
         "relevance_score": 3,
@@ -687,13 +687,29 @@
         ]
       },
       {
+        "title": "This market signal called the tech selloff. Now it’s sending another warning.",
+        "summary": "Correlations between individual stocks recently hit a record low, and a reversion to the mean may not be a good thing for the market.",
+        "link": "https://www.marketwatch.com/story/this-market-signal-called-the-tech-selloff-now-its-sending-another-warning-f7f8eb9b?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-08 12:00 UTC",
+        "published_at": "2026-11-08T12:00:00+00:00",
+        "age_hours": 1.31,
+        "sentiment": "negative",
+        "sentiment_reason": "市場負面關鍵字較多",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：stock, stocks, market"
+        ],
+        "related_symbols": []
+      },
+      {
         "title": "Second-guessing my adviser: Is an annuity the right move in this market?",
         "summary": "“I haven’t committed to the strategy yet and would appreciate some independent perspectives.”",
         "link": "https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-07 20:36 UTC",
         "published_at": "2026-11-07T20:36:00+00:00",
-        "age_hours": 9.34,
+        "age_hours": 16.71,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -701,28 +717,12 @@
           "包含市場關鍵字：market"
         ],
         "related_symbols": []
-      },
-      {
-        "title": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
-        "summary": "The tax brackets at the heart of Americans’ income-tax bills will be adjusting at a steeper level in 2027 compared to this year, underscoring inflation’s rekindled presence.",
-        "link": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-07 16:30 UTC",
-        "published_at": "2026-11-07T16:30:00+00:00",
-        "age_hours": 13.44,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：inflation"
-        ],
-        "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 1,
-      "neutral": 3,
-      "negative": 0
+      "neutral": 2,
+      "negative": 1
     },
     "errors": [
       "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
