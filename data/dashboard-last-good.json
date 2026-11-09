@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-09T01:58:06.544591+00:00",
-  "data_updated_at": "2026-11-09T01:58:06.544591+00:00",
+  "generated_at": "2026-11-09T09:44:23.242072+00:00",
+  "data_updated_at": "2026-11-09T09:44:23.242072+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-11-09T01:58:06.544591+00:00",
+    "generated_at": "2026-11-09T09:44:23.242072+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -97,18 +97,18 @@
     ],
     "vix": {
       "symbol": "^VIX",
-      "latest_price": 25.64,
-      "previous_close": 28.18,
-      "daily_change_percent": -9.01,
-      "sma50": 16.92,
+      "latest_price": 24.51,
+      "previous_close": 25.64,
+      "daily_change_percent": -4.41,
+      "sma50": 17.11,
       "rsi14": 62.02,
       "volume_ratio_20d": null,
       "trend_direction": "above",
-      "trend_days": 18,
+      "trend_days": 19,
       "status": "bullish",
       "status_text": "偏多",
       "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
-      "data_points": 131,
+      "data_points": 129,
       "data_source": "Yahoo Finance Chart endpoint",
       "from_cache": false
     },
@@ -650,13 +650,33 @@
   "news": {
     "top_stories": [
       {
+        "title": "How Wall Street is reacting to the news of Nvidia’s investigation into Jensen Huang spy claims",
+        "summary": "The Wall Street reaction to the blockbuster Nvidia news is to wonder about who would succeed Jensen Huang if he were to be forced out.",
+        "link": "https://www.marketwatch.com/story/how-wall-street-is-reacting-to-the-news-of-nvidias-jensen-huang-investigation-into-spy-claims-d8c839ab?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-09 09:12 UTC",
+        "published_at": "2026-11-09T09:12:00+00:00",
+        "age_hours": 0.54,
+        "sentiment": "negative",
+        "sentiment_reason": "市場負面關鍵字較多",
+        "relevance_score": 4,
+        "relevance_reasons": [
+          "匹配 watchlist：SPY, NVDA",
+          "包含市場關鍵字：wall street"
+        ],
+        "related_symbols": [
+          "SPY",
+          "NVDA"
+        ]
+      },
+      {
         "title": "The S&P 500 could be dangerously exposed to AI. Here are some simple alternatives.",
         "summary": "The large-cap index is nowhere near as diversified as you think.",
         "link": "https://www.marketwatch.com/story/the-s-p-500-has-become-a-big-ai-bet-here-are-some-simple-alternatives-3c7574a4?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-09 00:40 UTC",
         "published_at": "2026-11-09T00:40:00+00:00",
-        "age_hours": 1.3,
+        "age_hours": 9.08,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -669,33 +689,13 @@
         ]
       },
       {
-        "title": "A new setback for the AI trade: Nvidia’s board is probing CEO Huang’s relationship with alleged spy",
-        "summary": "Jensen Huang will remain in his role and cooperate with the investigation, though analysts say the matter could cloud over Nvidia’s stock for some time.",
-        "link": "https://www.marketwatch.com/story/nvidias-board-will-probe-ceo-jensen-huangs-relationship-with-an-alleged-spy-heres-what-to-know-86656cd9?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-08 23:05 UTC",
-        "published_at": "2026-11-08T23:05:00+00:00",
-        "age_hours": 2.89,
-        "sentiment": "negative",
-        "sentiment_reason": "市場負面關鍵字較多",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：SPY, NVDA",
-          "包含市場關鍵字：stock, analyst"
-        ],
-        "related_symbols": [
-          "SPY",
-          "NVDA"
-        ]
-      },
-      {
         "title": "I’m second-guessing my adviser: Is an annuity the right move in this market?",
         "summary": "“I haven’t committed to the strategy yet and would appreciate some independent perspectives.”",
         "link": "https://www.marketwatch.com/story/my-adviser-recommended-an-annuity-is-it-the-right-move-in-this-market-environment-00edbbf6?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-09 00:30 UTC",
         "published_at": "2026-11-09T00:30:00+00:00",
-        "age_hours": 1.47,
+        "age_hours": 9.24,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -711,7 +711,7 @@
         "source": "MarketWatch",
         "published": "2026-11-08 23:15 UTC",
         "published_at": "2026-11-08T23:15:00+00:00",
-        "age_hours": 2.72,
+        "age_hours": 10.49,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
