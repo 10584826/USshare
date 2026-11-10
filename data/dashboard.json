@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-10T02:43:12.193300+00:00",
-  "data_updated_at": "2026-11-10T02:43:12.193300+00:00",
+  "generated_at": "2026-11-10T10:26:01.370679+00:00",
+  "data_updated_at": "2026-11-10T10:26:01.370679+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-11-10T02:43:12.193300+00:00",
+    "generated_at": "2026-11-10T10:26:01.370679+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 6,
+      "article_count": 4,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -97,18 +97,18 @@
     ],
     "vix": {
       "symbol": "^VIX",
-      "latest_price": 19.92,
-      "previous_close": 25.64,
-      "daily_change_percent": -22.31,
-      "sma50": 17.02,
-      "rsi14": 53.78,
+      "latest_price": 19.88,
+      "previous_close": 19.92,
+      "daily_change_percent": -0.2,
+      "sma50": 17.09,
+      "rsi14": 54.71,
       "volume_ratio_20d": null,
       "trend_direction": "above",
-      "trend_days": 19,
+      "trend_days": 20,
       "status": "bullish",
       "status_text": "偏多",
       "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
-      "data_points": 129,
+      "data_points": 130,
       "data_source": "Yahoo Finance Chart endpoint",
       "from_cache": false
     },
@@ -664,7 +664,7 @@
         "source": "MarketWatch",
         "published": "2026-11-09 21:55 UTC",
         "published_at": "2026-11-09T21:55:00+00:00",
-        "age_hours": 4.81,
+        "age_hours": 12.52,
         "sentiment": "negative",
         "sentiment_reason": "市場負面關鍵字較多",
         "relevance_score": 4,
@@ -677,53 +677,13 @@
         ]
       },
       {
-        "title": "Dow sees its third 1,000-point swing in four days. Why the volatility isn’t over yet.",
-        "summary": "“It took one election and a poor Nvidia headline to go from D.C. being a tailwind to D.C. as a potential headwind,” says strategist.",
-        "link": "https://www.marketwatch.com/story/dow-sees-its-third-1-000-point-swing-in-four-days-why-volatility-isnt-over-yet-5380567b?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-09 21:52 UTC",
-        "published_at": "2026-11-09T21:52:00+00:00",
-        "age_hours": 4.86,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：NVDA",
-          "包含市場關鍵字：dow"
-        ],
-        "related_symbols": [
-          "NVDA"
-        ]
-      },
-      {
-        "title": "Are AMD and Broadcom the real winners of the Nvidia spy scandal?",
-        "summary": "The chip makers’ shares were posting big gains Monday — but those companies could also be subject to greater scrutiny over their sales practices, analysts say.",
-        "link": "https://www.marketwatch.com/story/are-amd-and-broadcom-the-real-winners-of-the-nvidia-spy-scandal-d2343072?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-09 21:43 UTC",
-        "published_at": "2026-11-09T21:43:00+00:00",
-        "age_hours": 5.01,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：SPY, NVDA, AMD",
-          "包含市場關鍵字：shares, analyst"
-        ],
-        "related_symbols": [
-          "SPY",
-          "NVDA",
-          "AMD"
-        ]
-      },
-      {
         "title": "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips",
         "summary": "‘We were confident in the research initially, and we’re still confident in it now,’ says Christian Lamarco, founder of Culper Research",
         "link": "https://www.marketwatch.com/story/the-short-seller-who-saw-signs-of-nvidias-china-scandal-months-ago-claims-megaspeed-isnt-the-ony-company-helping-china-access-chips-9877f544?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-10 00:48 UTC",
         "published_at": "2026-11-10T00:48:00+00:00",
-        "age_hours": 1.92,
+        "age_hours": 9.64,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 3,
@@ -735,13 +695,29 @@
         ]
       },
       {
+        "title": "Fed’s Waller puts half-point rate hike into the mix for December",
+        "summary": "Federal Reserve Gov. Chris Waller on Tuesday put the possibility of a half-point rate hike into the mix, depending how hot the consumer price data for October comes in.",
+        "link": "https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the-mix-for-december-1bebdffc?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-10 09:45 UTC",
+        "published_at": "2026-11-10T09:45:00+00:00",
+        "age_hours": 0.69,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：fed"
+        ],
+        "related_symbols": []
+      },
+      {
         "title": "Rocket Lab shares dip after the company’s ‘defining’ quarter misses the mark",
         "summary": "The rocket-launch company just posted a steeper loss than analysts were expecting.",
         "link": "https://www.marketwatch.com/story/rocket-lab-shares-dip-after-the-companys-defining-quarter-misses-the-mark-9f74c3b5?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-09 22:49 UTC",
         "published_at": "2026-11-09T22:49:00+00:00",
-        "age_hours": 3.91,
+        "age_hours": 11.62,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -749,27 +725,11 @@
           "包含市場關鍵字：shares, quarter, analyst"
         ],
         "related_symbols": []
-      },
-      {
-        "title": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
-        "summary": "Tuesday’s CPI inflation report and a heavy lineup of Federal Reserve speakers could test the rotation trade’s resilience",
-        "link": "https://www.marketwatch.com/story/the-stock-market-rally-keeps-spreading-beyond-big-tech-october-inflation-data-could-put-it-to-the-test-c1b87dcd?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-09 21:24 UTC",
-        "published_at": "2026-11-09T21:24:00+00:00",
-        "age_hours": 5.32,
-        "sentiment": "positive",
-        "sentiment_reason": "市場正面關鍵字較多",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, market, fed"
-        ],
-        "related_symbols": []
       }
     ],
     "sentiment_summary": {
-      "positive": 1,
-      "neutral": 4,
+      "positive": 0,
+      "neutral": 3,
       "negative": 1
     },
     "errors": [
