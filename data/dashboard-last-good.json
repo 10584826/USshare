@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-13T02:54:35.782397+00:00",
-  "data_updated_at": "2026-11-13T02:54:35.782397+00:00",
+  "generated_at": "2026-11-13T10:54:03.523298+00:00",
+  "data_updated_at": "2026-11-13T10:54:03.523298+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-11-13T02:54:35.782397+00:00",
+    "generated_at": "2026-11-13T10:54:03.523298+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 6,
+      "article_count": 5,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -97,14 +97,14 @@
     ],
     "vix": {
       "symbol": "^VIX",
-      "latest_price": 18.7,
-      "previous_close": 17.49,
-      "daily_change_percent": 6.92,
-      "sma50": 17.22,
-      "rsi14": 48.92,
+      "latest_price": 18.37,
+      "previous_close": 18.7,
+      "daily_change_percent": -1.76,
+      "sma50": 17.29,
+      "rsi14": 49.97,
       "volume_ratio_20d": null,
       "trend_direction": "above",
-      "trend_days": 22,
+      "trend_days": 23,
       "status": "bullish",
       "status_text": "偏多",
       "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
@@ -656,33 +656,13 @@
   "news": {
     "top_stories": [
       {
-        "title": "The S&P 500 is shrugging off Nvidia’s selloff this week. Here’s what’s keeping the rest of the market afloat.",
-        "summary": "Investors have been forced to look up from the poster child of the artificial-intelligence trade and remember the other stocks on the board.",
-        "link": "https://www.marketwatch.com/story/the-s-p-500-is-shrugging-off-nvidias-selloff-heres-whats-keeping-the-rest-of-the-market-afloat-7cdf2f05?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-12 21:08 UTC",
-        "published_at": "2026-11-12T21:08:00+00:00",
-        "age_hours": 5.78,
-        "sentiment": "negative",
-        "sentiment_reason": "市場負面關鍵字較多",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：SPY, NVDA",
-          "包含市場關鍵字：stock, stocks, market"
-        ],
-        "related_symbols": [
-          "SPY",
-          "NVDA"
-        ]
-      },
-      {
         "title": "Who can replace Jensen Huang as Nvidia CEO? These four names are buzzing in AI circles.",
         "summary": "As Nvidia’s board seeks a new CEO, experts say that person will need a rare balance of tech vision and business savvy",
         "link": "https://www.marketwatch.com/story/who-can-replace-jensen-huang-as-nvidia-ceo-these-four-names-are-buzzing-in-ai-circles-66c31ec2?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-12 22:57 UTC",
         "published_at": "2026-11-12T22:57:00+00:00",
-        "age_hours": 3.96,
+        "age_hours": 11.95,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 3,
@@ -694,13 +674,29 @@
         ]
       },
       {
+        "title": "Earnings growth is set to peter out — but not the bull market, says Goldman Sachs. Here’s what the firm recommends.",
+        "summary": "Earnings growth is almost halving across major indices in 2027 but stocks have already discounted much of that deceleration. Goldman recommends investors focus closely on those companies still delivering strong growth – ",
+        "link": "https://www.marketwatch.com/story/earnings-growth-is-set-to-peter-out-but-not-the-bull-market-says-goldman-sachs-heres-what-the-firm-recommends-bf409a6d?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-13 10:14 UTC",
+        "published_at": "2026-11-13T10:14:00+00:00",
+        "age_hours": 0.67,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：stock, stocks, market"
+        ],
+        "related_symbols": []
+      },
+      {
         "title": "Opening trading-card packs has become a $2 billion market",
         "summary": "Pack-ripping apps are changing the way people buy and sell cards. But analysts say their “slot-like payoff” raises risks.",
         "link": "https://www.marketwatch.com/story/opening-trading-card-packs-has-become-a-2-billion-market-new-apps-are-trying-to-cash-in-b7ba11f5?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-12 22:38 UTC",
         "published_at": "2026-11-12T22:38:00+00:00",
-        "age_hours": 4.28,
+        "age_hours": 12.27,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -716,7 +712,7 @@
         "source": "MarketWatch",
         "published": "2026-11-12 22:16 UTC",
         "published_at": "2026-11-12T22:16:00+00:00",
-        "age_hours": 4.65,
+        "age_hours": 12.64,
         "sentiment": "positive",
         "sentiment_reason": "市場正面關鍵字較多",
         "relevance_score": 1,
@@ -732,7 +728,7 @@
         "source": "MarketWatch",
         "published": "2026-11-12 21:50 UTC",
         "published_at": "2026-11-12T21:50:00+00:00",
-        "age_hours": 5.08,
+        "age_hours": 13.07,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -740,28 +736,12 @@
           "包含市場關鍵字：stock, stocks"
         ],
         "related_symbols": []
-      },
-      {
-        "title": "The bond market now has an even bigger fear than AI fallout",
-        "summary": "Carnage in tech stocks made Treasurys look more attractive in recent weeks, but fears of more Fed rate hikes are now driving yields higher",
-        "link": "https://www.marketwatch.com/story/the-bond-market-now-has-an-even-bigger-fear-than-the-ai-fallout-b6401b54?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-12 20:44 UTC",
-        "published_at": "2026-11-12T20:44:00+00:00",
-        "age_hours": 6.18,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, stocks, market"
-        ],
-        "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 1,
       "neutral": 4,
-      "negative": 1
+      "negative": 0
     },
     "errors": [
       "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
