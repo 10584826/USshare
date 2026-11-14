@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-14T18:51:00.987637+00:00",
-  "data_updated_at": "2026-11-14T18:51:00.987637+00:00",
+  "generated_at": "2026-11-14T22:57:38.534800+00:00",
+  "data_updated_at": "2026-11-14T22:57:38.534800+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-11-14T18:51:00.987637+00:00",
+    "generated_at": "2026-11-14T22:57:38.534800+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 3,
+      "article_count": 2,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -658,33 +658,13 @@
   "news": {
     "top_stories": [
       {
-        "title": "The scandal at Nvidia is exactly what’s wrong with the S&P 500",
-        "summary": "A big chunk of your retirement is likely invested in the computer-chip giant.",
-        "link": "https://www.marketwatch.com/story/the-scandal-at-nvidia-is-exactly-whats-wrong-with-the-s-p-500-7307457e?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-14 17:50 UTC",
-        "published_at": "2026-11-14T17:50:00+00:00",
-        "age_hours": 1.02,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：SPY, NVDA",
-          "包含市場關鍵字：s&p"
-        ],
-        "related_symbols": [
-          "SPY",
-          "NVDA"
-        ]
-      },
-      {
         "title": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
         "summary": "“It would be a less drastic step than selling the home now and splitting the proceeds.”",
         "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-14 18:30 UTC",
         "published_at": "2026-11-14T18:30:00+00:00",
-        "age_hours": 0.35,
+        "age_hours": 4.46,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -700,7 +680,7 @@
         "source": "MarketWatch",
         "published": "2026-11-14 17:50 UTC",
         "published_at": "2026-11-14T17:50:00+00:00",
-        "age_hours": 1.02,
+        "age_hours": 5.13,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -712,7 +692,7 @@
     ],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 3,
+      "neutral": 2,
       "negative": 0
     },
     "errors": [
