@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-15T02:37:48.404164+00:00",
-  "data_updated_at": "2026-11-15T02:37:48.404164+00:00",
+  "generated_at": "2026-11-15T09:55:08.624815+00:00",
+  "data_updated_at": "2026-11-15T09:55:08.624815+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-11-15T02:37:48.404164+00:00",
+    "generated_at": "2026-11-15T09:55:08.624815+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,10 +17,10 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 2,
-      "failed_count": 2
+      "article_count": 0,
+      "failed_count": 3
     },
-    "total_error_count": 2,
+    "total_error_count": 3,
     "message": "部分資料來源暫時失敗，頁面內容可能不完整。"
   },
   "market": {
@@ -656,47 +656,15 @@
     "disclaimer": "Alert 僅根據簡化技術條件產生，不構成投資建議或買賣指令。"
   },
   "news": {
-    "top_stories": [
-      {
-        "title": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
-        "summary": "“It would be a less drastic step than selling the home now and splitting the proceeds.”",
-        "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-14 18:30 UTC",
-        "published_at": "2026-11-14T18:30:00+00:00",
-        "age_hours": 8.13,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：dow"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "The trillion-dollar mistake corporate America is making about retirement",
-        "summary": "The market is dramatically underpricing the economic impact of Americans age 50 and older.",
-        "link": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-14 17:50 UTC",
-        "published_at": "2026-11-14T17:50:00+00:00",
-        "age_hours": 8.8,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：market, economic"
-        ],
-        "related_symbols": []
-      }
-    ],
+    "top_stories": [],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 2,
+      "neutral": 0,
       "negative": 0
     },
     "errors": [
       "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
+      "MarketWatch: 400 Client Error: Bad Request for url: https://feeds.marketwatch.com/marketwatch/topstories/",
       "Reuters Business: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
     ],
     "max_age_hours": 72,
