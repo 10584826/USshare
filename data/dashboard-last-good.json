@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-15T21:45:28.645677+00:00",
-  "data_updated_at": "2026-11-15T21:45:28.645677+00:00",
+  "generated_at": "2026-11-16T01:24:36.486223+00:00",
+  "data_updated_at": "2026-11-16T01:24:36.486223+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-11-15T21:45:28.645677+00:00",
+    "generated_at": "2026-11-16T01:24:36.486223+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -664,7 +664,7 @@
         "source": "MarketWatch",
         "published": "2026-11-15 21:32 UTC",
         "published_at": "2026-11-15T21:32:00+00:00",
-        "age_hours": 0.23,
+        "age_hours": 3.88,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -677,13 +677,29 @@
         ]
       },
       {
+        "title": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
+        "summary": "“It would be a less drastic step than selling the home now and splitting the proceeds.”",
+        "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-15 23:00 UTC",
+        "published_at": "2026-11-15T23:00:00+00:00",
+        "age_hours": 2.41,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：dow"
+        ],
+        "related_symbols": []
+      },
+      {
         "title": "Budget airlines are going upscale with first-class seats and faster wifi",
         "summary": "Forget no-frills: Frontier and JetBlue are chasing luxury flyers, and Wall Street is buying in.",
         "link": "https://www.marketwatch.com/story/budget-airlines-are-going-upscale-with-first-class-seats-and-faster-wifi-999868ab?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-15 21:31 UTC",
         "published_at": "2026-11-15T21:31:00+00:00",
-        "age_hours": 0.24,
+        "age_hours": 3.9,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -699,28 +715,12 @@
         "source": "MarketWatch",
         "published": "2026-11-15 15:22 UTC",
         "published_at": "2026-11-15T15:22:00+00:00",
-        "age_hours": 6.39,
+        "age_hours": 10.05,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
           "包含市場關鍵字：stock, stocks, shares"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "Will the Anthropic IPO create a disturbance in the broader U.S. equity market, like SpaceX did?",
-        "summary": "SpaceX’s offering coincided with the June peak in semiconductors.",
-        "link": "https://www.marketwatch.com/story/will-the-anthropic-ipo-create-a-disturbance-in-the-broader-u-s-equity-market-like-spacex-did-05ba4351?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-15 14:00 UTC",
-        "published_at": "2026-11-15T14:00:00+00:00",
-        "age_hours": 7.76,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：market, ipo"
         ],
         "related_symbols": []
       }
