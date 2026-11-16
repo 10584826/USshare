@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-16T01:24:36.486223+00:00",
-  "data_updated_at": "2026-11-16T01:24:36.486223+00:00",
+  "generated_at": "2026-11-16T08:35:36.159542+00:00",
+  "data_updated_at": "2026-11-16T08:35:36.159542+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-11-16T01:24:36.486223+00:00",
+    "generated_at": "2026-11-16T08:35:36.159542+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 4,
+      "article_count": 5,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -97,18 +97,18 @@
     ],
     "vix": {
       "symbol": "^VIX",
-      "latest_price": 19.3,
-      "previous_close": 18.7,
-      "daily_change_percent": 3.21,
-      "sma50": 17.31,
-      "rsi14": 51.33,
+      "latest_price": 19.99,
+      "previous_close": 19.3,
+      "daily_change_percent": 3.58,
+      "sma50": 17.41,
+      "rsi14": 53.62,
       "volume_ratio_20d": null,
       "trend_direction": "above",
-      "trend_days": 23,
+      "trend_days": 24,
       "status": "bullish",
       "status_text": "偏多",
       "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
-      "data_points": 131,
+      "data_points": 129,
       "data_source": "Yahoo Finance Chart endpoint",
       "from_cache": false
     },
@@ -658,13 +658,33 @@
   "news": {
     "top_stories": [
       {
+        "title": "A big chunk of your 401(k) is likely invested in Nvidia",
+        "summary": "The scandal at the computer-chip giant is exactly what’s wrong with the S&P 500.",
+        "link": "https://www.marketwatch.com/story/the-scandal-at-nvidia-is-exactly-whats-wrong-with-the-s-p-500-7307457e?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-16 03:11 UTC",
+        "published_at": "2026-11-16T03:11:00+00:00",
+        "age_hours": 5.41,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 4,
+        "relevance_reasons": [
+          "匹配 watchlist：SPY, NVDA",
+          "包含市場關鍵字：s&p"
+        ],
+        "related_symbols": [
+          "SPY",
+          "NVDA"
+        ]
+      },
+      {
         "title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
         "summary": "Jensen Huang’s sudden departure has made Tuesday’s earnings call “the most important in the company’s history.”",
         "link": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-15 21:32 UTC",
         "published_at": "2026-11-15T21:32:00+00:00",
-        "age_hours": 3.88,
+        "age_hours": 11.06,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -677,13 +697,29 @@
         ]
       },
       {
+        "title": "Why this 40-year market veteran is making a lonely bet on a 40% stock-market crash — and $500 oil",
+        "summary": "Ulf Lindahl says a storm is brewing for investors in the U.S. stock market, who will also be facing $500 oil in a few years. Here is where he’d shelter.",
+        "link": "https://www.marketwatch.com/story/why-this-40-year-market-veteran-is-making-a-lonely-bet-on-a-40-stock-market-crash-and-500-oil-c62aefdb?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-16 08:06 UTC",
+        "published_at": "2026-11-16T08:06:00+00:00",
+        "age_hours": 0.5,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：stock, market, investor"
+        ],
+        "related_symbols": []
+      },
+      {
         "title": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
         "summary": "“It would be a less drastic step than selling the home now and splitting the proceeds.”",
         "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-15 23:00 UTC",
         "published_at": "2026-11-15T23:00:00+00:00",
-        "age_hours": 2.41,
+        "age_hours": 9.6,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -699,7 +735,7 @@
         "source": "MarketWatch",
         "published": "2026-11-15 21:31 UTC",
         "published_at": "2026-11-15T21:31:00+00:00",
-        "age_hours": 3.9,
+        "age_hours": 11.08,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -707,27 +743,11 @@
           "包含市場關鍵字：wall street"
         ],
         "related_symbols": []
-      },
-      {
-        "title": "China’s hottest stocks these days have one thing in common: names that sound like sheep",
-        "summary": "Shares of fish processors, lighting manufacturers and appliance makers have soared ahead of the Year of the Sheep. Investor appetite has had little to do with the status of their businesses.",
-        "link": "https://www.marketwatch.com/story/chinas-hottest-stocks-these-days-have-one-thing-in-common-names-that-sound-like-sheep-6176e521?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-15 15:22 UTC",
-        "published_at": "2026-11-15T15:22:00+00:00",
-        "age_hours": 10.05,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, stocks, shares"
-        ],
-        "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 4,
+      "neutral": 5,
       "negative": 0
     },
     "errors": [
