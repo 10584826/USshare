@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-21T18:14:58.258181+00:00",
-  "data_updated_at": "2026-11-21T18:14:58.258181+00:00",
+  "generated_at": "2026-11-21T23:16:17.551364+00:00",
+  "data_updated_at": "2026-11-21T23:16:17.551364+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-11-21T18:14:58.258181+00:00",
+    "generated_at": "2026-11-21T23:16:17.551364+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 5,
+      "article_count": 2,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -669,64 +669,13 @@
   "news": {
     "top_stories": [
       {
-        "title": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks?",
-        "summary": "If you are tempted to ditch stocks for property or CDs, take a deep breath before making any sudden moves.",
-        "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+        "title": "‘It’s downright dirty’: My brother moved in with our ailing mother and closed her bank account. What can I do?",
+        "summary": "“It is devastating when the people you should be able to trust become the very people you have to protect yourself from.”",
+        "link": "https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-11-21 15:15 UTC",
-        "published_at": "2026-11-21T15:15:00+00:00",
-        "age_hours": 3.0,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：NVDA",
-          "包含市場關鍵字：stock, stocks"
-        ],
-        "related_symbols": [
-          "NVDA"
-        ]
-      },
-      {
-        "title": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag",
-        "summary": "Cheap valuation multiples for memory stocks have historically been associated with peak pricing levels, according to analysts.",
-        "link": "https://www.marketwatch.com/story/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag-da1f1f5d?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-21 15:35 UTC",
-        "published_at": "2026-11-21T15:35:00+00:00",
-        "age_hours": 2.67,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, stocks, analyst"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
-        "summary": "“We have a house worth $450,000. Our combined annual income is $125,000.”",
-        "link": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-21 15:15 UTC",
-        "published_at": "2026-11-21T15:15:00+00:00",
-        "age_hours": 3.0,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：market"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "One thing Thanksgiving travelers can be thankful for: Gas prices are down 75 cents from this year’s peak",
-        "summary": "Travelers preparing for Thanksgiving trips will find cheaper gasoline prices at the pump after months of elevated fuel prices.",
-        "link": "https://www.marketwatch.com/story/one-thing-thanksgiving-travelers-can-be-thankful-for-gas-prices-are-down-75-cents-from-this-years-peak-efac1809?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-21 15:01 UTC",
-        "published_at": "2026-11-21T15:01:00+00:00",
-        "age_hours": 3.24,
+        "published": "2026-11-21 20:15 UTC",
+        "published_at": "2026-11-21T20:15:00+00:00",
+        "age_hours": 3.02,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -736,25 +685,25 @@
         "related_symbols": []
       },
       {
-        "title": "How a brutal week for stocks almost wiped out their gains for the entire year",
-        "summary": "Investors are now more focused on protecting their portfolios than looking for bargains",
-        "link": "https://www.marketwatch.com/story/how-a-brutal-week-for-stocks-almost-wiped-out-their-gains-for-the-entire-year-ae6773c3?mod=mw_rss_topstories",
+        "title": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag",
+        "summary": "Cheap valuation multiples for memory stocks have historically been associated with peak pricing levels, according to analysts.",
+        "link": "https://www.marketwatch.com/story/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag-da1f1f5d?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-11-21 14:17 UTC",
-        "published_at": "2026-11-21T14:17:00+00:00",
-        "age_hours": 3.97,
+        "published": "2026-11-21 15:35 UTC",
+        "published_at": "2026-11-21T15:35:00+00:00",
+        "age_hours": 7.69,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：stock, stocks, investor"
+          "包含市場關鍵字：stock, stocks, analyst"
         ],
         "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 5,
+      "neutral": 2,
       "negative": 0
     },
     "errors": [
