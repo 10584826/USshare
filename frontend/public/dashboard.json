@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-22T11:15:09.310372+00:00",
-  "data_updated_at": "2026-11-22T11:15:09.310372+00:00",
+  "generated_at": "2026-11-22T18:30:46.730233+00:00",
+  "data_updated_at": "2026-11-22T18:30:46.730233+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-11-22T11:15:09.310372+00:00",
+    "generated_at": "2026-11-22T18:30:46.730233+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 2,
+      "article_count": 5,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -669,43 +669,92 @@
   "news": {
     "top_stories": [
       {
-        "title": "My wife is bankrolling her family’s trips to New York and it’s draining our savings. Should I ask her to stop?",
-        "summary": "“Hotel rooms can cost as much as $400 per night.”",
-        "link": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories",
+        "title": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks and buy real estate?",
+        "summary": "If you are tempted to ditch stocks for property or CDs, take a deep breath before making any sudden moves.",
+        "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-11-22 00:03 UTC",
-        "published_at": "2026-11-22T00:03:00+00:00",
-        "age_hours": 11.21,
+        "published": "2026-11-22 17:00 UTC",
+        "published_at": "2026-11-22T17:00:00+00:00",
+        "age_hours": 1.51,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 3,
+        "relevance_score": 4,
         "relevance_reasons": [
-          "匹配 watchlist：COST"
+          "匹配 watchlist：NVDA",
+          "包含市場關鍵字：stock, stocks"
         ],
         "related_symbols": [
-          "COST"
+          "NVDA"
         ]
       },
       {
-        "title": "‘It’s downright dirty’: My brother moved in with our ailing mother and closed her bank account. What can I do?",
-        "summary": "“It is devastating when the people you should be able to trust become the very people you have to protect yourself from.”",
-        "link": "https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories",
+        "title": "These little-known investments could be among the best bargains in a crash",
+        "summary": "If this stock market turmoil turns into a full-blown crash, look for low-risk investment bargains among closed-end funds.",
+        "link": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-11-21 20:15 UTC",
-        "published_at": "2026-11-21T20:15:00+00:00",
-        "age_hours": 15.01,
+        "published": "2026-11-22 18:23 UTC",
+        "published_at": "2026-11-22T18:23:00+00:00",
+        "age_hours": 0.13,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：dow"
+          "包含市場關鍵字：stock, market"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+        "summary": "“We have a house worth $450,000. Our combined annual income is $125,000.”",
+        "link": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-22 16:32 UTC",
+        "published_at": "2026-11-22T16:32:00+00:00",
+        "age_hours": 1.98,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：market"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "Corporate America hunts for ‘generational’ growth in AI, trading cards and the L.A. airport",
+        "summary": "There’s been no shortage of trends deemed once-in-a-generation by executives on earnings calls.",
+        "link": "https://www.marketwatch.com/story/corporate-america-hunts-for-generational-growth-in-ai-trading-cards-and-the-l-a-airport-3072eb1a?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-22 15:01 UTC",
+        "published_at": "2026-11-22T15:01:00+00:00",
+        "age_hours": 3.5,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：earnings"
+        ],
+        "related_symbols": []
+      },
+      {
+        "title": "Stocks are in a correction heading into the Thanksgiving holiday. What to brace for next.",
+        "summary": "Other stocks are in a bear market, which could be bad timing with the crucial holiday shopping period ahead",
+        "link": "https://www.marketwatch.com/story/stocks-are-in-a-correction-heading-into-the-thanksgiving-holiday-what-to-brace-for-next-a1e82491?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-22 14:00 UTC",
+        "published_at": "2026-11-22T14:00:00+00:00",
+        "age_hours": 4.51,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：stock, stocks, market"
         ],
         "related_symbols": []
       }
     ],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 2,
+      "neutral": 5,
       "negative": 0
     },
     "errors": [
