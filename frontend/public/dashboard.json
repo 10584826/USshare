@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-21T23:16:17.551364+00:00",
-  "data_updated_at": "2026-11-21T23:16:17.551364+00:00",
+  "generated_at": "2026-11-22T03:12:20.536060+00:00",
+  "data_updated_at": "2026-11-22T03:12:20.536060+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-11-21T23:16:17.551364+00:00",
+    "generated_at": "2026-11-22T03:12:20.536060+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -669,34 +669,36 @@
   "news": {
     "top_stories": [
       {
+        "title": "My wife is bankrolling her family’s trips to New York and it’s draining our savings. Should I ask her to stop?",
+        "summary": "“Hotel rooms can cost as much as $400 per night.”",
+        "link": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-22 00:03 UTC",
+        "published_at": "2026-11-22T00:03:00+00:00",
+        "age_hours": 3.16,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 3,
+        "relevance_reasons": [
+          "匹配 watchlist：COST"
+        ],
+        "related_symbols": [
+          "COST"
+        ]
+      },
+      {
         "title": "‘It’s downright dirty’: My brother moved in with our ailing mother and closed her bank account. What can I do?",
         "summary": "“It is devastating when the people you should be able to trust become the very people you have to protect yourself from.”",
         "link": "https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-21 20:15 UTC",
         "published_at": "2026-11-21T20:15:00+00:00",
-        "age_hours": 3.02,
+        "age_hours": 6.96,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
           "包含市場關鍵字：dow"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag",
-        "summary": "Cheap valuation multiples for memory stocks have historically been associated with peak pricing levels, according to analysts.",
-        "link": "https://www.marketwatch.com/story/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag-da1f1f5d?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-21 15:35 UTC",
-        "published_at": "2026-11-21T15:35:00+00:00",
-        "age_hours": 7.69,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, stocks, analyst"
         ],
         "related_symbols": []
       }
