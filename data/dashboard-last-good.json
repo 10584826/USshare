@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-22T23:50:02.376650+00:00",
-  "data_updated_at": "2026-11-22T23:50:02.376650+00:00",
+  "generated_at": "2026-11-23T07:30:06.685013+00:00",
+  "data_updated_at": "2026-11-23T07:30:06.685013+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-11-22T23:50:02.376650+00:00",
+    "generated_at": "2026-11-23T07:30:06.685013+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 4,
+      "article_count": 5,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -108,7 +108,7 @@
       "status": "bullish",
       "status_text": "偏多",
       "explanation": "價格在 50 日均線之上；RSI 位於相對中間區域",
-      "data_points": 131,
+      "data_points": 128,
       "data_source": "Yahoo Finance Chart endpoint",
       "from_cache": false
     },
@@ -675,7 +675,7 @@
         "source": "MarketWatch",
         "published": "2026-11-22 17:00 UTC",
         "published_at": "2026-11-22T17:00:00+00:00",
-        "age_hours": 6.84,
+        "age_hours": 14.5,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -688,13 +688,29 @@
         ]
       },
       {
+        "title": "The number of 401(k) millionaires drops amid stock-market swings",
+        "summary": "‘It was a rocky quarter’: 401(k) balances drop and affordability concerns persist, Fidelity says",
+        "link": "https://www.marketwatch.com/story/the-number-of-401-k-millionaires-drops-amid-stock-market-swings-23939b94?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-23 05:01 UTC",
+        "published_at": "2026-11-23T05:01:00+00:00",
+        "age_hours": 2.49,
+        "sentiment": "negative",
+        "sentiment_reason": "市場負面關鍵字較多",
+        "relevance_score": 1,
+        "relevance_reasons": [
+          "包含市場關鍵字：stock, market, quarter"
+        ],
+        "related_symbols": []
+      },
+      {
         "title": "Corporate America hunts for ‘generational’ growth in AI, trading cards and the L.A. airport",
         "summary": "There’s been no shortage of trends deemed once-in-a-generation by executives on earnings calls.",
         "link": "https://www.marketwatch.com/story/corporate-america-hunts-for-generational-growth-in-ai-trading-cards-and-the-l-a-airport-3072eb1a?mod=mw_rss_topstories",
         "source": "MarketWatch",
         "published": "2026-11-22 21:51 UTC",
         "published_at": "2026-11-22T21:51:00+00:00",
-        "age_hours": 1.99,
+        "age_hours": 9.65,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -710,7 +726,7 @@
         "source": "MarketWatch",
         "published": "2026-11-22 18:23 UTC",
         "published_at": "2026-11-22T18:23:00+00:00",
-        "age_hours": 5.45,
+        "age_hours": 13.12,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -726,7 +742,7 @@
         "source": "MarketWatch",
         "published": "2026-11-22 16:32 UTC",
         "published_at": "2026-11-22T16:32:00+00:00",
-        "age_hours": 7.3,
+        "age_hours": 14.97,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
@@ -739,7 +755,7 @@
     "sentiment_summary": {
       "positive": 0,
       "neutral": 4,
-      "negative": 0
+      "negative": 1
     },
     "errors": [
       "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
