@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-26T10:50:01.183071+00:00",
-  "data_updated_at": "2026-11-26T10:50:01.183071+00:00",
+  "generated_at": "2026-11-26T20:09:33.513024+00:00",
+  "data_updated_at": "2026-11-26T20:09:33.513024+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-11-26T10:50:01.183071+00:00",
+    "generated_at": "2026-11-26T20:09:33.513024+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,7 +17,7 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 6,
+      "article_count": 5,
       "failed_count": 2
     },
     "total_error_count": 2,
@@ -97,11 +97,11 @@
     ],
     "vix": {
       "symbol": "^VIX",
-      "latest_price": 27.15,
+      "latest_price": 26.8,
       "previous_close": 28.29,
-      "daily_change_percent": -4.03,
+      "daily_change_percent": -5.27,
       "sma50": 19.25,
-      "rsi14": 51.84,
+      "rsi14": 51.4,
       "volume_ratio_20d": null,
       "trend_direction": "above",
       "trend_days": 32,
@@ -241,7 +241,7 @@
         "daily_change_percent": -3.91,
         "sma50": 203.65,
         "rsi14": 37.68,
-        "volume_ratio_20d": 1.08,
+        "volume_ratio_20d": 1.09,
         "trend_direction": "below",
         "trend_days": 31,
         "status": "bearish",
@@ -258,7 +258,7 @@
         "daily_change_percent": -3.12,
         "sma50": 255.12,
         "rsi14": 39.96,
-        "volume_ratio_20d": 1.15,
+        "volume_ratio_20d": 1.16,
         "trend_direction": "below",
         "trend_days": 2,
         "status": "bearish",
@@ -275,7 +275,7 @@
         "daily_change_percent": 3.4,
         "sma50": 672.42,
         "rsi14": 51.11,
-        "volume_ratio_20d": 0.97,
+        "volume_ratio_20d": 0.98,
         "trend_direction": "below",
         "trend_days": 25,
         "status": "neutral",
@@ -292,7 +292,7 @@
         "daily_change_percent": -2.13,
         "sma50": 318.24,
         "rsi14": 44.18,
-        "volume_ratio_20d": 0.88,
+        "volume_ratio_20d": 0.89,
         "trend_direction": "below",
         "trend_days": 29,
         "status": "bearish",
@@ -343,7 +343,7 @@
         "daily_change_percent": -1.75,
         "sma50": 548.35,
         "rsi14": 50.17,
-        "volume_ratio_20d": 1.13,
+        "volume_ratio_20d": 1.14,
         "trend_direction": "below",
         "trend_days": 9,
         "status": "neutral",
@@ -650,13 +650,13 @@
   "news": {
     "top_stories": [
       {
-        "title": "Futures point to Black Friday gains for Wall Street as global markets welcome U.S. resilience.",
-        "summary": "A rebound off lows for the S&P 500 on Wednesday calms bourses after AI wash out",
+        "title": "Futures point to Black Friday gains on Wall Street as global markets welcome U.S. resilience",
+        "summary": "A rebound off lows for the S&P 500 on Wednesday calms bourses after the tech washout.",
         "link": "https://www.marketwatch.com/story/futures-point-to-black-friday-gains-for-wall-street-as-global-markets-welcome-u-s-resilience-ad6bcef2?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-11-26 10:37 UTC",
-        "published_at": "2026-11-26T10:37:00+00:00",
-        "age_hours": 0.22,
+        "published": "2026-11-26 13:41 UTC",
+        "published_at": "2026-11-26T13:41:00+00:00",
+        "age_hours": 6.48,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 4,
@@ -669,50 +669,13 @@
         ]
       },
       {
-        "title": "The tech rout should bottom soon, with a 25% rally for the S&P 500 to follow, says Deutsche Bank",
-        "summary": "Deutsche Bank sees the benchmark index reaching 9,000 points by the end of 2027 as focus shifts from capital expenditure to monetization from artificial intelligence.",
-        "link": "https://www.marketwatch.com/story/the-tech-rout-should-bottom-soon-with-a-25-rally-for-the-s-p-500-to-follow-says-deutsche-bank-c9070bf6?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-26 10:11 UTC",
-        "published_at": "2026-11-26T10:11:00+00:00",
-        "age_hours": 0.65,
-        "sentiment": "positive",
-        "sentiment_reason": "市場正面關鍵字較多",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：SPY",
-          "包含市場關鍵字：s&p"
-        ],
-        "related_symbols": [
-          "SPY"
-        ]
-      },
-      {
-        "title": "We are living in perilous times if Nvidia’s Jensen Huang dictates your 401(k) balance",
-        "summary": "Why did a futurist with Huang’s prescient vision build a company where all roads lead to him?",
-        "link": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-26 01:15 UTC",
-        "published_at": "2026-11-26T01:15:00+00:00",
-        "age_hours": 9.59,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 3,
-        "relevance_reasons": [
-          "匹配 watchlist：NVDA"
-        ],
-        "related_symbols": [
-          "NVDA"
-        ]
-      },
-      {
         "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
         "summary": "Doing nothing and maintaining an even temperament is often the work of gods.",
         "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-11-25 22:45 UTC",
-        "published_at": "2026-11-25T22:45:00+00:00",
-        "age_hours": 12.09,
+        "published": "2026-11-26 16:30 UTC",
+        "published_at": "2026-11-26T16:30:00+00:00",
+        "age_hours": 3.66,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 3,
@@ -724,42 +687,62 @@
         ]
       },
       {
-        "title": "Is the stock market open for Thanksgiving? The answer might surprise you.",
-        "summary": "The answer to the question of whether the stock market is open on Thanksgiving isn’t a simple yes or no, as the major exchanges are closed, but trading of equity futures is open for part of the day.",
-        "link": "https://www.marketwatch.com/story/is-the-stock-market-open-for-thanksgiving-the-answer-might-surprise-you-e68114d4?mod=mw_rss_topstories",
+        "title": "We are living in perilous times if Nvidia CEO Jensen Huang dictates your 401(k) balance",
+        "summary": "Why did a futurist with Huang’s prescient vision build a company where all roads lead to him?",
+        "link": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
         "source": "MarketWatch",
-        "published": "2026-11-26 07:16 UTC",
-        "published_at": "2026-11-26T07:16:00+00:00",
-        "age_hours": 3.57,
+        "published": "2026-11-26 15:30 UTC",
+        "published_at": "2026-11-26T15:30:00+00:00",
+        "age_hours": 4.66,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 3,
+        "relevance_reasons": [
+          "匹配 watchlist：NVDA"
+        ],
+        "related_symbols": [
+          "NVDA"
+        ]
+      },
+      {
+        "title": "Nvidia and the whole AI trade aren’t out of the woods — not by a long shot",
+        "summary": "The ‘Bank of AI’ faces a host of troubles ahead.",
+        "link": "https://www.marketwatch.com/story/nvidia-and-the-whole-ai-trade-arent-out-of-the-woods-not-by-a-long-shot-bccc0025?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-26 14:00 UTC",
+        "published_at": "2026-11-26T14:00:00+00:00",
+        "age_hours": 6.16,
+        "sentiment": "neutral",
+        "sentiment_reason": "沒有明確方向性市場訊號",
+        "relevance_score": 3,
+        "relevance_reasons": [
+          "匹配 watchlist：NVDA"
+        ],
+        "related_symbols": [
+          "NVDA"
+        ]
+      },
+      {
+        "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
+        "summary": "“Retirement is a financial status, not an age.”",
+        "link": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+        "source": "MarketWatch",
+        "published": "2026-11-26 19:00 UTC",
+        "published_at": "2026-11-26T19:00:00+00:00",
+        "age_hours": 1.16,
         "sentiment": "neutral",
         "sentiment_reason": "沒有明確方向性市場訊號",
         "relevance_score": 1,
         "relevance_reasons": [
-          "包含市場關鍵字：stock, market"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "Why this stock-market selloff is probably going to get worse before it gets better",
-        "summary": "Monday’s rally helped to paper over deeper issues that must be resolved before a durable bottom can arrive.",
-        "link": "https://www.marketwatch.com/story/why-this-stock-market-selloff-is-probably-going-to-get-worse-before-it-gets-better-fce63a89?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-26 00:33 UTC",
-        "published_at": "2026-11-26T00:33:00+00:00",
-        "age_hours": 10.29,
-        "sentiment": "negative",
-        "sentiment_reason": "市場負面關鍵字較多",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, market"
+          "包含市場關鍵字：dow"
         ],
         "related_symbols": []
       }
     ],
     "sentiment_summary": {
-      "positive": 1,
-      "neutral": 4,
-      "negative": 1
+      "positive": 0,
+      "neutral": 5,
+      "negative": 0
     },
     "errors": [
       "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
