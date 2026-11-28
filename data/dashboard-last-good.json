@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-27T21:12:40.932540+00:00",
-  "data_updated_at": "2026-11-27T21:12:40.932540+00:00",
+  "generated_at": "2026-11-28T03:17:13.336917+00:00",
+  "data_updated_at": "2026-11-28T03:17:13.336917+00:00",
   "health": {
     "status": "partial",
     "is_stale": true,
-    "generated_at": "2026-11-27T21:12:40.932540+00:00",
+    "generated_at": "2026-11-28T03:17:13.336917+00:00",
     "market": {
       "status": "ok",
       "successful_count": 4,
@@ -17,10 +17,10 @@
     },
     "news": {
       "status": "partial",
-      "article_count": 5,
-      "failed_count": 2
+      "article_count": 0,
+      "failed_count": 3
     },
-    "total_error_count": 2,
+    "total_error_count": 3,
     "message": "部分資料來源暫時失敗，頁面內容可能不完整。"
   },
   "market": {
@@ -33,7 +33,7 @@
         "daily_change_percent": 1.62,
         "sma50": 757.2,
         "rsi14": 47.67,
-        "volume_ratio_20d": 0.6,
+        "volume_ratio_20d": 0.62,
         "trend_direction": "below",
         "trend_days": 20,
         "status": "neutral",
@@ -50,7 +50,7 @@
         "daily_change_percent": 2.69,
         "sma50": 705.73,
         "rsi14": 48.77,
-        "volume_ratio_20d": 0.55,
+        "volume_ratio_20d": 0.56,
         "trend_direction": "below",
         "trend_days": 21,
         "status": "neutral",
@@ -67,7 +67,7 @@
         "daily_change_percent": 1.26,
         "sma50": 515.04,
         "rsi14": 47.33,
-        "volume_ratio_20d": 0.5,
+        "volume_ratio_20d": 0.51,
         "trend_direction": "below",
         "trend_days": 9,
         "status": "neutral",
@@ -84,7 +84,7 @@
         "daily_change_percent": 1.83,
         "sma50": 276.93,
         "rsi14": 50.1,
-        "volume_ratio_20d": 0.5,
+        "volume_ratio_20d": 0.57,
         "trend_direction": "below",
         "trend_days": 11,
         "status": "neutral",
@@ -139,7 +139,7 @@
         "daily_change_percent": 1.62,
         "sma50": 757.2,
         "rsi14": 47.67,
-        "volume_ratio_20d": 0.6,
+        "volume_ratio_20d": 0.62,
         "trend_direction": "below",
         "trend_days": 20,
         "status": "neutral",
@@ -156,7 +156,7 @@
         "daily_change_percent": 2.69,
         "sma50": 705.73,
         "rsi14": 48.77,
-        "volume_ratio_20d": 0.55,
+        "volume_ratio_20d": 0.56,
         "trend_direction": "below",
         "trend_days": 21,
         "status": "neutral",
@@ -173,7 +173,7 @@
         "daily_change_percent": 1.26,
         "sma50": 515.04,
         "rsi14": 47.33,
-        "volume_ratio_20d": 0.5,
+        "volume_ratio_20d": 0.51,
         "trend_direction": "below",
         "trend_days": 9,
         "status": "neutral",
@@ -190,7 +190,7 @@
         "daily_change_percent": 1.83,
         "sma50": 276.93,
         "rsi14": 50.1,
-        "volume_ratio_20d": 0.5,
+        "volume_ratio_20d": 0.57,
         "trend_direction": "below",
         "trend_days": 11,
         "status": "neutral",
@@ -207,7 +207,7 @@
         "daily_change_percent": 0.83,
         "sma50": 343.48,
         "rsi14": 66.0,
-        "volume_ratio_20d": 0.42,
+        "volume_ratio_20d": 0.44,
         "trend_direction": "above",
         "trend_days": 17,
         "status": "bullish",
@@ -241,7 +241,7 @@
         "daily_change_percent": 0.8,
         "sma50": 202.28,
         "rsi14": 35.8,
-        "volume_ratio_20d": 0.52,
+        "volume_ratio_20d": 0.53,
         "trend_direction": "below",
         "trend_days": 32,
         "status": "bearish",
@@ -292,7 +292,7 @@
         "daily_change_percent": 0.68,
         "sma50": 316.79,
         "rsi14": 43.94,
-        "volume_ratio_20d": 0.49,
+        "volume_ratio_20d": 0.5,
         "trend_direction": "below",
         "trend_days": 30,
         "status": "bearish",
@@ -309,7 +309,7 @@
         "daily_change_percent": 5.22,
         "sma50": 377.84,
         "rsi14": 62.77,
-        "volume_ratio_20d": 0.72,
+        "volume_ratio_20d": 0.75,
         "trend_direction": "above",
         "trend_days": 4,
         "status": "bullish",
@@ -663,98 +663,15 @@
     "disclaimer": "Alert 僅根據簡化技術條件產生，不構成投資建議或買賣指令。"
   },
   "news": {
-    "top_stories": [
-      {
-        "title": "These stocks soared the most during a wild week highlighted by Huang’s return to Nvidia",
-        "summary": "Nvidia’s stock soared this week, but was still down nearly 28% for November and 21% for 2026.",
-        "link": "https://www.marketwatch.com/story/these-stocks-soared-the-most-during-a-wild-week-highlighted-by-huangs-return-to-nvidia-578b3f9a?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-27 20:16 UTC",
-        "published_at": "2026-11-27T20:16:00+00:00",
-        "age_hours": 0.95,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 4,
-        "relevance_reasons": [
-          "匹配 watchlist：NVDA",
-          "包含市場關鍵字：stock, stocks, dow"
-        ],
-        "related_symbols": [
-          "NVDA"
-        ]
-      },
-      {
-        "title": "The warnings behind this week’s stock-market rally",
-        "summary": "Also in Weekend Reads: Important tips for Medicare enrollment, how to spot online shopping scams and marital advice from The Moneyist.",
-        "link": "https://www.marketwatch.com/story/the-warnings-behind-this-weeks-stock-market-rally-86e5319c?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-27 18:40 UTC",
-        "published_at": "2026-11-27T18:40:00+00:00",
-        "age_hours": 2.55,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：stock, market"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "Clearing out my parents’ house was a legal nightmare. How can I downsize without putting my kids through the same ordeal?",
-        "summary": "Some countercultural advice this Black Friday: stop buying stuff, plus other rules for downsizing.",
-        "link": "https://www.marketwatch.com/story/clearing-out-my-parents-house-was-a-legal-nightmare-how-can-i-downsize-without-putting-my-children-through-the-same-ordeal-6537d804?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-27 17:31 UTC",
-        "published_at": "2026-11-27T17:31:00+00:00",
-        "age_hours": 3.7,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：dow"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
-        "summary": "“Retirement is a financial status, not an age.”",
-        "link": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-27 16:00 UTC",
-        "published_at": "2026-11-27T16:00:00+00:00",
-        "age_hours": 5.21,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：dow"
-        ],
-        "related_symbols": []
-      },
-      {
-        "title": "Artificial intelligence usage is exploding, yet spending is stalling. Why a foundational rule of economics is breaking.",
-        "summary": "For frontier model lab developers, the increased consumption of AI tokens (the means by which they get paid for their compute) is a positive. However, they don’t seem to be generating revenues from it at the same rate.",
-        "link": "https://www.marketwatch.com/story/artificial-intelligence-usage-is-exploding-yet-spending-is-stalling-why-a-foundational-rule-of-economics-is-breaking-9c7ad4b3?mod=mw_rss_topstories",
-        "source": "MarketWatch",
-        "published": "2026-11-27 15:01 UTC",
-        "published_at": "2026-11-27T15:01:00+00:00",
-        "age_hours": 6.2,
-        "sentiment": "neutral",
-        "sentiment_reason": "沒有明確方向性市場訊號",
-        "relevance_score": 1,
-        "relevance_reasons": [
-          "包含市場關鍵字：revenue, economic"
-        ],
-        "related_symbols": []
-      }
-    ],
+    "top_stories": [],
     "sentiment_summary": {
       "positive": 0,
-      "neutral": 5,
+      "neutral": 0,
       "negative": 0
     },
     "errors": [
       "Yahoo Finance: 404 Client Error: Not Found for url: https://finance.yahoo.com/rss/topstories",
+      "MarketWatch: 400 Client Error: Bad Request for url: https://feeds.marketwatch.com/marketwatch/topstories/",
       "Reuters Business: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/businessNews (Caused by NameResolutionError(\"HTTPSConnection(host='feeds.reuters.com', port=443): Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)\"))"
     ],
     "max_age_hours": 72,
